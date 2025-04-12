@@ -103,11 +103,11 @@ function Reusable({ title, sections }: Input) {
   const getPracticeLogo = (type: Question['type']) => {
     switch (type) {
       case 'gfg':
-        return '/GeeksForGeeks_logo.png';
+        return 'GeeksForGeeks_logo.png';
       case 'leetcode':
-        return '/LeetCode_logo_white.png';
+        return 'LeetCode_logo_white.png';
       case 'codingninja':
-        return '/codingninja_logo.png';
+        return 'codingninja_logo.png';
       default:
         return undefined;
     }
