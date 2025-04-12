@@ -1,0 +1,114 @@
+[
+    {
+        "id": 1,
+        "title": "2Sum Problem",
+        "youtube": "https://www.youtube.com/watch?v=UXDSeD9mN-k",
+        "blog": "https://takeuforward.org/data-structure/two-sum-check-if-a-pair-with-given-sum-exists-in-array/",
+        "practice": "https://leetcode.com/problems/two-sum/description/",
+        "type": "leetcode"
+    },
+    {
+        "id": 2,
+        "title": "Sort an array of 0's, 1's and 2's",
+        "youtube": "https://www.youtube.com/watch?v=tp8JIuCXBaU",
+        "blog": "https://takeuforward.org/data-structure/sort-an-array-of-0s-1s-and-2s/",
+        "practice": "https://leetcode.com/problems/sort-colors/description/",
+        "type": "leetcode"
+    },
+    {
+        "id": 3,
+        "title": "Majority Element (>n/2 times)",
+        "youtube": "https://www.youtube.com/watch?v=nP_ns3uSh80",
+        "blog": "https://takeuforward.org/data-structure/find-the-majority-element-that-occurs-more-than-n-2-times/",
+        "practice": "https://leetcode.com/problems/majority-element/description/",
+        "type": "leetcode"
+    },
+    {
+        "id": 4,
+        "title": "Kadane's Algorithm, maximum subarray sum",
+        "youtube": "https://www.youtube.com/watch?v=AHZpyENo7k4",
+        "blog": "https://takeuforward.org/data-structure/kadanes-algorithm-maximum-subarray-sum-in-an-array/",
+        "practice": "https://leetcode.com/problems/maximum-subarray/description/",
+        "type": "leetcode"
+    },
+    {
+        "id": 5,
+        "title": "Print subarray with maximum subarray sum (extended version of above problem)",
+        "youtube": "https://www.youtube.com/watch?v=AHZpyENo7k4",
+        "blog": "https://takeuforward.org/data-structure/kadanes-algorithm-maximum-subarray-sum-in-an-array/",
+        "practice": "https://leetcode.com/problems/maximum-subarray/description/",
+        "type": "leetcode"
+    },
+    {
+        "id": 6,
+        "title": "Stock Buy and Sell",
+        "youtube": "https://www.youtube.com/watch?v=excAOvwF_Wk",
+        "blog": "https://takeuforward.org/data-structure/stock-buy-and-sell/",
+        "practice": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/",
+        "type": "leetcode"
+    },
+    {
+        "id": 7,
+        "title": "Rearrange the array in alternating positive and negative items",
+        "youtube": "https://www.youtube.com/watch?v=h4aBagy4Uok",
+        "blog": "https://takeuforward.org/arrays/rearrange-array-elements-by-sign/",
+        "practice": "https://leetcode.com/problems/rearrange-array-elements-by-sign/description/",
+        "type": "leetcode"
+    },
+    {
+        "id": 8,
+        "title": "Next Permutation",
+        "youtube": "https://www.youtube.com/watch?v=JDOXKqF60RQ",
+        "blog": "https://takeuforward.org/data-structure/next_permutation-find-next-lexicographically-greater-permutation/",
+        "practice": "https://leetcode.com/problems/next-permutation/description/",
+        "type": "leetcode"
+    },
+    {
+        "id": 9,
+        "title": "Leaders in an Array problem",
+        "youtube": "https://www.youtube.com/watch?v=cHrH9CQ8pmY",
+        "blog": "https://takeuforward.org/data-structure/leaders-in-an-array/",
+        "practice": "https://www.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/0",
+        "type": "gfg"
+    },
+    {
+        "id": 10,
+        "title": "Longest Consecutive Sequence in an Array",
+        "youtube": "https://www.youtube.com/watch?v=oO5uLE7EUlM",
+        "blog": "https://takeuforward.org/data-structure/longest-consecutive-sequence-in-an-array/",
+        "practice": "https://leetcode.com/problems/longest-consecutive-sequence/description/",
+        "type": "leetcode"
+    },
+    {
+        "id": 11,
+        "title": "Set Matrix Zeros",
+        "youtube": "https://www.youtube.com/watch?v=N0MgLvceX7M",
+        "blog": "https://takeuforward.org/data-structure/set-matrix-zero/",
+        "practice": "https://leetcode.com/problems/set-matrix-zeroes/description/",
+        "type": "leetcode"
+    },
+    {
+        "id": 12,
+        "title": "Rotate Matrix by 90 degrees",
+        "youtube": "https://www.youtube.com/watch?v=Z0R2u6gd3GU",
+        "blog": "https://takeuforward.org/data-structure/rotate-image-by-90-degree/",
+        "practice": "https://leetcode.com/problems/rotate-image/description/",
+        "type": "leetcode"
+    },
+    {
+        "id": 13,
+        "title": "Print the matrix in spiral manner",
+        "youtube": "https://www.youtube.com/watch?v=3Zv-s9UUrFM",
+        "blog": "https://takeuforward.org/data-structure/spiral-traversal-of-matrix/",
+        "practice": "https://leetcode.com/problems/spiral-matrix/description/",
+        "type": "leetcode"
+    },
+    {
+        "id": 14,
+        "title": "Count subarrays with given sum",
+        "youtube": "https://www.youtube.com/watch?v=xvNwoz-ufXA",
+        "blog": "https://takeuforward.org/arrays/count-subarray-sum-equals-k/",
+        "practice": "https://leetcode.com/problems/subarray-sum-equals-k/description/",
+        "type": "leetcode"
+    }
+]

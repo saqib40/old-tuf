@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "title": "Pascal's Triangle",
+        "youtube": "https://www.youtube.com/watch?v=bR7mQgwQ_o8",
+        "blog": "https://takeuforward.org/data-structure/program-to-generate-pascals-triangle/",
+        "practice": "https://leetcode.com/problems/pascals-triangle/",
+        "type": "leetcode"
+    },
+    {
+        "id": 2,
+        "title": "Majority Element (n/3 times)",
+        "youtube": "https://www.youtube.com/watch?v=vwZj1K0e9U8",
+        "blog": "https://takeuforward.org/data-structure/majority-elementsn-3-times-find-the-elements-that-appears-more-than-n-3-times-in-the-array/",
+        "practice": "https://leetcode.com/problems/majority-element-ii/",
+        "type": "leetcode"
+    },
+    {
+        "id": 3,
+        "title": "3-Sum Problem",
+        "youtube": "https://www.youtube.com/watch?v=DhFh8Kw7ymk",
+        "blog": "https://takeuforward.org/data-structure/3-sum-find-triplets-that-add-up-to-a-zero/",
+        "practice": "https://leetcode.com/problems/3sum/",
+        "type": "leetcode"
+    },
+    {
+        "id": 4,
+        "title": "4-Sum Problem",
+        "youtube": "https://www.youtube.com/watch?v=eD95WRfh81c",
+        "blog": "https://takeuforward.org/data-structure/4-sum-find-quads-that-add-up-to-a-target-value/",
+        "practice": "https://leetcode.com/problems/4sum/",
+        "type": "leetcode"
+    },
+    {
+        "id": 5,
+        "title": "Largest Subarray with 0 Sum",
+        "youtube": "https://www.youtube.com/watch?v=xmguZ6GbatA",
+        "blog": "https://takeuforward.org/data-structure/length-of-the-longest-subarray-with-zero-sum/",
+        "practice": "https://www.geeksforgeeks.org/problems/largest-subarray-with-0-sum/0",
+        "type": "gfg"
+    },
+    {
+        "id": 6,
+        "title": "Count number of subarrays with given xor K",
+        "youtube": "https://www.youtube.com/watch?v=eZr-6p0B7ME",
+        "blog": "https://takeuforward.org/data-structure/count-the-number-of-subarrays-with-given-xor-k/",
+        "practice": "https://www.naukri.com/code360/problems/count-subarrays-with-given-xor_1115652",
+        "type": "codingninja"
+    },
+    {
+        "id": 7,
+        "title": "Merge Overlapping Subintervals",
+        "youtube": "https://www.youtube.com/watch?v=IexN60k62jo",
+        "blog": "https://takeuforward.org/data-structure/merge-overlapping-sub-intervals/",
+        "practice": "https://leetcode.com/problems/merge-intervals/",
+        "type": "leetcode"
+    },
+    {
+        "id": 8,
+        "title": "Merge two sorted arrays without extra space",
+        "youtube": "https://www.youtube.com/watch?v=n7uwj04E0I4",
+        "blog": "https://takeuforward.org/data-structure/merge-two-sorted-arrays-without-extra-space/",
+        "practice": "https://leetcode.com/problems/merge-sorted-array/",
+        "type": "leetcode"
+    },
+    {
+        "id": 9,
+        "title": "Find the repeating and missing number",
+        "youtube": "https://www.youtube.com/watch?v=2D0D8HE6uak",
+        "blog": "https://takeuforward.org/data-structure/find-the-repeating-and-missing-numbers/",
+        "practice": "https://www.naukri.com/code360/problems/missing-and-repeating-numbers_873366?leftPanelTabValue=PROBLEM",
+        "type": "codingninja"
+    },
+    {
+        "id": 10,
+        "title": "Count Inversions",
+        "youtube": "https://www.youtube.com/watch?v=AseUmwVNaoY",
+        "blog": "https://takeuforward.org/data-structure/count-inversions-in-an-array/",
+        "practice": "https://www.geeksforgeeks.org/problems/inversion-of-array-1587115620/0",
+        "type": "gfg"
+    },
+    {
+        "id": 11,
+        "title": "Reverse Pairs",
+        "youtube": "https://www.youtube.com/watch?v=0e4bZaP3MDI",
+        "blog": "https://takeuforward.org/data-structure/count-reverse-pairs/",
+        "practice": "https://leetcode.com/problems/reverse-pairs/",
+        "type": "leetcode"
+    },
+    {
+        "id": 12,
+        "title": "Maximum Product Subarray",
+        "youtube": "https://www.youtube.com/watch?v=hnswaLJvr6g",
+        "blog": "https://takeuforward.org/data-structure/maximum-product-subarray-in-an-array/",
+        "practice": "https://leetcode.com/problems/maximum-product-subarray/",
+        "type": "leetcode"
+    }
+]

@@ -1,0 +1,114 @@
+[
+    {
+        "id": 1,
+        "title": "Largest Element in an Array",
+        "youtube": "https://www.youtube.com/watch?v=37E9ckMDdTk&t=526s",
+        "blog": "https://takeuforward.org/data-structure/find-the-largest-element-in-an-array/",
+        "practice": "https://www.geeksforgeeks.org/problems/largest-element-in-array4009/0",
+        "type": "gfg"
+    },
+    {
+        "id": 2,
+        "title": "Second largest Element in an Array without sorting",
+        "youtube": "https://www.youtube.com/watch?v=37E9ckMDdTk",
+        "blog": "https://takeuforward.org/data-structure/find-second-smallest-and-second-largest-element-in-an-array/",
+        "practice": "https://www.geeksforgeeks.org/problems/second-largest3735/0",
+        "type": "gfg"
+    },
+    {
+        "id": 3,
+        "title": "Check if the array is sorted",
+        "youtube": "https://www.youtube.com/watch?v=37E9ckMDdTk",
+        "blog": "https://takeuforward.org/data-structure/check-if-an-array-is-sorted/",
+        "practice": "https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/",
+        "type": "leetcode"
+    },
+    {
+        "id": 4,
+        "title": "Remove duplicates from sorted array",
+        "youtube": "https://www.youtube.com/watch?v=37E9ckMDdTk",
+        "blog": "https://takeuforward.org/data-structure/remove-duplicates-in-place-from-sorted-array/",
+        "practice": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/",
+        "type": "leetcode"
+    },
+    {
+        "id": 5,
+        "title": "Left rotate an array by one place",
+        "youtube": "https://www.youtube.com/watch?v=wvcQg43_V8U",
+        "blog": "https://takeuforward.org/data-structure/left-rotate-the-array-by-one/",
+        "practice": "https://leetcode.com/problems/rotate-array/description/",
+        "type": "leetcode"
+    },
+    {
+        "id": 6,
+        "title": "Left rotate an array by D places",
+        "youtube": "https://www.youtube.com/watch?v=wvcQg43_V8U",
+        "blog": "https://takeuforward.org/data-structure/rotate-array-by-k-elements/",
+        "practice": "https://leetcode.com/problems/rotate-array/description/",
+        "type": "leetcode"
+    },
+    {
+        "id": 7,
+        "title": "Move zeros to end",
+        "youtube": "https://www.youtube.com/watch?v=wvcQg43_V8U",
+        "blog": "https://takeuforward.org/data-structure/move-all-zeros-to-the-end-of-the-array/",
+        "practice": "https://leetcode.com/problems/move-zeroes/description/",
+        "type": "leetcode"
+    },
+    {
+        "id": 8,
+        "title": "Linear Search",
+        "youtube": "https://www.youtube.com/watch?v=wvcQg43_V8U",
+        "blog": "https://takeuforward.org/data-structure/linear-search-in-c/",
+        "practice": "https://www.geeksforgeeks.org/problems/search-an-element-in-an-array-1587115621/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type": "gfg"
+    },
+    {
+        "id": 9,
+        "title": "Find the union",
+        "youtube": "https://www.youtube.com/watch?v=wvcQg43_V8U",
+        "blog": "https://takeuforward.org/data-structure/union-of-two-sorted-arrays/",
+        "practice": "https://www.geeksforgeeks.org/problems/union-of-two-sorted-arrays-1587115621/0",
+        "type": "gfg"
+    },
+    {
+        "id": 10,
+        "title": "Find missing number in an array",
+        "youtube": "https://www.youtube.com/watch?v=bYWLJb3vCWY",
+        "blog": "https://takeuforward.org/arrays/find-the-missing-number-in-an-array/",
+        "practice": "https://leetcode.com/problems/missing-number/description/",
+        "type": "leetcode"
+    },
+    {
+        "id": 11,
+        "title": "Maximum consecutive ones",
+        "youtube": "https://www.youtube.com/watch?v=bYWLJb3vCWY",
+        "blog": "https://takeuforward.org/data-structure/count-maximum-consecutive-ones-in-the-array/",
+        "practice": "https://leetcode.com/problems/max-consecutive-ones/description/",
+        "type": "leetcode"
+    },
+    {
+        "id": 12,
+        "title": "Find the number that appears once, and other numbers twice",
+        "youtube": "https://www.youtube.com/watch?v=bYWLJb3vCWY",
+        "blog": "https://takeuforward.org/arrays/find-the-number-that-appears-once-and-the-other-numbers-twice/",
+        "practice": "https://leetcode.com/problems/single-number/description/",
+        "type": "leetcode"
+    },
+    {
+        "id": 13,
+        "title": "Longest subarray with sum K(Positives)",
+        "youtube": "https://www.youtube.com/watch?v=frf7qxiN2qU",
+        "blog": "https://takeuforward.org/data-structure/longest-subarray-with-given-sum-k/",
+        "practice": "https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/0",
+        "type": "gfg"
+    },
+    {
+        "id": 14,
+        "title": "Longest subarray with sum K(Positives + Negatives)",
+        "youtube": "https://www.youtube.com/watch?v=frf7qxiN2qU",
+        "blog": "https://takeuforward.org/arrays/longest-subarray-with-sum-k-postives-and-negatives/",
+        "practice": "https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/0",
+        "type": "gfg"
+    }
+]
