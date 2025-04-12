@@ -1,7 +1,7 @@
 import { Container, Box, Typography } from '@mui/material';
 import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
-import { darkTheme } from './landing';
+import { darkTheme } from '../theme';
 import Reusable from '../components/reusable';
 
 function A2Z() {

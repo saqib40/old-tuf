@@ -8,32 +8,13 @@ import {
   CardActionArea,
   Grid,
   Paper,
+  Button,
 } from '@mui/material';
-import { ThemeProvider, createTheme } from '@mui/material/styles';
+import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
-
-// Define dark theme
-export const darkTheme = createTheme({
-  palette: {
-    mode: 'dark',
-    primary: {
-      main: '#90caf9',
-    },
-    background: {
-      default: '#121212',
-      paper: '#1d1d1d',
-    },
-  },
-  typography: {
-    h1: {
-      fontSize: '2.5rem',
-      fontWeight: 700,
-    },
-    body1: {
-      fontSize: '1rem',
-    },
-  },
-});
+import GitHubIcon from '@mui/icons-material/GitHub';
+import { motion } from 'framer-motion';
+import { darkTheme } from '../theme';
 
 function Landing() {
   const navigate = useNavigate();
@@ -58,52 +39,153 @@ function Landing() {
     },
   ];
 
+  // Animation variants for cards
+  const cardVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: (i: number) => ({
+      opacity: 1,
+      y: 0,
+      transition: {
+        delay: i * 0.2,
+        duration: 0.5,
+      },
+    }),
+  };
+
   return (
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
-      <Container maxWidth="lg" sx={{ py: 4 }}>
-        {/* Disclaimer Note */}
-        <Paper elevation={3} sx={{ p: 2, mb: 4, borderRadius: 2 }}>
-          <Typography variant="body1" color="text.secondary" align="center">
-            This project is a clone of OLD TUF with GFG links attached. In no way do the creators of this project claim the originality of content. We advise you to buy TUF+ if you can, and if you can’t, this project is made for you.
-          </Typography>
-        </Paper>
+      {/* Gradient Background */}
+      <Box
+        sx={{
+          minHeight: '100vh',
+          background: 'linear-gradient(135deg, #121212 30%, #1c2526 90%)',
+          position: 'relative',
+          overflow: 'hidden',
+        }}
+      >
+        {/* Hero Section */}
+        <Box
+          sx={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            right: 0,
+            height: '300px',
+            background: 'linear-gradient(45deg, rgba(255, 98, 0, 0.1), rgba(255, 179, 0, 0.1))',
+            filter: 'blur(100px)',
+            zIndex: 0,
+          }}
+        />
 
-        {/* Cards Section */}
-        <Box sx={{ textAlign: 'center', mb: 4 }}>
-          <Typography variant="h1" gutterBottom>
-            Coding Sheets
-          </Typography>
-          <Typography variant="body1" color="text.secondary">
-            The sheets from striver that you can go through
-          </Typography>
-        </Box>
+        <Container maxWidth="lg" sx={{ py: 6, position: 'relative', zIndex: 1 }}>
+          {/* Disclaimer Note */}
+          <Paper
+            elevation={0}
+            sx={{
+              p: 3,
+              mb: 6,
+              borderRadius: 2,
+              backgroundColor: 'rgba(29, 29, 29, 0.8)',
+              border: '1px solid',
+              borderColor: 'primary.main',
+              boxShadow: '0 0 15px rgba(255, 98, 0, 0.3)',
+            }}
+          >
+            <Typography variant="body1" color="text.secondary" align="center">
+              This project is a clone of OLD TUF with GFG links attached. In no way do the creators of this project claim the originality of content. We advise you to buy TUF+ if you can, and if you can’t, this project is made for you.
+            </Typography>
+          </Paper>
 
-        <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
-          {sheets.map((sheet) => (
-            <Grid size={{ xs: 4, sm: 4, md: 3 }} key={sheet.title}>
-              <Card
-                sx={{
-                  borderRadius: 2,
-                  backgroundColor: 'background.paper',
-                  transition: 'transform 0.3s',
-                  '&:hover': {
-                    transform: 'scale(1.05)',
-                  },
-                }}
+          {/* Cards Section */}
+          <Box sx={{ textAlign: 'center', mb: 6 }}>
+            <Typography variant="h1" gutterBottom>
+              Coding Sheets
+            </Typography>
+            <Typography variant="body1" color="text.secondary">
+              Explore the best coding sheets curated by Striver to level up your skills!
+            </Typography>
+          </Box>
+
+          <Grid container spacing={{ xs: 3, md: 4 }} columns={{ xs: 4, sm: 8, md: 12 }}>
+            {sheets.map((sheet, index) => (
+              <Grid
+                size={{ xs: 6, sm: 6, md: 6 }} // Two cards per row
+                key={sheet.title}
+                component={motion.div}
+                variants={cardVariants}
+                initial="hidden"
+                animate="visible"
+                custom={index}
               >
-                <CardActionArea onClick={() => navigate(sheet.path)}>
-                  <CardContent sx={{ textAlign: 'center' }}>
-                    <Typography variant="h6" component="div">
-                      {sheet.title}
-                    </Typography>
-                  </CardContent>
-                </CardActionArea>
-              </Card>
-            </Grid>
-          ))}
-        </Grid>
-      </Container>
+                <Card
+                  sx={{
+                    borderRadius: 2,
+                    backgroundColor: 'background.paper',
+                    border: '1px solid',
+                    borderColor: 'grey.800',
+                    transition: 'all 0.3s ease-in-out',
+                    '&:hover': {
+                      transform: 'scale(1.05) translateY(-5px)',
+                      boxShadow: '0 8px 20px rgba(255, 98, 0, 0.3)',
+                      borderColor: 'primary.main',
+                      backgroundColor: 'rgba(29, 29, 29, 0.9)',
+                      '& .card-title': { // Target the title on card hover
+                        color: 'primary.main',
+                      },
+                    },
+                  }}
+                >
+                  <CardActionArea onClick={() => navigate(sheet.path)}>
+                    <CardContent sx={{ textAlign: 'center', py: 6, px: 4 }}>
+                      <Typography
+                        variant="h5"
+                        component="div"
+                        className="card-title" // Add className to target
+                        sx={{
+                          color: 'white',
+                          fontWeight: 600,
+                        }}
+                      >
+                        {sheet.title}
+                      </Typography>
+                    </CardContent>
+                  </CardActionArea>
+                </Card>
+              </Grid>
+            ))}
+          </Grid>
+
+          {/* GitHub Contribution Link */}
+          <Box sx={{ textAlign: 'center', mt: 8 }}>
+            <Button
+              variant="outlined"
+              startIcon={<GitHubIcon />}
+              href="https://github.com/saqib40/old-tuf"
+              target="_blank"
+              rel="noopener noreferrer"
+              sx={{
+                borderColor: 'primary.main',
+                color: 'primary.main',
+                textTransform: 'none',
+                fontSize: '1.1rem',
+                py: 1,
+                px: 3,
+                borderRadius: 2,
+                transition: 'all 0.3s',
+                '&:hover': {
+                  borderColor: '#FFB300',
+                  color: '#FFB300',
+                  backgroundColor: 'rgba(255, 98, 0, 0.1)',
+                  transform: 'scale(1.05)',
+                },
+              }}
+            >
+              Contribute on GitHub
+            </Button>
+          </Box>
+        </Container>
+      </Box>
     </ThemeProvider>
   );
 }

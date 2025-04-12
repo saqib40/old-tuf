@@ -13,14 +13,13 @@ import {
   TableContainer,
   TableHead,
   TableRow,
-  Link,
   Collapse,
   IconButton,
   Avatar,
 } from '@mui/material';
 import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
-import { darkTheme } from '../pages/landing';
+import { darkTheme } from '../theme';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import DescriptionIcon from '@mui/icons-material/Description';
 import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
