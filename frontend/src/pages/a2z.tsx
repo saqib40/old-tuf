@@ -13,6 +13,13 @@ function A2Z() {
       { subtitle: 'Hard', link: 'sheets/a2z-sheet/arrays/hard' },
     ],
   };
+  const inputSort={
+    title: 'Step 2 : Learn Important Sorting Techiques',
+    sections:[
+      {subtitle : 'Lec 1: Sorting-1', link: 'sheets/a2z-sheet/sorting/sorting1'},
+      {subtitle : 'Lec 2: Sorting-2', link: 'sheets/a2z-sheet/sorting/sorting2'},
+    ],
+  };
 
   return (
     <ThemeProvider theme={darkTheme}>
@@ -23,6 +30,7 @@ function A2Z() {
             Striver's A2Z Sheet
           </Typography>
         </Box>
+        <Reusable {...inputSort} />
         <Reusable {...inputArray} />
       </Container>
     </ThemeProvider>
