@@ -105,11 +105,11 @@ function Reusable({ title, sections }: Input) {
       case 'gfg':
         return '/GeeksForGeeks_logo.png';
       case 'leetcode':
-        return '/LeetCode_logo_white.png'; // Use white logo for dark theme
+        return '/LeetCode_logo_white.png';
       case 'codingninja':
         return '/codingninja_logo.png';
       default:
-        return null;
+        return undefined;
     }
   };
 
