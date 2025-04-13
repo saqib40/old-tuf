@@ -24,7 +24,9 @@ function A2Z() {
   const inputll = {
     title : 'Step 6 : Learn LinkedList [Single, Double , Medium, Hard]',
     sections:[
+      {subtitle: 'Lec 1: Learn 1D LinkedList', link : 'sheets/a2z-sheet/linked_list/lec1_1dll'},
       {subtitle : 'Lec 3: Medium Problems of Linked List', link:'sheets/a2z-sheet/linked_list/ll1'},
+      //{subtitle : 'Lec 3: Medium Problems of'}
     ],
 
   };

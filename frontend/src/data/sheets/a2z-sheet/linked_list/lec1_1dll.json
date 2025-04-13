@@ -1,0 +1,18 @@
+[
+    {
+        "id":1,
+        "title":"Introduction to LinkedList, learn about struct, and how is node represented",
+        "youtube":"https://www.youtube.com/watch?si=9PR1o8OPRWil7fRA&v=Nq7ok-OyEpg&feature=youtu.be",
+        "blog":"https://takeuforward.org/linked-list/linked-list-introduction",
+        "practice":"",
+        "type":"gfg"
+    },
+    {
+        "id":2,
+        "title":"Search an element in the LL",
+        "youtube":"https://youtu.be/Nq7ok-OyEpg",
+        "blog":"https://takeuforward.org/linked-list/search-an-element-in-a-linked-list",
+        "practice":"https://www.geeksforgeeks.org/problems/search-in-linked-list-1664434326/1",
+        "type":"gfg"
+    }
+]

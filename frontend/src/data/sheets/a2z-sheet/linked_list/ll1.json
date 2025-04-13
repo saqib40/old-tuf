@@ -1,3 +1,4 @@
+
 [
     {
         "id":1,
@@ -5,6 +6,14 @@
         "youtube":"https://youtu.be/aXQWhbvT3w0?si=FiZ3G04N4bxjR79U",
         "blog":"https://takeuforward.org/plus/dsa/problems/add-one-to-a-number-represented-by-ll?tab=editorial",
         "practice":"https://www.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1?",
+        "type":"gfg"
+    },
+    {
+        "id":2,
+        "title":"Length of loop",
+        "youtube":"https://youtu.be/I4g1qbkTPus",
+        "blog":"https://takeuforward.org/linked-list/length-of-loop-in-linked-list",
+        "practice":"",
         "type":"gfg"
     }
 ]
