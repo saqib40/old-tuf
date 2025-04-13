@@ -1,0 +1,98 @@
+[
+    {
+        "id":1,
+        "title":"Height of a Binary Tree",
+        "youtube":"https://www.youtube.com/watch?v=eD3tmO66aBA",
+        "blog":"https://takeuforward.org/data-structure/maximum-depth-of-a-binary-tree/",
+        "practice":"https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+        "type":"leetcode"
+    },
+    {
+        "id":2,
+        "title":"Check if the Binary tree is height-balanced or not",
+        "youtube":"https://www.youtube.com/watch?v=Yt50Jfbd8Po",
+        "blog":"https://takeuforward.org/data-structure/check-if-the-binary-tree-is-balanced-binary-tree/",
+        "practice":"https://leetcode.com/problems/balanced-binary-tree/",
+        "type":"leetcode"
+    },
+    {
+        "id":3,
+        "title":"Diameter of Binary Tree",
+        "youtube":"https://www.youtube.com/watch?v=Rezetez59Nk",
+        "blog":"https://takeuforward.org/data-structure/calculate-the-diameter-of-a-binary-tree/",
+        "practice":"https://leetcode.com/problems/diameter-of-binary-tree/",
+        "type":"leetcode"
+    },
+    {
+        "id":4,
+        "title":"Maximum path sum",
+        "youtube":"https://www.youtube.com/watch?v=WszrfSwMz58",
+        "blog":"https://takeuforward.org/data-structure/maximum-sum-path-in-binary-tree/",
+        "practice":"https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+        "type":"leetcode"
+    },
+    {
+        "id":5,
+        "title":"Check if two trees are identical or not",
+        "youtube":"https://www.youtube.com/watch?v=BhuvF_-PWS0",
+        "blog":"https://takeuforward.org/data-structure/check-if-two-trees-are-identical/",
+        "practice":"https://leetcode.com/problems/same-tree/",
+        "type":"leetcode"
+    },
+    {
+        "id":6,
+        "title":"Zig Zag Traversal of Binary Tree",
+        "youtube":"https://www.youtube.com/watch?v=3OXWEdlIGl4",
+        "blog":"https://takeuforward.org/data-structure/zig-zag-traversal-of-binary-tree/",
+        "practice":"https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/",
+        "type":"leetcode"
+    },
+    {
+        "id":7,
+        "title":"Boundary Traversal of Binary Tree",
+        "youtube":"https://www.youtube.com/watch?v=0ca1nvR0be4",
+        "blog":"https://takeuforward.org/data-structure/boundary-traversal-of-a-binary-tree/",
+        "practice":"https://leetcode.com/problems/boundary-of-binary-tree/",
+        "type":"leetcode"
+    },
+    {
+        "id":8,
+        "title":"Vertical Order Traversal of Binary Tree",
+        "youtube":"https://www.youtube.com/watch?v=q_a6lpbKJdw",
+        "blog":"https://takeuforward.org/data-structure/vertical-order-traversal-of-binary-tree/",
+        "practice":"https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/",
+        "type":"leetcode"
+    },
+    {
+        "id":9,
+        "title":"Top View of Binary Tree",
+        "youtube":"https://www.youtube.com/watch?v=Et9OCDNvJ78",
+        "blog":"https://takeuforward.org/data-structure/top-view-of-a-binary-tree/",
+        "practice":"https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1",
+        "type":"leetcode"
+    },
+    {
+        "id":10,
+        "title":"Bottom View of Binary Tree",
+        "youtube":"https://www.youtube.com/watch?v=0FtVY6I4pB8",
+        "blog":"https://takeuforward.org/data-structure/bottom-view-of-a-binary-tree/",
+        "practice":"https://www.naukri.com/code360/problems/bottom-view-of-binary-tree_893110",
+        "type":"codingninja"
+    },
+    {
+        "id":11,
+        "title":"Right/Left View of Binary Tree",
+        "youtube":"https://www.youtube.com/watch?v=KV4mRzTjlAk",
+        "blog":"https://takeuforward.org/data-structure/right-left-view-of-binary-tree/",
+        "practice":"https://leetcode.com/problems/binary-tree-right-side-view/",
+        "type":"leetcode"
+    },
+    {
+        "id":12,
+        "title":"Symmetric Binary Tree",
+        "youtube":"https://youtu.be/nKggNAiEpBE?si=glOLU9OTT2yf_X2q",
+        "blog":"https://takeuforward.org/data-structure/check-for-symmetrical-binary-tree/",
+        "practice":"https://leetcode.com/problems/symmetric-tree/",
+        "type":"leetcode"
+    }
+]

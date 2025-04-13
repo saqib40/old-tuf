@@ -1,0 +1,114 @@
+[
+    {
+        "id":1,
+        "title":"Root to Node Path in Binary Tree",
+        "youtube":"https://www.youtube.com/watch?v=fmflMqVOC7k",
+        "blog":"https://takeuforward.org/data-structure/print-root-to-node-path-in-a-binary-tree/",
+        "practice":"https://leetcode.com/problems/binary-tree-paths/description/",
+        "type":"leetcode"
+    },
+    {
+        "id":2,
+        "title":"LCA in Binary Tree",
+        "youtube":"https://www.youtube.com/watch?v=_-QHfMDde90",
+        "blog":"https://takeuforward.org/data-structure/lowest-common-ancestor-for-two-given-nodes/",
+        "practice":"https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+        "type":"leetcode"
+    },
+    {
+        "id":3,
+        "title":"Maximum width of a Binary Tree",
+        "youtube":"https://www.youtube.com/watch?v=ZbybYvcVLks",
+        "blog":"https://takeuforward.org/data-structure/maximum-width-of-a-binary-tree/",
+        "practice":"https://leetcode.com/problems/maximum-width-of-binary-tree/",
+        "type":"leetcode"
+    },
+    {
+        "id":4,
+        "title":"Check for Children Sum Property",
+        "youtube":"https://www.youtube.com/watch?v=fnmisPM6cVo",
+        "blog":"https://takeuforward.org/data-structure/check-for-children-sum-property-in-a-binary-tree/",
+        "practice":"https://www.naukri.com/code360/problems/childrensumproperty_790723",
+        "type":"codingninja"
+    },
+    {
+        "id":5,
+        "title":"Print all the Nodes at a distance of K in a Binary Tree",
+        "youtube":"https://www.youtube.com/watch?v=i9ORlEy6EsI",
+        "blog":"https://takeuforward.org/binary-tree/print-nodes-at-distance-k-in-a-binary-tree",
+        "practice":"https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/",
+        "type":"leetcode"
+    },
+    {
+        "id":6,
+        "title":"Minimum time taken to BURN the Binary Tree from a Node",
+        "youtube":"https://www.youtube.com/watch?v=2r5wLmQfD6g",
+        "blog":"",
+        "practice":"https://www.naukri.com/code360/problems/time-to-burn-tree_630563",
+        "type":"codingninja"
+    },
+    {
+        "id":7,
+        "title":"Count total Nodes in a COMPLETE Binary Tree",
+        "youtube":"https://www.youtube.com/watch?v=u-yWemKGWO0",
+        "blog":"https://takeuforward.org/binary-tree/count-number-of-nodes-in-a-binary-tree/",
+        "practice":"https://leetcode.com/problems/count-complete-tree-nodes/",
+        "type":"leetcode"
+    },
+    {
+        "id":8,
+        "title":"Requirements needed to construct a Unique Binary Tree | Theory",
+        "youtube":"https://www.youtube.com/watch?v=9GMECGQgWrQ",
+        "blog":"https://takeuforward.org/data-structure/requirements-needed-to-construct-a-unique-binary-tree-theory",
+        "practice":"",
+        "type":""
+    },
+    {
+        "id":9,
+        "title":"Construct Binary Tree from inorder and preorder",
+        "youtube":"https://www.youtube.com/watch?v=aZNaLrVebKQ",
+        "blog":"https://takeuforward.org/data-structure/construct-a-binary-tree-from-inorder-and-preorder-traversal/",
+        "practice":"https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+        "type":"leetcode"
+    },
+    {
+        "id":10,
+        "title":"Construct the Binary Tree from Postorder and Inorder Traversal",
+        "youtube":"https://www.youtube.com/watch?v=LgLRTaEMRVc",
+        "blog":"https://takeuforward.org/data-structure/construct-binary-tree-from-inorder-and-postorder-traversal/",
+        "practice":"https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/",
+        "type":"leetcode"
+    },
+    {
+        "id":11,
+        "title":"Serialize and deserialize Binary Tree",
+        "youtube":"https://www.youtube.com/watch?v=-YbXySKJsX8",
+        "blog":"https://takeuforward.org/data-structure/serialize-and-deserialize-a-binary-tree/",
+        "practice":"https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+        "type":"leetcode"
+    },
+    {
+        "id":12,
+        "title":"Morris Preorder Traversal of a Binary Tree",
+        "youtube":"https://www.youtube.com/watch?v=80Zug6D1_r4",
+        "blog":"https://takeuforward.org/data-structure/morris-preorder-traversal-of-a-binary-tree/",
+        "practice":"https://leetcode.com/problems/binary-tree-inorder-traversal/",
+        "type":"leetcode"
+    },
+    {
+        "id":13,
+        "title":"Morris Inorder Traversal of a Binary Tree",
+        "youtube":"https://www.youtube.com/watch?v=80Zug6D1_r4",
+        "blog":"https://takeuforward.org/data-structure/morris-inorder-traversal-of-a-binary-tree/",
+        "practice":"https://leetcode.com/problems/binary-tree-inorder-traversal/",
+        "type":"leetcode"
+    },
+    {
+        "id":14,
+        "title":"Flatten Binary Tree to LinkedList",
+        "youtube":"https://www.youtube.com/watch?v=sWf7k1x9XR4",
+        "blog":"https://takeuforward.org/data-structure/flatten-binary-tree-to-linked-list/",
+        "practice":"https://leetcode.com/problems/flatten-binary-tree-to-linked-list/",
+        "type":"leetcode"
+    }
+]

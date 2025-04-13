@@ -1,0 +1,106 @@
+[
+    {
+        "id":1,
+        "title":"Introduction to Trees",
+        "youtube":"https://www.youtube.com/watch?v=_ANrF3FJm7I",
+        "blog":"https://takeuforward.org/binary-tree/introduction-to-trees/",
+        "practice":"https://www.geeksforgeeks.org/problems/count-number-of-nodes-in-a-binary-tree/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":2,
+        "title":"Binary Tree Representation in C++",
+        "youtube":"https://www.youtube.com/watch?v=ctCpP0RFDFc",
+        "blog":"https://takeuforward.org/binary-tree/binary-tree-representation-in-c/",
+        "practice":"https://www.geeksforgeeks.org/problems/construct-tree-from-preorder-traversal/1?page=1&category=Tree&status=solved&sortBy=accuracy",
+        "type":"gfg"
+    },
+    {
+        "id":3,
+        "title":"Binary Tree Representation in Java",
+        "youtube":"https://www.youtube.com/watch?v=hyLyW7rP24I",
+        "blog":"https://takeuforward.org/binary-tree/binary-tree-representation-in-java/",
+        "practice":"https://www.geeksforgeeks.org/problems/construct-tree-from-preorder-traversal/1?page=1&category=Tree&status=solved&sortBy=accuracy",
+        "type":"gfg"
+    },
+    {
+        "id":4,
+        "title":"Binary Tree Traversals in Binary Tree",
+        "youtube":"https://www.youtube.com/watch?v=jmy0LaGET1I",
+        "blog":"https://takeuforward.org/binary-tree/binary-tree-traversal-inorder-preorder-postorder/",
+        "practice":"",
+        "type":"gfg"
+    },
+    {
+        "id":5,
+        "title":"Preorder Traversal of Binary Tree",
+        "youtube":"https://www.youtube.com/watch?v=RlUu72JrOCQ",
+        "blog":"https://takeuforward.org/data-structure/preorder-traversal-of-binary-tree/",
+        "practice":"https://leetcode.com/problems/binary-tree-preorder-traversal/",
+        "type":"leetcode"
+    },
+    {
+        "id":6,
+        "title":"Inorder Traversal of Binary Tree",
+        "youtube":"https://www.youtube.com/watch?v=Z_NEgBgbRVI",
+        "blog":"https://takeuforward.org/data-structure/inorder-traversal-of-binary-tree/",
+        "practice":"https://leetcode.com/problems/binary-tree-inorder-traversal/",
+        "type":"leetcode"
+    },
+    {
+        "id":7,
+        "title":"Post-order Traversal of Binary Tree",
+        "youtube":"https://www.youtube.com/watch?v=COQOU6klsBg",
+        "blog":"https://takeuforward.org/data-structure/post-order-traversal-of-binary-tree/",
+        "practice":"https://leetcode.com/problems/binary-tree-postorder-traversal/",
+        "type":"leetcode"
+    },
+    {
+        "id":8,
+        "title":"Level order Traversal / Level order traversal in spiral form",
+        "youtube":"https://www.youtube.com/watch?v=EoAsWbO7sqg",
+        "blog":"https://takeuforward.org/data-structure/level-order-traversal-of-a-binary-tree/",
+        "practice":"https://leetcode.com/problems/binary-tree-level-order-traversal/",
+        "type":"leetcode"
+    },
+    {
+        "id":9,
+        "title":"Iterative Preorder Traversal of Binary Tree",
+        "youtube":"https://www.youtube.com/watch?v=Bfqd8BsPVuw",
+        "blog":"https://takeuforward.org/data-structure/iterative-preorder-traversal-of-binary-tree",
+        "practice":"https://leetcode.com/problems/binary-tree-preorder-traversal/",
+        "type":"leetcode"
+    },
+    {
+        "id":10,
+        "title":"Iterative Inorder Traversal of Binary Tree",
+        "youtube":"https://www.youtube.com/watch?v=lxTGsVXjwvM",
+        "blog":"https://takeuforward.org/data-structure/inorder-traversal-of-binary-tree/",
+        "practice":"https://leetcode.com/problems/binary-tree-inorder-traversal/",
+        "type":"leetcode"
+    },
+    {
+        "id":11,
+        "title":"Post-order Traversal of Binary Tree using 2 stack",
+        "youtube":"https://www.youtube.com/watch?v=2YBhNLodD8Q",
+        "blog":"https://takeuforward.org/data-structure/iterative-postorder-traversal-of-binary-tree-using-2-stack",
+        "practice":"https://leetcode.com/problems/binary-tree-postorder-traversal/",
+        "type":"leetcode"
+    },
+    {
+        "id":12,
+        "title":"Post-order Traversal of Binary Tree using 1 stack",
+        "youtube":"https://www.youtube.com/watch?v=NzIGLLwZBS8",
+        "blog":"https://takeuforward.org/data-structure/post-order-traversal-of-binary-tree/",
+        "practice":"https://leetcode.com/problems/binary-tree-postorder-traversal/",
+        "type":"leetcode"
+    },
+    {
+        "id":13,
+        "title":"Preorder, Inorder, and Postorder Traversal in one Traversal",
+        "youtube":"https://www.youtube.com/watch?v=ySp2epYvgTE",
+        "blog":"https://takeuforward.org/data-structure/preorder-inorder-postorder-traversals-in-one-traversal/",
+        "practice":"https://www.naukri.com/code360/problems/tree-traversal_981269",
+        "type":"codingninja"
+    }
+]

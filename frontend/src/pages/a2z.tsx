@@ -24,12 +24,19 @@ function A2Z() {
   const inputll = {
     title : 'Step 6 : Learn LinkedList [Single, Double , Medium, Hard]',
     sections:[
-      {subtitle: 'Lec 1: Learn 1D LinkedList', link : 'sheets/a2z-sheet/linked_list/lec1_1dll'},
-      {subtitle : 'Lec 3: Medium Problems of Linked List', link:'sheets/a2z-sheet/linked_list/ll1'},
-      //{subtitle : 'Lec 3: Medium Problems of'}
+      {subtitle: 'Lec 1: Learn 1D LinkedList', link : 'sheets/a2z-sheet/linked_list/lec1'},
+      {subtitle : 'Lec 3: Medium Problems of Linked List', link:'sheets/a2z-sheet/linked_list/lec3'}
     ],
 
   };
+  const inputBinaryTree = {
+    title : 'Step 13 : Binary Trees [Traversals, Medium and Hard Problems]',
+    sections:[
+      {subtitle : 'Lec 1: Traversals', link: 'sheets/a2z-sheet/binary-trees/traversals'},
+      {subtitle : 'Lec 2: Medium Problems', link: 'sheets/a2z-sheet/binary-trees/medium'},
+      {subtitle : 'Lec 3: Hard Problems', link: 'sheets/a2z-sheet/binary-trees/hard'}
+    ]
+  }
 
   return (
     <ThemeProvider theme={darkTheme}>
@@ -43,6 +50,7 @@ function A2Z() {
         <Reusable {...inputSort} />
         <Reusable {...inputArray} />
         <Reusable {...inputll} />
+        <Reusable {...inputBinaryTree} />
       </Container>
     </ThemeProvider>
   );
