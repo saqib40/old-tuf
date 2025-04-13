@@ -25,7 +25,10 @@ function A2Z() {
     title : 'Step 6 : Learn LinkedList [Single, Double , Medium, Hard]',
     sections:[
       {subtitle: 'Lec 1: Learn 1D LinkedList', link : 'sheets/a2z-sheet/linked_list/lec1'},
-      {subtitle : 'Lec 3: Medium Problems of Linked List', link:'sheets/a2z-sheet/linked_list/lec3'}
+      {subtitle: 'Lec 1: Learn Doubly LinkedList', link : 'sheets/a2z-sheet/linked_list/lec2'},
+      {subtitle : 'Lec 3: Medium Problems of LL', link:'sheets/a2z-sheet/linked_list/lec3'},
+      {subtitle: 'Lec 4: Medium Problems of DLL', link : 'sheets/a2z-sheet/linked_list/lec4'},
+      {subtitle: 'Lec 5: Hard Problems of LL', link : 'sheets/a2z-sheet/linked_list/lec5'}
     ],
 
   };

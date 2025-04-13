@@ -83,8 +83,8 @@ function Landing() {
           <Paper
             elevation={0}
             sx={{
-              p: 3,
-              mb: 6,
+              p: 2,
+              mb: 4,
               borderRadius: 2,
               backgroundColor: 'rgba(29, 29, 29, 0.8)',
               border: '1px solid',

@@ -1,0 +1,34 @@
+[
+    {
+        "id":1,
+        "title":"Reverse LL in group of given size K",
+        "youtube":"https://www.youtube.com/watch?v=lIar1skcQYI",
+        "blog":"https://takeuforward.org/data-structure/reverse-linked-list-in-groups-of-size-k/",
+        "practice":"https://leetcode.com/problems/reverse-nodes-in-k-group/",
+        "type":"leetcode"
+    },
+    {
+        "id":2,
+        "title":"Rotate a LL",
+        "youtube":"https://www.youtube.com/watch?v=uT7YI7XbTY8",
+        "blog":"https://takeuforward.org/data-structure/rotate-a-linked-list/",
+        "practice":"https://leetcode.com/problems/rotate-list/description/",
+        "type":"leetcode"
+    },
+    {
+        "id":3,
+        "title":"Flattening of LL",
+        "youtube":"https://www.youtube.com/watch?v=ykelywHJWLg",
+        "blog":"https://takeuforward.org/data-structure/flattening-a-linked-list/",
+        "practice":"https://www.geeksforgeeks.org/problems/flattening-a-linked-list/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":4,
+        "title":"Clone a Linked List with random and next pointer",
+        "youtube":"https://www.youtube.com/watch?v=q570bKdrnlw",
+        "blog":"https://takeuforward.org/data-structure/clone-linked-list-with-random-and-next-pointer/",
+        "practice":"https://leetcode.com/problems/copy-list-with-random-pointer/",
+        "type":"leetcode"
+    }
+]

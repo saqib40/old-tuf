@@ -1,19 +1,122 @@
-
 [
+    {
+        "id":1,
+        "title":"Middle of a LinkedList [TortoiseHare Method]",
+        "youtube":"https://www.youtube.com/watch?v=7LjQ57RqgEc",
+        "blog":"https://takeuforward.org/data-structure/find-middle-element-in-a-linked-list/",
+        "practice":"https://leetcode.com/problems/middle-of-the-linked-list/",
+        "type":"leetcode"
+    },
+    {
+        "id":2,
+        "title":"Reverse a LinkedList [Iterative]",
+        "youtube":"https://www.youtube.com/watch?v=D2vI2DNJGd8",
+        "blog":"https://takeuforward.org/data-structure/reverse-a-linked-list/",
+        "practice":"https://leetcode.com/problems/reverse-linked-list/",
+        "type":"leetcode"
+    },
+    {
+        "id":3,
+        "title":"Reverse a LL [Recursive]",
+        "youtube":"https://www.youtube.com/watch?v=D2vI2DNJGd8",
+        "blog":"https://takeuforward.org/data-structure/reverse-a-linked-list/",
+        "practice":"https://leetcode.com/problems/reverse-linked-list/",
+        "type":"leetcode"
+    },
+    {
+        "id":4,
+        "title":"Detect a loop in LL",
+        "youtube":"https://www.youtube.com/watch?v=wiOo4DC5GGA",
+        "blog":"https://takeuforward.org/data-structure/detect-a-cycle-in-a-linked-list/",
+        "practice":"https://leetcode.com/problems/linked-list-cycle/",
+        "type":"leetcode"
+    },
+    {
+        "id":5,
+        "title":"Find the starting point in LL",
+        "youtube":"https://www.youtube.com/watch?v=2Kd0KKmmHFc",
+        "blog":"https://takeuforward.org/data-structure/starting-point-of-loop-in-a-linked-list/",
+        "practice":"https://leetcode.com/problems/linked-list-cycle-ii/",
+        "type":"leetcode"
+    },
     {
         "id":6,
         "title":"Length of loop",
         "youtube":"https://youtu.be/I4g1qbkTPus",
         "blog":"https://takeuforward.org/linked-list/length-of-loop-in-linked-list",
-        "practice":"",
+        "practice":"https://www.geeksforgeeks.org/problems/find-length-of-loop/1?page=1&category=Linked%20List&status=solved&sortBy=submissions",
         "type":"gfg"
     },
     {
+        "id":7,
+        "title":"Check if LL is palindrome or not",
+        "youtube":"https://www.youtube.com/watch?v=lRY_G-u_8jk",
+        "blog":"https://takeuforward.org/data-structure/check-if-given-linked-list-is-plaindrome/",
+        "practice":"https://leetcode.com/problems/palindrome-linked-list/",
+        "type":"leetcode"
+    },
+    {
+        "id":8,
+        "title":"Segregate odd and even nodes in LL",
+        "youtube":"https://www.youtube.com/watch?v=qf6qp7GzD5Q",
+        "blog":"https://takeuforward.org/data-structure/segregate-even-and-odd-nodes-in-linkedlist",
+        "practice":"https://leetcode.com/problems/odd-even-linked-list/",
+        "type":"leetcode"
+    },
+    {
+        "id":9,
+        "title":"Remove Nth node from the back of the LL",
+        "youtube":"https://www.youtube.com/watch?v=3kMKYQ2wNIU",
+        "blog":"https://takeuforward.org/data-structure/remove-n-th-node-from-the-end-of-a-linked-list/",
+        "practice":"https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+        "type":"leetcode"
+    },
+    {
+        "id":10,
+        "title":"Delete the middle node of LL",
+        "youtube":"https://www.youtube.com/watch?v=ePpV-_pfOeI",
+        "blog":"https://takeuforward.org/linked-list/delete-the-middle-node-of-the-linked-list",
+        "practice":"https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/#:~:text=You%20are%20given%20the%20head,than%20or%20equal%20to%20x%20.",
+        "type":"leetcode"
+    },
+    {
         "id":11,
+        "title":"Sort LL",
+        "youtube":"https://www.youtube.com/watch?v=8ocB7a_c-Cc",
+        "blog":"https://takeuforward.org/linked-list/sort-a-linked-list",
+        "practice":"https://leetcode.com/problems/sort-list/",
+        "type":"leetcode"
+    },
+    {
+        "id":12,
+        "title":"Sort a LL of 0's 1's and 2's by changing links",
+        "youtube":"https://www.youtube.com/watch?v=gRII7LhdJWc",
+        "blog":"",
+        "practice":"https://www.naukri.com/code360/problems/sort-linked-list-of-0s-1s-2s_1071937",
+        "type":"codingninja"
+    },
+    {
+        "id":13,
+        "title":"Find the intersection point of Y LL",
+        "youtube":"https://www.youtube.com/watch?v=0DYoPz2Tpt4",
+        "blog":"https://takeuforward.org/data-structure/find-intersection-of-two-linked-lists/",
+        "practice":"https://leetcode.com/problems/intersection-of-two-linked-lists/",
+        "type":"leetcode"
+    },
+    {
+        "id":14,
         "title":"Add 1 to a number represented by LL",
         "youtube":"https://www.youtube.com/watch?v=aXQWhbvT3w0",
         "blog":"https://takeuforward.org/plus/dsa/problems/add-one-to-a-number-represented-by-ll?tab=editorial",
         "practice":"https://www.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1?",
         "type":"gfg"
+    },
+    {
+        "id":15,
+        "title":"Add 2 numbers in LL",
+        "youtube":"https://www.youtube.com/watch?v=XmRrGzR6udg",
+        "blog":"https://takeuforward.org/data-structure/add-two-numbers-represented-as-linked-lists/",
+        "practice":"https://leetcode.com/problems/add-two-numbers/",
+        "type":"leetcode"
     }
 ]

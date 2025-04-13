@@ -4,7 +4,31 @@
         "title":"Introduction to LinkedList, learn about struct, and how is node represented",
         "youtube":"https://www.youtube.com/watch?si=9PR1o8OPRWil7fRA&v=Nq7ok-OyEpg&feature=youtu.be",
         "blog":"https://takeuforward.org/linked-list/linked-list-introduction",
-        "practice":"",
+        "practice":"https://www.geeksforgeeks.org/problems/introduction-to-linked-list/1?page=1&category=Linked%20List&status=solved&sortBy=submissions",
+        "type":"gfg"
+    },
+    {
+        "id":2,
+        "title":"Inserting a node in LinkedList",
+        "youtube":"https://www.youtube.com/watch?v=VaECK03Dz-g",
+        "blog":"https://takeuforward.org/linked-list/insert-at-the-head-of-a-linked-list",
+        "practice":"https://www.geeksforgeeks.org/problems/linked-list-insertion-1587115620/1?page=1&category=Linked%20List&status=solved&sortBy=submissions",
+        "type":"gfg"
+    },
+    {
+        "id":3,
+        "title":"Deleting a node in LinkedList",
+        "youtube":"https://www.youtube.com/watch?v=VaECK03Dz-g",
+        "blog":"https://takeuforward.org/data-structure/delete-last-node-of-linked-list/",
+        "practice":"https://leetcode.com/problems/delete-node-in-a-linked-list/",
+        "type":"leetcode"
+    },
+    {
+        "id":4,
+        "title":"Find the length of the linkedlist [learn traversal]",
+        "youtube":"https://www.youtube.com/watch?v=Nq7ok-OyEpg",
+        "blog":"https://takeuforward.org/linked-list/find-the-length-of-a-linked-list",
+        "practice":"https://www.geeksforgeeks.org/problems/count-nodes-of-linked-list/1?page=1&category=Linked%20List&status=solved&sortBy=submissions",
         "type":"gfg"
     },
     {
