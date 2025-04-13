@@ -20,6 +20,14 @@ function A2Z() {
       {subtitle : 'Lec 2: Sorting-2', link: 'sheets/a2z-sheet/sorting/sorting2'},
     ],
   };
+  const inputBinaryTree = {
+    title : 'Step 13 : Binary Trees [Traversals, Medium and Hard Problems]',
+    sections:[
+      {subtitle : 'Lec 1: Traversals', link: 'sheets/a2z-sheet/binary-trees/traversals'},
+      {subtitle : 'Lec 2: Medium Problems', link: 'sheets/a2z-sheet/binary-trees/medium'},
+      {subtitle : 'Lec 3: Hard Problems', link: 'sheets/a2z-sheet/binary-trees/hard'}
+    ]
+  }
 
   return (
     <ThemeProvider theme={darkTheme}>
@@ -32,6 +40,7 @@ function A2Z() {
         </Box>
         <Reusable {...inputSort} />
         <Reusable {...inputArray} />
+        <Reusable {...inputBinaryTree} />
       </Container>
     </ThemeProvider>
   );
