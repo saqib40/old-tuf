@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "title": "User Input / Output",
+        "youtube": "https://www.youtube.com/watch?v=EAR7De6Goz4",
+        "blog": "https://takeuforward.org/c/c-basic-input-output/",
+        "practice": "",
+        "type": ""
+    },
+    {
+        "id": 2,
+        "title": "Data Types",
+        "youtube": "https://www.youtube.com/watch?v=EAR7De6Goz4",
+        "blog": "",
+        "practice": "",
+        "type": ""
+    },
+    {
+        "id": 3,
+        "title": "If Else statements",
+        "youtube": "https://www.youtube.com/watch?v=EAR7De6Goz4",
+        "blog": "https://takeuforward.org/if-else/if-else-statements/",
+        "practice": "",
+        "type": ""
+    },
+    {
+        "id": 4,
+        "title": "Switch Statement",
+        "youtube": "https://www.youtube.com/watch?v=EAR7De6Goz4",
+        "blog": "https://takeuforward.org/switch-case/switch-case-statements/",
+        "practice": "",
+        "type": ""
+    },
+    {
+        "id": 5,
+        "title": "What are arrays, strings?",
+        "youtube": "https://www.youtube.com/watch?v=EAR7De6Goz4",
+        "blog": "",
+        "practice": "",
+        "type": ""
+    },
+    {
+        "id": 6,
+        "title": "For loops",
+        "youtube": "https://www.youtube.com/watch?v=EAR7De6Goz4",
+        "blog": "https://takeuforward.org/for-loop/understanding-for-loop/",
+        "practice": "",
+        "type": ""
+    },
+    {
+        "id": 7,
+        "title": "While loops",
+        "youtube": "https://www.youtube.com/watch?v=EAR7De6Goz4",
+        "blog": "https://takeuforward.org/while-loop/while-loops-in-programming/",
+        "practice": "",
+        "type": ""
+    },
+    {
+        "id": 8,
+        "title": "Functions (Pass by Reference and Value)",
+        "youtube": "https://www.youtube.com/watch?v=EAR7De6Goz4",
+        "blog": "",
+        "practice": "",
+        "type": ""
+    },
+    {
+        "id": 9,
+        "title": "Time Complexity [Learn Basics, and then analyse in next Steps]",
+        "youtube": "https://www.youtube.com/watch?v=FPu9Uld7W-E",
+        "blog": "https://takeuforward.org/time-complexity/time-and-space-complexity-strivers-a2z-dsa-course/",
+        "practice": "",
+        "type": ""
+    }
+]

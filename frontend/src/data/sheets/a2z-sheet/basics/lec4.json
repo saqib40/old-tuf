@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "title": "Count Digits",
+        "youtube": "https://www.youtube.com/watch?v=1xNbjMdbjug",
+        "blog": "https://takeuforward.org/data-structure/count-digits-in-a-number/",
+        "practice": "",
+        "type": ""
+    },
+    {
+        "id": 2,
+        "title": "Reverse a Number",
+        "youtube": "https://www.youtube.com/watch?v=1xNbjMdbjug",
+        "blog": "https://takeuforward.org/maths/reverse-digits-of-a-number",
+        "practice": "https://leetcode.com/problems/reverse-integer/",
+        "type": "leetcode"
+    },
+    {
+        "id": 3,
+        "title": "Check Palindrome",
+        "youtube": "https://www.youtube.com/watch?v=1xNbjMdbjug",
+        "blog": "https://takeuforward.org/data-structure/check-if-a-number-is-palindrome-or-not/",
+        "practice": "https://leetcode.com/problems/palindrome-number/",
+        "type": "leetcode"
+    },
+    {
+        "id": 4,
+        "title": "GCD Or HCF",
+        "youtube": "https://www.youtube.com/watch?v=1xNbjMdbjug",
+        "blog": "https://takeuforward.org/data-structure/find-gcd-of-two-numbers/",
+        "practice": "",
+        "type": ""
+    },
+    {
+        "id": 5,
+        "title": "Armstrong Numbers",
+        "youtube": "https://www.youtube.com/watch?v=1xNbjMdbjug",
+        "blog": "https://takeuforward.org/maths/check-if-a-number-is-armstrong-number-or-not/",
+        "practice": "https://leetcode.com/problems/armstrong-number/",
+        "type": "leetcode"
+    },
+    {
+        "id": 6,
+        "title": "Print all Divisors",
+        "youtube": "https://www.youtube.com/watch?v=1xNbjMdbjug",
+        "blog": "https://takeuforward.org/data-structure/print-all-divisors-of-a-given-number/",
+        "practice": "",
+        "type": ""
+    },
+    {
+        "id": 7,
+        "title": "Check for Prime",
+        "youtube": "https://www.youtube.com/watch?v=1xNbjMdbjug",
+        "blog": "https://takeuforward.org/data-structure/check-if-a-number-is-prime-or-not/",
+        "practice": "",
+        "type": ""
+    }
+]

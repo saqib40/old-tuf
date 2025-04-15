@@ -1,0 +1,58 @@
+[
+    {
+        "id":1,
+        "title":"Remove outermost Paranthesis",
+        "youtube":"",
+        "blog":"https://takeuforward.org/data-structure/reverse-words-in-a-string/",
+        "practice":"https://leetcode.com/problems/remove-outermost-parentheses/",
+        "type":"leetcode"
+    },
+    {
+        "id":2,
+        "title":"Reverse words in a given string / Palindrome Check",
+        "youtube":"",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/reverse-words-in-a-string/",
+        "type":"leetcode"
+    },
+    {
+        "id":3,
+        "title":"Largest odd number in a string",
+        "youtube":"",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/largest-odd-number-in-string/",
+        "type":"leetcode"
+    },
+    {
+        "id":4,
+        "title":"Longest Common Prefix",
+        "youtube":"",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/longest-common-prefix/",
+        "type":"leetcode"
+    },
+    {
+        "id":5,
+        "title":"Isomorphic String",
+        "youtube":"",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/isomorphic-strings/",
+        "type":"gfg"
+    },
+    {
+        "id":6,
+        "title":"Check whether one string is a rotation of another",
+        "youtube":"",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/rotate-string/",
+        "type":"leetcode"
+    },
+    {
+        "id":7,
+        "title":"Check if two strings are anagram of each other",
+        "youtube":"",
+        "blog":"https://takeuforward.org/data-structure/check-if-two-strings-are-anagrams-of-each-other/",
+        "practice":"https://leetcode.com/problems/valid-anagram/#:~:text=Given%20two%20strings%20s%20and,the%20original%20letters%20exactly%20once.&text=Constraints%3A,.length%20%3C%3D%205%20*%2010",
+        "type":"leetcode"
+    }
+]

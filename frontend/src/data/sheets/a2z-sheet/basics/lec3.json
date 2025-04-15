@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "title": "C++ STL",
+        "youtube": "https://www.youtube.com/watch?v=RRVYpIET_RU",
+        "blog": "",
+        "practice": "",
+        "type": ""
+    },
+    {
+        "id": 2,
+        "title": "Java Collections",
+        "youtube": "",
+        "blog": "",
+        "practice": "",
+        "type": ""
+    }
+]

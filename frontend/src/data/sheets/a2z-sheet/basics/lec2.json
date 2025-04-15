@@ -1,0 +1,178 @@
+[
+    {
+        "id": 1,
+        "title": "N-Forest",
+        "youtube": "https://www.youtube.com/watch?v=tNm_NNSB3_w",
+        "blog": "https://takeuforward.org/pattern/pattern-1-rectangular-star-pattern/",
+        "practice": "https://www.naukri.com/code360/problems/n-forest_6570177?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_patternproblems",
+        "type": "codingninja"
+    },
+    {
+        "id": 2,
+        "title": "N/2-Forest",
+        "youtube": "https://www.youtube.com/watch?v=tNm_NNSB3_w",
+        "blog": "https://takeuforward.org/pattern/pattern-2-right-angled-triangle-pattern/",
+        "practice": "https://www.naukri.com/code360/problems/n-2-forest_6570178?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_patternproblems",
+        "type": "codingninja"
+    },
+    {
+        "id": 3,
+        "title": "N-Triangles",
+        "youtube": "https://www.youtube.com/watch?v=tNm_NNSB3_w",
+        "blog": "https://takeuforward.org/pattern/pattern-3-right-angled-number-pyramid/",
+        "practice": "https://www.naukri.com/code360/problems/n-triangles_6573689?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_patternproblems",
+        "type": "codingninja"
+    },
+    {
+        "id": 4,
+        "title": "Triangle",
+        "youtube": "https://www.youtube.com/watch?v=tNm_NNSB3_w",
+        "blog": "https://takeuforward.org/pattern/pattern-4-right-angled-number-pyramid-ii/",
+        "practice": "https://www.naukri.com/code360/problems/triangle_6573690?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_patternproblems",
+        "type": "codingninja"
+    },
+    {
+        "id": 5,
+        "title": "Seeding",
+        "youtube": "https://www.youtube.com/watch?v=tNm_NNSB3_w",
+        "blog": "https://takeuforward.org/pattern/pattern-5-inverted-right-pyramid/",
+        "practice": "https://www.naukri.com/code360/problems/seeding_6581892?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_patternproblems",
+        "type": "codingninja"
+    },
+    {
+        "id": 6,
+        "title": "Reverse Number Triangle",
+        "youtube": "https://www.youtube.com/watch?v=tNm_NNSB3_w",
+        "blog": "https://takeuforward.org/pattern/pattern-6-inverted-numbered-right-pyramid/",
+        "practice": "https://www.naukri.com/code360/problems/reverse-number-triangle_6581889?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_patternproblems",
+        "type": "codingninja"
+    },
+    {
+        "id": 7,
+        "title": "Star Triangle",
+        "youtube": "https://www.youtube.com/watch?v=tNm_NNSB3_w",
+        "blog": "https://takeuforward.org/pattern/pattern-7-star-pyramid/",
+        "practice": "https://www.naukri.com/code360/problems/star-triangle_6573671?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_patternproblems",
+        "type": "codingninja"
+    },
+    {
+        "id": 8,
+        "title": "Reverse Star Triangle",
+        "youtube": "https://www.youtube.com/watch?v=tNm_NNSB3_w",
+        "blog": "https://takeuforward.org/pattern/pattern-8-inverted-star-pyramid/",
+        "practice": "https://www.naukri.com/code360/problems/reverse-star-triangle_6573685?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_patternproblems",
+        "type": "codingninja"
+    },
+    {
+        "id": 9,
+        "title": "Star Diamond",
+        "youtube": "https://www.youtube.com/watch?v=tNm_NNSB3_w",
+        "blog": "https://takeuforward.org/pattern/pattern-9-diamond-star-pattern/",
+        "practice": "https://www.naukri.com/code360/problems/star-diamond_6573686?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_patternproblems",
+        "type": "codingninja"
+    },
+    {
+        "id": 10,
+        "title": "Rotated Triangle",
+        "youtube": "https://www.youtube.com/watch?v=tNm_NNSB3_w",
+        "blog": "https://takeuforward.org/pattern/pattern-10-half-diamond-star-pattern/",
+        "practice": "https://www.naukri.com/code360/problems/rotated-triangle_6573688?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_patternproblems",
+        "type": "codingninja"
+    },
+    {
+        "id": 11,
+        "title": "Binary Number Triangle",
+        "youtube": "https://www.youtube.com/watch?v=tNm_NNSB3_w",
+        "blog": "https://takeuforward.org/pattern/pattern-11-binary-number-triangle-pattern/",
+        "practice": "https://www.naukri.com/code360/problems/binary-number-triangle_6581890?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_patternproblems",
+        "type": "codingninja"
+    },
+    {
+        "id": 12,
+        "title": "Number Crown",
+        "youtube": "https://www.youtube.com/watch?v=tNm_NNSB3_w",
+        "blog": "https://takeuforward.org/pattern/pattern-12-number-crown-pattern/",
+        "practice": "https://www.naukri.com/code360/problems/number-crown_6581894?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_patternproblems",
+        "type": "codingninja"
+    },
+    {
+        "id": 13,
+        "title": "Increasing Number Triangle",
+        "youtube": "https://www.youtube.com/watch?v=tNm_NNSB3_w",
+        "blog": "https://takeuforward.org/pattern/pattern-13-increasing-number-triangle-pattern/",
+        "practice": "https://www.naukri.com/code360/problems/increasing-number-triangle_6581893?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_patternproblems",
+        "type": "codingninja"
+    },
+    {
+        "id": 14,
+        "title": "Increasing Letter Triangle",
+        "youtube": "https://www.youtube.com/watch?v=tNm_NNSB3_w",
+        "blog": "https://takeuforward.org/pattern/pattern-14-increasing-letter-triangle-pattern/",
+        "practice": "https://www.naukri.com/code360/problems/increasing-letter-triangle_6581897?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_patternproblems",
+        "type": "codingninja"
+    },
+    {
+        "id": 15,
+        "title": "Reverse Letter Triangle",
+        "youtube": "https://www.youtube.com/watch?v=tNm_NNSB3_w",
+        "blog": "https://takeuforward.org/pattern/pattern-15-reverse-letter-triangle-pattern/",
+        "practice": "https://www.naukri.com/code360/problems/reverse-letter-triangle_6581906?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_patternproblems",
+        "type": "codingninja"
+    },
+    {
+        "id": 16,
+        "title": "Alpha-Ramp",
+        "youtube": "https://www.youtube.com/watch?v=tNm_NNSB3_w",
+        "blog": "https://takeuforward.org/pattern/pattern-16-alpha-ramp-pattern/",
+        "practice": "https://www.naukri.com/code360/problems/alpha-ramp_6581888?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_patternproblems",
+        "type": "codingninja"
+    },
+    {
+        "id": 17,
+        "title": "Alpha Hill",
+        "youtube": "https://www.youtube.com/watch?v=tNm_NNSB3_w",
+        "blog": "https://takeuforward.org/pattern/pattern-17-alpha-hill-pattern/",
+        "practice": "https://www.naukri.com/code360/problems/alpha-hill_6581921?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_patternproblems",
+        "type": "codingninja"
+    },
+    {
+        "id": 18,
+        "title": "Alpha-Triangle",
+        "youtube": "https://www.youtube.com/watch?v=tNm_NNSB3_w",
+        "blog": "https://takeuforward.org/pattern/pattern-18-alpha-triangle-pattern/",
+        "practice": "https://www.naukri.com/code360/problems/alpha-triangle_6581429?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_patternproblems",
+        "type": "codingninja"
+    },
+    {
+        "id": 19,
+        "title": "Symmetric Void",
+        "youtube": "https://www.youtube.com/watch?v=tNm_NNSB3_w",
+        "blog": "https://takeuforward.org/pattern/pattern-19-symmetric-void-pattern/",
+        "practice": "https://www.naukri.com/code360/problems/symmetric-void_6581919?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_patternproblems",
+        "type": "codingninja"
+    },
+    {
+        "id": 20,
+        "title": "Symmetry",
+        "youtube": "https://www.youtube.com/watch?v=tNm_NNSB3_w",
+        "blog": "https://takeuforward.org/pattern/pattern-20-symmetric-butterfly-pattern/",
+        "practice": "https://www.naukri.com/code360/problems/symmetry_6581914?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_patternproblems",
+        "type": "codingninja"
+    },
+    {
+        "id": 21,
+        "title": "Ninja And The Star Pattern I",
+        "youtube": "https://www.youtube.com/watch?v=tNm_NNSB3_w",
+        "blog": "https://takeuforward.org/pattern/pattern-21-hollow-rectangle-pattern/",
+        "practice": "https://www.naukri.com/code360/problems/ninja-and-the-star-pattern-i_6581920?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_patternproblems",
+        "type": "codingninja"
+    },
+    {
+        "id": 22,
+        "title": "Ninja And The Number Pattern",
+        "youtube": "https://www.youtube.com/watch?v=tNm_NNSB3_w",
+        "blog": "https://takeuforward.org/pattern/pattern-22-the-number-pattern/",
+        "practice": "https://www.naukri.com/code360/problems/ninja-and-the-number-pattern-i_6581959?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_patternproblems",
+        "type": "codingninja"
+    }
+]

@@ -1,0 +1,66 @@
+[
+    {
+        "id":1,
+        "title":"Sort Characters by frequency",
+        "youtube":"",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/sort-characters-by-frequency/",
+        "type":"leetcode"
+    },
+    {
+        "id":2,
+        "title":"Maximum Nesting Depth of Paranthesis",
+        "youtube":"",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/",
+        "type":"leetcode"
+    },
+    {
+        "id":3,
+        "title":"Roman Number to Integer and vice versa",
+        "youtube":"",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/roman-to-integer/",
+        "type":"leetcode"
+    },
+    {
+        "id":4,
+        "title":"Implement Atoi",
+        "youtube":"",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/string-to-integer-atoi/",
+        "type":"leetcode"
+    },
+    {
+        "id":5,
+        "title":"Count Number of Substrings",
+        "youtube":"",
+        "blog":"",
+        "practice":"",
+        "type":""
+    },
+    {
+        "id":6,
+        "title":"Longest Palindromic Substring[Do it without DP]",
+        "youtube":"",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/longest-palindromic-substring/",
+        "type":"leetcode"
+    },
+    {
+        "id":7,
+        "title":"Sum of Beauty of all substring",
+        "youtube":"",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/sum-of-beauty-of-all-substrings/",
+        "type":"leetcode"
+    },
+    {
+        "id":8,
+        "title":"Reverse Every Word in A String",
+        "youtube":"",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/reverse-words-in-a-string/",
+        "type":"leetcode"
+    }
+]

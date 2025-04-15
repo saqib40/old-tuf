@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Hashing Theory",
+        "youtube": "https://www.youtube.com/watch?v=KEs5UyBJ39g",
+        "blog": "https://takeuforward.org/hashing/hashing-maps-time-complexity-collisions-division-rule-of-hashing-strivers-a2z-dsa-course/",
+        "practice": "",
+        "type": ""
+    },
+    {
+        "id": 2,
+        "title": "Counting frequencies of array elements",
+        "youtube": "",
+        "blog": "https://takeuforward.org/data-structure/count-frequency-of-each-element-in-the-array/",
+        "practice": "",
+        "type": ""
+    },
+    {
+        "id": 3,
+        "title": "Find the highest/lowest frequency element",
+        "youtube": "",
+        "blog": "https://takeuforward.org/arrays/find-the-highest-lowest-frequency-element/",
+        "practice": "https://leetcode.com/problems/frequency-of-the-most-frequent-element/",
+        "type": "leetcode"
+    }
+]

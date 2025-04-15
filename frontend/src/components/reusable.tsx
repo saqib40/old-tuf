@@ -39,7 +39,7 @@ interface Question {
   youtube: string;
   blog: string;
   practice: string;
-  type: 'gfg' | 'leetcode' | 'codingninja';
+  type: 'gfg' | 'leetcode' | 'codingninja' | '';
 }
 
 interface Section {
@@ -226,37 +226,55 @@ function Reusable({ title, sections }: Input) {
                                 {question.title}
                               </TableCell>
                               <TableCell align="center">
-                                <IconButton
-                                  href={question.youtube}
-                                  target="_blank"
-                                  rel="noopener"
-                                  sx={{ color: 'orange' }}
-                                >
-                                  <YouTubeIcon />
-                                </IconButton>
+                                {question.youtube && question.youtube.trim() ? (
+                                  <IconButton
+                                    href={question.youtube}
+                                    target="_blank"
+                                    rel="noopener"
+                                    sx={{ color: 'orange' }}
+                                  >
+                                    <YouTubeIcon />
+                                  </IconButton>
+                                ) : (
+                                  <Typography variant="body2" sx={{ color: 'grey.400' }}>
+                                    -
+                                  </Typography>
+                                )}
                               </TableCell>
                               <TableCell align="center">
-                                <IconButton
-                                  href={question.blog}
-                                  target="_blank"
-                                  rel="noopener"
-                                  sx={{ color: 'grey.400' }}
-                                >
-                                  <DescriptionIcon />
-                                </IconButton>
+                                {question.blog && question.blog.trim() ? (
+                                  <IconButton
+                                    href={question.blog}
+                                    target="_blank"
+                                    rel="noopener"
+                                    sx={{ color: 'grey.400' }}
+                                  >
+                                    <DescriptionIcon />
+                                  </IconButton>
+                                ) : (
+                                  <Typography variant="body2" sx={{ color: 'grey.400' }}>
+                                    -
+                                  </Typography>
+                                )}
                               </TableCell>
                               <TableCell align="center">
-                                <IconButton
-                                  href={question.practice}
-                                  target="_blank"
-                                  rel="noopener"
-                                >
-                                  <Avatar
-                                    src={getPracticeLogo(question.type)}
-                                    alt={`${question.type} logo`}
-                                    sx={{ width: 24, height: 24 }}
-                                  />
-                                </IconButton>
+                                {question.practice && question.practice.trim() && question.type && question.type.trim() ? (
+                                  <IconButton
+                                    href={question.practice}
+                                    target="_blank"
+                                    rel="noopener"
+                                  >
+                                    <Avatar
+                                      src={getPracticeLogo(question.type)}
+                                      alt={`${question.type} logo`}
+                                      sx={{ width: 24, height: 24 }}
+                                    />
+                                  </IconButton>
+                                ) : (
+                                  <Typography variant="body2" sx={{ color: 'grey.400' }}>
+                                    -
+                                  </Typography>
+                                )}
                               </TableCell>
                             </TableRow>
                           ))

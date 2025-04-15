@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "title": "Understand recursion by print something N times",
+        "youtube": "https://www.youtube.com/watch?v=yVdKa8dnKiE",
+        "blog": "https://takeuforward.org/recursion/introduction-to-recursion-understand-recursion-by-printing-something-n-times/",
+        "practice": "",
+        "type": ""
+    },
+    {
+        "id": 2,
+        "title": "Print name N times using recursion",
+        "youtube": "https://www.youtube.com/watch?v=un6PLygfXrA",
+        "blog": "https://takeuforward.org/recursion/print-name-n-times-using-recursion/",
+        "practice": "",
+        "type": ""
+    },
+    {
+        "id": 3,
+        "title": "Print 1 to N using recursion",
+        "youtube": "https://www.youtube.com/watch?v=un6PLygfXrA",
+        "blog": "https://takeuforward.org/recursion/print-1-to-n-using-recursion/",
+        "practice": "",
+        "type": ""
+    },
+    {
+        "id": 4,
+        "title": "Print N to 1 using recursion",
+        "youtube": "https://www.youtube.com/watch?v=un6PLygfXrA",
+        "blog": "https://takeuforward.org/recursion/print-n-to-1-using-recursion/",
+        "practice": "",
+        "type": ""
+    },
+    {
+        "id": 5,
+        "title": "Sum of first N numbers",
+        "youtube": "https://www.youtube.com/watch?v=69ZCDFy-OUo",
+        "blog": "https://takeuforward.org/data-structure/sum-of-first-n-natural-numbers/",
+        "practice": "",
+        "type": ""
+    },
+    {
+        "id": 6,
+        "title": "Factorial of N numbers",
+        "youtube": "https://www.youtube.com/watch?v=69ZCDFy-OUo",
+        "blog": "https://takeuforward.org/data-structure/factorial-of-a-number-iterative-and-recursive/",
+        "practice": "",
+        "type": ""
+    },
+    {
+        "id": 7,
+        "title": "Reverse an array",
+        "youtube": "https://www.youtube.com/watch?v=twuC1F6gLI8",
+        "blog": "https://takeuforward.org/data-structure/reverse-a-given-array/",
+        "practice": "",
+        "type": ""
+    },
+    {
+        "id": 8,
+        "title": "Check if a string is palindrome or not",
+        "youtube": "https://www.youtube.com/watch?v=twuC1F6gLI8",
+        "blog": "https://takeuforward.org/data-structure/check-if-the-given-string-is-palindrome-or-not/",
+        "practice": "https://leetcode.com/problems/valid-palindrome/",
+        "type": "leetcode"
+    },
+    {
+        "id": 9,
+        "title": "Fibonacci Number",
+        "youtube": "https://www.youtube.com/watch?v=kvRjNm4rVBE",
+        "blog": "https://takeuforward.org/arrays/print-fibonacci-series-up-to-nth-term/",
+        "practice": "https://leetcode.com/problems/fibonacci-number/",
+        "type": "leetcode"
+    }
+]
