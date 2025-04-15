@@ -61,7 +61,7 @@ function A2Z() {
     sections : [
       {subtitle : 'Lec 1: BS on 1D Arrays', link: "sheets/a2z-sheet/binary-search/lec1"},
       {subtitle : 'Lec 2: BS on Answers', link: "sheets/a2z-sheet/binary-search/lec2"},
-      {subtitle : 'Lec 2: BS on 2D Arrays', link: "sheets/a2z-sheet/binary-search/lec2"}
+      {subtitle : 'Lec 2: BS on 2D Arrays', link: "sheets/a2z-sheet/binary-search/lec3"}
     ]
   }
 
