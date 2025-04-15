@@ -1,0 +1,42 @@
+[
+    {
+        "id":1,
+        "title":"Find the row with maximum number of 1's",
+        "youtube":"https://www.youtube.com/watch?v=SCz-1TtYxDI",
+        "blog":"https://takeuforward.org/arrays/find-the-row-with-maximum-number-of-1s/",
+        "practice":"https://www.naukri.com/code360/problems/row-with-maximum-1-s_1112656",
+        "type":"codingninja"
+    },
+    {
+        "id":2,
+        "title":"Search in a 2D matrix",
+        "youtube":"https://www.youtube.com/watch?v=JXU4Akft7yk",
+        "blog":"https://takeuforward.org/data-structure/search-in-a-sorted-2d-matrix/",
+        "practice":"https://leetcode.com/problems/search-a-2d-matrix/",
+        "type":"leetcode"
+    },
+    {
+        "id":3,
+        "title":"Search in a row and column wise sorted matrix",
+        "youtube":"https://www.youtube.com/watch?v=9ZbB397jU4k",
+        "blog":"https://takeuforward.org/arrays/search-in-a-row-and-column-wise-sorted-matrix/",
+        "practice":"https://leetcode.com/problems/search-a-2d-matrix-ii/",
+        "type":"leetcode"
+    },
+    {
+        "id":4,
+        "title":"Find Peak Element (2D Matrix)",
+        "youtube":"https://www.youtube.com/watch?v=nGGp5XBzC4g",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/find-a-peak-element-ii/",
+        "type":"leetcode"
+    },
+    {
+        "id":5,
+        "title":"Matrix Median",
+        "youtube":"https://www.youtube.com/watch?v=Q9wXgdxJq48",
+        "blog":"https://takeuforward.org/data-structure/median-of-row-wise-sorted-matrix/",
+        "practice":"https://www.naukri.com/code360/problems/median-of-a-row-wise-sorted-matrix_1115473",
+        "type":"codingninja"
+    }
+]

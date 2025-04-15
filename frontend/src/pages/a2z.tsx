@@ -56,6 +56,14 @@ function A2Z() {
       {subtitle : 'Lec 2: Medium String Problems', link: "sheets/a2z-sheet/strings/lec2"}
     ]
   }
+  const binarySearch = {
+    title : "Step 4 : Binary Search [1D, 2D Arrays, Search Space]",
+    sections : [
+      {subtitle : 'Lec 1: BS on 1D Arrays', link: "sheets/a2z-sheet/binary-search/lec1"},
+      {subtitle : 'Lec 2: BS on Answers', link: "sheets/a2z-sheet/binary-search/lec2"},
+      {subtitle : 'Lec 2: BS on 2D Arrays', link: "sheets/a2z-sheet/binary-search/lec2"}
+    ]
+  }
 
   return (
     <ThemeProvider theme={darkTheme}>
@@ -69,6 +77,7 @@ function A2Z() {
         <Reusable {...basics} />
         <Reusable {...inputSort} />
         <Reusable {...inputArray} />
+        <Reusable {...binarySearch} />
         <Reusable {...inputString} />
         <Reusable {...inputll} />
         <Reusable {...inputBinaryTree} />

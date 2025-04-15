@@ -1,0 +1,114 @@
+[
+    {
+        "id":1,
+        "title":"Find square root of a number in log n",
+        "youtube":"https://www.youtube.com/watch?v=Bsv3FPUX_BA",
+        "blog":"https://takeuforward.org/binary-search/finding-sqrt-of-a-number-using-binary-search/",
+        "practice":"https://www.naukri.com/code360/problems/square-root-integral_893351",
+        "type":"codingninja"
+    },
+    {
+        "id":2,
+        "title":"Find the Nth root of a number using binary search",
+        "youtube":"https://www.youtube.com/watch?v=rjEJeYCasHs",
+        "blog":"https://takeuforward.org/data-structure/nth-root-of-a-number-using-binary-search/",
+        "practice":"https://www.naukri.com/code360/problems/nth-root-of-m_1062679",
+        "type":"codingninja"
+    },
+    {
+        "id":3,
+        "title":"Koko Eating Bananas",
+        "youtube":"https://www.youtube.com/watch?v=qyfekrNni90",
+        "blog":"https://takeuforward.org/binary-search/koko-eating-bananas/",
+        "practice":"https://leetcode.com/problems/koko-eating-bananas/",
+        "type":"leetcode"
+    },
+    {
+        "id":4,
+        "title":"Minimum days to make M bouquets",
+        "youtube":"https://www.youtube.com/watch?v=TXAuxeYBTdg",
+        "blog":"https://takeuforward.org/arrays/minimum-days-to-make-m-bouquets/",
+        "practice":"https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/",
+        "type":"leetcode"
+    },
+    {
+        "id":5,
+        "title":"Find the smallest Divisor",
+        "youtube":"https://www.youtube.com/watch?v=UvBKTVaG6U8",
+        "blog":"https://takeuforward.org/arrays/find-the-smallest-divisor-given-a-threshold/",
+        "practice":"https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/",
+        "type":"leetcode"
+    },
+    {
+        "id":6,
+        "title":"Capacity to Ship Packages within D Days",
+        "youtube":"https://www.youtube.com/watch?v=MG-Ac4TAvTY",
+        "blog":"https://takeuforward.org/arrays/capacity-to-ship-packages-within-d-days/",
+        "practice":"https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/",
+        "type":"leetcode"
+    },
+    {
+        "id":7,
+        "title":"Kth Missing Positive Number",
+        "youtube":"https://www.youtube.com/watch?v=uZ0N_hZpyps",
+        "blog":"https://takeuforward.org/arrays/kth-missing-positive-number/",
+        "practice":"https://leetcode.com/problems/kth-missing-positive-number/description/",
+        "type":"leetcode"
+    },
+    {
+        "id":8,
+        "title":"Aggressive Cows",
+        "youtube":"https://www.youtube.com/watch?v=R_Mfw4ew-Vo",
+        "blog":"https://takeuforward.org/data-structure/aggressive-cows-detailed-solution/",
+        "practice":"https://www.geeksforgeeks.org/problems/aggressive-cows/0",
+        "type":"gfg"
+    },
+    {
+        "id":9,
+        "title":"Book Allocation Problem",
+        "youtube":"https://www.youtube.com/watch?v=Z0hwjftStI4",
+        "blog":"https://takeuforward.org/data-structure/allocate-minimum-number-of-pages/",
+        "practice":"",
+        "type":"leetcode"
+    },
+    {
+        "id":10,
+        "title":"Split array - Largest Sum",
+        "youtube":"https://www.youtube.com/watch?v=thUd_WJn6wk",
+        "blog":"https://takeuforward.org/arrays/split-array-largest-sum/",
+        "practice":"https://leetcode.com/problems/split-array-largest-sum/",
+        "type":"leetcode"
+    },
+    {
+        "id":11,
+        "title":"Painter's partition",
+        "youtube":"https://www.youtube.com/watch?v=thUd_WJn6wk",
+        "blog":"https://takeuforward.org/arrays/painters-partition-problem/",
+        "practice":"https://www.naukri.com/code360/problems/painter-s-partition-problem_1089557",
+        "type":"codingninja"
+    },
+    {
+        "id":12,
+        "title":"Minimize Max Distance to Gas Station",
+        "youtube":"https://www.youtube.com/watch?v=kMSBvlZ-_HA",
+        "blog":"https://takeuforward.org/arrays/minimise-maximum-distance-between-gas-stations/",
+        "practice":"https://leetcode.com/problems/minimize-max-distance-to-gas-station/",
+        "type":"leetcode"
+    },
+    {
+        "id":13,
+        "title":"Median of 2 sorted arrays",
+        "youtube":"https://www.youtube.com/watch?v=C2rRzz-JDk8",
+        "blog":"https://takeuforward.org/data-structure/median-of-two-sorted-arrays-of-different-sizes/",
+        "practice":"https://leetcode.com/problems/median-of-two-sorted-arrays/",
+        "type":"leetcode"
+    },
+    {
+        "id":14,
+        "title":"Kth element of 2 sorted arrays",
+        "youtube":"https://www.youtube.com/watch?v=D1oDwWCq50g",
+        "blog":"https://takeuforward.org/data-structure/k-th-element-of-two-sorted-arrays/",
+        "practice":"https://www.naukri.com/code360/problems/k-th-element-of-2-sorted-array_1164159",
+        "type":"codingninja"
+    }
+]

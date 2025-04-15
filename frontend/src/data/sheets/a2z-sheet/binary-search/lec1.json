@@ -1,0 +1,106 @@
+[
+    {
+        "id":1,
+        "title":"Binary Search to find X in sorted array",
+        "youtube":"https://www.youtube.com/watch?v=MHf6awe89xw",
+        "blog":"https://takeuforward.org/data-structure/binary-search-explained/",
+        "practice":"https://leetcode.com/problems/binary-search/",
+        "type":"leetcode"
+    },
+    {
+        "id":2,
+        "title":"Implement Lower Bound",
+        "youtube":"https://www.youtube.com/watch?v=6zhGS79oQ4k",
+        "blog":"https://takeuforward.org/arrays/implement-lower-bound-bs-2/",
+        "practice":"https://www.naukri.com/code360/problems/lower-bound_8165382",
+        "type":"codingninja"
+    },
+    {
+        "id":3,
+        "title":"Implement Upper Bound",
+        "youtube":"https://www.youtube.com/watch?v=6zhGS79oQ4k",
+        "blog":"https://takeuforward.org/arrays/implement-upper-bound/",
+        "practice":"https://www.naukri.com/code360/problems/implement-upper-bound_8165383",
+        "type":"codingninja"
+    },
+    {
+        "id":4,
+        "title":"Search Insert Position",
+        "youtube":"https://www.youtube.com/watch?v=6zhGS79oQ4k",
+        "blog":"https://takeuforward.org/arrays/search-insert-position/",
+        "practice":"https://leetcode.com/problems/search-insert-position/description/",
+        "type":"leetcode"
+    },
+    {
+        "id":5,
+        "title":"Floor/Ceil in Sorted Array",
+        "youtube":"https://www.youtube.com/watch?v=6zhGS79oQ4k",
+        "blog":"https://takeuforward.org/arrays/floor-and-ceil-in-sorted-array/",
+        "practice":"https://www.naukri.com/code360/problems/ceiling-in-a-sorted-array_1825401",
+        "type":"codingninja"
+    },
+    {
+        "id":6,
+        "title":"Find the first or last occurrence of a given number in a sorted array",
+        "youtube":"https://www.youtube.com/watch?v=hjR1IYVx9lY",
+        "blog":"https://takeuforward.org/data-structure/last-occurrence-in-a-sorted-array/",
+        "practice":"https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/",
+        "type":"leetcode"
+    },
+    {
+        "id":7,
+        "title":"Count occurrences of a number in a sorted array with duplicates",
+        "youtube":"https://www.youtube.com/watch?v=hjR1IYVx9lY",
+        "blog":"https://takeuforward.org/data-structure/count-occurrences-in-sorted-array/",
+        "practice":"https://www.geeksforgeeks.org/problems/number-of-occurrence2259/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":8,
+        "title":"Search in Rotated Sorted Array I",
+        "youtube":"https://www.youtube.com/watch?v=5qGrJbHhqFs",
+        "blog":"https://takeuforward.org/data-structure/search-element-in-a-rotated-sorted-array/",
+        "practice":"https://leetcode.com/problems/search-in-rotated-sorted-array/",
+        "type":"leetcode"
+    },
+    {
+        "id":9,
+        "title":"Search in Rotated Sorted Array II",
+        "youtube":"https://www.youtube.com/watch?v=w2G2W8l__pc",
+        "blog":"https://takeuforward.org/arrays/search-element-in-rotated-sorted-array-ii/",
+        "practice":"https://leetcode.com/problems/search-in-rotated-sorted-array-ii/",
+        "type":"leetcode"
+    },
+    {
+        "id":10,
+        "title":"Find minimum in Rotated Sorted Array",
+        "youtube":"https://www.youtube.com/watch?v=nhEMDKMB44g",
+        "blog":"https://takeuforward.org/data-structure/minimum-in-rotated-sorted-array/",
+        "practice":"https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+        "type":"leetcode"
+    },
+    {
+        "id":11,
+        "title":"Find out how many times has an array been rotated",
+        "youtube":"https://www.youtube.com/watch?v=jtSiWTPLwd0",
+        "blog":"https://takeuforward.org/arrays/find-out-how-many-times-the-array-has-been-rotated/",
+        "practice":"https://www.geeksforgeeks.org/problems/inversion-of-array-1587115620/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":12,
+        "title":"Single element in a Sorted Array",
+        "youtube":"https://www.youtube.com/watch?v=AZOmHuHadxQ",
+        "blog":"https://takeuforward.org/data-structure/search-single-element-in-a-sorted-array/",
+        "practice":"https://leetcode.com/problems/single-element-in-a-sorted-array/",
+        "type":"leetcode"
+    },
+    {
+        "id":13,
+        "title":"Find peak element",
+        "youtube":"https://www.youtube.com/watch?v=cXxmbemS6XM",
+        "blog":"https://takeuforward.org/data-structure/peak-element-in-array/",
+        "practice":"https://leetcode.com/problems/find-peak-element/description/",
+        "type":"leetcode"
+    }
+]
