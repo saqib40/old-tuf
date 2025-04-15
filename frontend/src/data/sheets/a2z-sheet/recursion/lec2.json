@@ -1,0 +1,98 @@
+[
+    {
+        "id":1,
+        "title":"Generate all binary strings",
+        "youtube":"",
+        "blog":"",
+        "practice":"",
+        "type":""
+    },
+    {
+        "id":2,
+        "title":"Generate Paranthesis",
+        "youtube":"",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/generate-parentheses/",
+        "type":"leetcode"
+    },
+    {
+        "id":3,
+        "title":"Print all subsequences/Power Set",
+        "youtube":"https://www.youtube.com/watch?v=b7AYbpM5YrE",
+        "blog":"https://takeuforward.org/data-structure/power-set-print-all-the-possible-subsequences-of-the-string/",
+        "practice":"https://leetcode.com/problems/subsets/",
+        "type":"leetcode"
+    },
+    {
+        "id":4,
+        "title":"Learn All Patterns of Subsequences (Theory)",
+        "youtube":"https://www.youtube.com/watch?v=eQCS_v3bw0Q",
+        "blog":"",
+        "practice":"",
+        "type":""
+    },
+    {
+        "id":5,
+        "title":"Count all subsequences with sum K",
+        "youtube":"",
+        "blog":"",
+        "practice":"",
+        "type":""
+    },
+    {
+        "id":6,
+        "title":"Check if there exists a subsequence with sum K",
+        "youtube":"",
+        "blog":"",
+        "practice":"",
+        "type":""
+    },
+    {
+        "id":7,
+        "title":"Combination Sum",
+        "youtube":"https://www.youtube.com/watch?v=OyZFFqQtu98",
+        "blog":"https://takeuforward.org/data-structure/combination-sum-1/",
+        "practice":"https://leetcode.com/problems/combination-sum/",
+        "type":"leetcode"
+    },
+    {
+        "id":8,
+        "title":"Combination Sum-II",
+        "youtube":"https://www.youtube.com/watch?v=G1fRTGRxXU8",
+        "blog":"https://takeuforward.org/data-structure/combination-sum-ii-find-all-unique-combinations/",
+        "practice":"https://leetcode.com/problems/combination-sum-ii/",
+        "type":"leetcode"
+    },
+    {
+        "id":9,
+        "title":"Subset Sum-I",
+        "youtube":"https://www.youtube.com/watch?v=rYkfBRtMJr8",
+        "blog":"https://takeuforward.org/data-structure/subset-sum-sum-of-all-subsets/",
+        "practice":"",
+        "type":""
+    },
+    {
+        "id":10,
+        "title":"Subset Sum-II",
+        "youtube":"https://www.youtube.com/watch?v=RIn3gOkbhQE",
+        "blog":"https://takeuforward.org/data-structure/subset-ii-print-all-the-unique-subsets/",
+        "practice":"https://leetcode.com/problems/subsets-ii/",
+        "type":"leetcode"
+    },
+    {
+        "id":11,
+        "title":"Combination Sum - III",
+        "youtube":"",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/combination-sum-iii/",
+        "type":"leetcode"
+    },
+    {
+        "id":12,
+        "title":"Letter Combinations of a Phone number",
+        "youtube":"",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+        "type":"leetcode"
+    }
+]

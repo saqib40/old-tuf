@@ -15,7 +15,8 @@ function A2Z() {
       {subtitle: 'Lec 5: Learn Basic Recursion', link: 'sheets/a2z-sheet/basics/lec5'},
       {subtitle: 'Lec 6: Learn Basic Hashing', link: 'sheets/a2z-sheet/basics/lec6'}
     ]
-  }
+  };
+
   const inputArray = {
     title: 'Step 3 : Solve Problems on Arrays [Easy -> Medium -> Hard]',
     sections: [
@@ -24,6 +25,7 @@ function A2Z() {
       { subtitle: 'Hard', link: 'sheets/a2z-sheet/arrays/hard' },
     ]
   };
+
   const inputSort={
     title: 'Step 2 : Learn Important Sorting Techiques',
     sections:[
@@ -31,6 +33,7 @@ function A2Z() {
       {subtitle : 'Lec 2: Sorting-2', link: 'sheets/a2z-sheet/sorting/sorting2'},
     ]
   };
+
   const inputll = {
     title : 'Step 6 : Learn LinkedList [Single, Double , Medium, Hard]',
     sections:[
@@ -41,6 +44,7 @@ function A2Z() {
       {subtitle: 'Lec 5: Hard Problems of LL', link : 'sheets/a2z-sheet/linked_list/lec5'}
     ]
   };
+
   const inputBinaryTree = {
     title : 'Step 13 : Binary Trees [Traversals, Medium and Hard Problems]',
     sections:[
@@ -49,19 +53,30 @@ function A2Z() {
       {subtitle : 'Lec 3: Hard Problems', link: 'sheets/a2z-sheet/binary-trees/hard'}
     ]
   };
+
   const inputString = {
     title : "Step 5 : String [Basic and Medium]",
     sections : [
       {subtitle : 'Lec 1: Basic and Easy String Problems', link: "sheets/a2z-sheet/strings/lec1"},
       {subtitle : 'Lec 2: Medium String Problems', link: "sheets/a2z-sheet/strings/lec2"}
     ]
-  }
+  };
+  
   const binarySearch = {
     title : "Step 4 : Binary Search [1D, 2D Arrays, Search Space]",
     sections : [
       {subtitle : 'Lec 1: BS on 1D Arrays', link: "sheets/a2z-sheet/binary-search/lec1"},
       {subtitle : 'Lec 2: BS on Answers', link: "sheets/a2z-sheet/binary-search/lec2"},
       {subtitle : 'Lec 2: BS on 2D Arrays', link: "sheets/a2z-sheet/binary-search/lec3"}
+    ]
+  };
+
+  const recursion = {
+    title : "Step 7 : Recursion [PatternWise]",
+    sections: [
+      {subtitle: "Lec 1: Get a Strong Hold", link: "sheets/a2z-sheet/recursion/lec1"},
+      {subtitle: "Lec 2: Subsequences Pattern", link: "sheets/a2z-sheet/recursion/lec2"},
+      {subtitle: "Lec 3: Trying out all Combos / Hard", link: "sheets/a2z-sheet/recursion/lec3"}
     ]
   }
 
@@ -80,6 +95,7 @@ function A2Z() {
         <Reusable {...binarySearch} />
         <Reusable {...inputString} />
         <Reusable {...inputll} />
+        <Reusable {...recursion} />
         <Reusable {...inputBinaryTree} />
       </Container>
     </ThemeProvider>

@@ -1,0 +1,42 @@
+[
+    {
+        "id":1,
+        "title":"Recursive Implementation of atoi()",
+        "youtube":"",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/string-to-integer-atoi/",
+        "type":"leetcode"
+    },
+    {
+        "id":2,
+        "title":"Pow(x, n)",
+        "youtube":"https://www.youtube.com/watch?v=l0YC3876qxg",
+        "blog":"https://takeuforward.org/data-structure/implement-powxn-x-raised-to-the-power-n/",
+        "practice":"https://leetcode.com/problems/powx-n/",
+        "type":"leetcode"
+    },
+    {
+        "id":3,
+        "title":"Count Good numbers",
+        "youtube":"",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/count-good-numbers/",
+        "type":"leetcode"
+    },
+    {
+        "id":4,
+        "title":"Sort a stack using recursion",
+        "youtube":"",
+        "blog":"",
+        "practice":"",
+        "type":""
+    },
+    {
+        "id":5,
+        "title":"Reverse a stack using recursion",
+        "youtube":"",
+        "blog":"",
+        "practice":"",
+        "type":""
+    }
+]

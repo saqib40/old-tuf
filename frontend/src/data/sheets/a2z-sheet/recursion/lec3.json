@@ -1,0 +1,66 @@
+[
+    {
+        "id":1,
+        "title":"Palindrome Partitioning",
+        "youtube":"https://www.youtube.com/watch?v=WBgsABoClE0",
+        "blog":"https://takeuforward.org/data-structure/palindrome-partitioning/",
+        "practice":"https://leetcode.com/problems/palindrome-partitioning/",
+        "type":"leetcode"
+    },
+    {
+        "id":2,
+        "title":"Word Search",
+        "youtube":"",
+        "blog":"https://takeuforward.org/data-structure/word-search-leetcode/",
+        "practice":"https://leetcode.com/problems/word-search/",
+        "type":"leetcode"
+    },
+    {
+        "id":3,
+        "title":"N Queen",
+        "youtube":"https://www.youtube.com/watch?v=i05Ju7AftcM",
+        "blog":"https://takeuforward.org/data-structure/n-queen-problem-return-all-distinct-solutions-to-the-n-queens-puzzle/",
+        "practice":"https://leetcode.com/problems/n-queens/",
+        "type":"leetcode"
+    },
+    {
+        "id":4,
+        "title":"Rat in a Maze",
+        "youtube":"https://www.youtube.com/watch?v=bLGZhJlt4y0",
+        "blog":"https://takeuforward.org/data-structure/rat-in-a-maze/",
+        "practice":"https://www.naukri.com/code360/problems/rat-in-a-maze_1215030",
+        "type":"codingninja"
+    },
+    {
+        "id":5,
+        "title":"Word Break",
+        "youtube":"",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/word-break/",
+        "type":"leetcode"
+    },
+    {
+        "id":6,
+        "title":"M Coloring Problem",
+        "youtube":"https://www.youtube.com/watch?v=wuVwUK25Rfc",
+        "blog":"https://takeuforward.org/data-structure/m-coloring-problem/",
+        "practice":"https://www.naukri.com/code360/problems/m-coloring-problem_981273",
+        "type":"codingninja"
+    },
+    {
+        "id":7,
+        "title":"Sudoko Solver",
+        "youtube":"https://www.youtube.com/watch?v=FWAIf_EVUKE",
+        "blog":"https://takeuforward.org/data-structure/sudoku-solver/",
+        "practice":"https://leetcode.com/problems/sudoku-solver/",
+        "type":"leetcode"
+    },
+    {
+        "id":8,
+        "title":"Expression Add Operators",
+        "youtube":"",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/expression-add-operators/",
+        "type":"leetcode"
+    }
+]
