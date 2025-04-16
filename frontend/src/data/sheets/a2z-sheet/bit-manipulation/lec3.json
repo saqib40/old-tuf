@@ -1,0 +1,42 @@
+[
+    {
+        "id":1,
+        "title":"Print Prime Factors of a Number",
+        "youtube":"https://www.youtube.com/watch?v=LT7XhVdeRyg",
+        "blog":"",
+        "practice":"https://www.naukri.com/code360/problems/prime-factorisation_1760849",
+        "type":"codingninja"
+    },
+    {
+        "id":2,
+        "title":"All Divisors of a Number",
+        "youtube":"https://www.youtube.com/watch?v=Ae_Ag_saG9s",
+        "blog":"",
+        "practice":"https://www.naukri.com/code360/problems/print-all-divisors-of-a-number_1164188",
+        "type":"codingninja"
+    },
+    {
+        "id":3,
+        "title":"Sieve of Eratosthenes",
+        "youtube":"https://www.youtube.com/watch?v=g5Fuxn_AvSk",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/count-primes/",
+        "type":"leetcode"
+    },
+    {
+        "id":4,
+        "title":"Find Prime Factorisation of a Number using Sieve",
+        "youtube":"https://www.youtube.com/watch?v=glKWkmKFlMw",
+        "blog":"",
+        "practice":"https://www.geeksforgeeks.org/problems/prime-factorization-using-sieve/1?ref=header_ind",
+        "type":"gfg"
+    },
+    {
+        "id":5,
+        "title":"Power(n, x)",
+        "youtube":"https://www.youtube.com/watch?v=hFWckDXE-K8",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/powx-n/",
+        "type":"leetcode"
+    }
+]

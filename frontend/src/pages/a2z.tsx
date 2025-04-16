@@ -78,7 +78,16 @@ function A2Z() {
       {subtitle: "Lec 2: Subsequences Pattern", link: "sheets/a2z-sheet/recursion/lec2"},
       {subtitle: "Lec 3: Trying out all Combos / Hard", link: "sheets/a2z-sheet/recursion/lec3"}
     ]
-  }
+  };
+
+  const bitManipulation = {
+    title : "Step 8 : Bit Manipulation [Concepts & Problems]",
+    sections: [
+      {subtitle: "Lec 1: Learn Bit Manipulation", link : "sheets/a2z-sheet/bit-manipulation/lec1"},
+      {subtitle: "Lec 2: Interview Problems", link : "sheets/a2z-sheet/bit-manipulation/lec2"},
+      {subtitle: "Lec 3: Advanced Maths", link : "sheets/a2z-sheet/bit-manipulation/lec3"}
+    ]
+  };
 
   return (
     <ThemeProvider theme={darkTheme}>
@@ -96,6 +105,7 @@ function A2Z() {
         <Reusable {...inputString} />
         <Reusable {...inputll} />
         <Reusable {...recursion} />
+        <Reusable {...bitManipulation} />
         <Reusable {...inputBinaryTree} />
       </Container>
     </ThemeProvider>

@@ -1,0 +1,42 @@
+[
+    {
+        "id":1,
+        "title":"Count number of bits to be flipped to convert A to B",
+        "youtube":"https://www.youtube.com/watch?v=OOdrmcfZXd8",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/minimum-bit-flips-to-convert-number/",
+        "type":"leetcode"
+    },
+    {
+        "id":2,
+        "title":"Find the number that appears odd number of times",
+        "youtube":"https://www.youtube.com/watch?v=sFBCAl8yBfE",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/single-number/",
+        "type":"leetcode"
+    },
+    {
+        "id":3,
+        "title":"Power Set",
+        "youtube":"https://www.youtube.com/watch?v=LqKaUv1G3_I",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/subsets/",
+        "type":"leetcode"
+    },
+    {
+        "id":4,
+        "title":"Find xor of numbers from L to R",
+        "youtube":"https://www.youtube.com/watch?v=WqGb7159h7Q",
+        "blog":"",
+        "practice":"https://www.geeksforgeeks.org/problems/find-xor-of-numbers-from-l-to-r/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":5,
+        "title":"Find the two numbers appearing odd number of times",
+        "youtube":"https://www.youtube.com/watch?v=UA5JnV1J2sI",
+        "blog":"",
+        "practice":"https://www.naukri.com/code360/problems/two-numbers-with-odd-occurrences_8160466",
+        "type":"codingninja"
+    }
+]

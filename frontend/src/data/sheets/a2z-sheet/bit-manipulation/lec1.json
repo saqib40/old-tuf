@@ -1,0 +1,66 @@
+[
+    {
+        "id":1,
+        "title":"Introduction to Bit Manipulation [Theory]",
+        "youtube":"https://www.youtube.com/watch?v=qQd-ViW7bfk",
+        "blog":"",
+        "practice":"https://www.geeksforgeeks.org/problems/bit-manipulation-1666686020/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card&selectedLang=c",
+        "type":"gfg"
+    },
+    {
+        "id":2,
+        "title":"Check if the i-th bit is set or not",
+        "youtube":"https://www.youtube.com/watch?v=nttpF8kwgd4",
+        "blog":"",
+        "practice":"https://www.naukri.com/code360/problems/check-whether-k-th-bit-is-set-or-not_5026446",
+        "type":"codingninja"
+    },
+    {
+        "id":3,
+        "title":"Check if a number is odd or not",
+        "youtube":"https://www.youtube.com/watch?v=nttpF8kwgd4",
+        "blog":"",
+        "practice":"https://www.geeksforgeeks.org/problems/odd-or-even3618/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":4,
+        "title":"Check if a number is power of 2 or not",
+        "youtube":"https://www.youtube.com/watch?v=nttpF8kwgd4",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/power-of-two/",
+        "type":"leetcode"
+    },
+    {
+        "id":5,
+        "title":"Count the number of set bits",
+        "youtube":"https://www.youtube.com/watch?v=nttpF8kwgd4",
+        "blog":"",
+        "practice":"https://www.geeksforgeeks.org/problems/set-bits0143/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":6,
+        "title":"Set/Unset the rightmost unset bit",
+        "youtube":"https://www.youtube.com/watch?v=nttpF8kwgd4",
+        "blog":"",
+        "practice":"https://www.geeksforgeeks.org/problems/set-the-rightmost-unset-bit4436/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":7,
+        "title":"Swap two numbers",
+        "youtube":"https://www.youtube.com/watch?v=nttpF8kwgd4",
+        "blog":"",
+        "practice":"https://www.geeksforgeeks.org/problems/swap-two-numbers3844/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":8,
+        "title":"Divide two integers without using multiplication, division and mod operator",
+        "youtube":"https://www.youtube.com/watch?v=pBD4B1tzgVc",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/divide-two-integers/",
+        "type":"leetcode"
+    }
+]
