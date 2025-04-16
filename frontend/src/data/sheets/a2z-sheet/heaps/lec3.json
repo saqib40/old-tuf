@@ -1,0 +1,50 @@
+[
+    {
+        "id":1,
+        "title":"Design twitter",
+        "youtube":"",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/design-twitter/",
+        "type":"leetcode"
+    },
+    {
+        "id":2,
+        "title":"Connect `n` ropes with minimal cost",
+        "youtube":"",
+        "blog":"",
+        "practice":"",
+        "type":""
+    },
+    {
+        "id":3,
+        "title":"Kth largest element in a stream of running integers",
+        "youtube":"",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/kth-largest-element-in-a-stream/description/",
+        "type":"leetcode"
+    },
+    {
+        "id":4,
+        "title":"Maximum Sum Combination",
+        "youtube":"",
+        "blog":"",
+        "practice":"https://www.interviewbit.com/problems/maximum-sum-combinations/",
+        "type":"leetcode"
+    },
+    {
+        "id":5,
+        "title":"Find Median from Data Stream",
+        "youtube":"",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/find-median-from-data-stream/",
+        "type":"leetcode"
+    },
+    {
+        "id":6,
+        "title":"K most frequent elements",
+        "youtube":"",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/top-k-frequent-elements/",
+        "type":"leetcode"
+    }
+]

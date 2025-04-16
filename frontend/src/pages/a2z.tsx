@@ -107,6 +107,15 @@ function A2Z() {
     ]
   };
 
+  const heaps = {
+    title: "Step 11 : Heaps [Learning, Medium, Hard Problems]",
+    sections: [
+      {subtitle: "Lec 1: Learning", link: "sheets/a2z-sheet/heaps/lec1"},
+      {subtitle: "Lec 2: Medium Problems", link: "sheets/a2z-sheet/heaps/lec2"},
+      {subtitle: "Lec 3: Hard Problems", link: "sheets/a2z-sheet/heaps/lec3"}
+    ]
+  }
+
   return (
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
@@ -126,6 +135,7 @@ function A2Z() {
         <Reusable {...bitManipulation} />
         <Reusable {...stackQueue} />
         <Reusable {...slidingWindow} />
+        <Reusable {...heaps} />
         <Reusable {...inputBinaryTree} />
       </Container>
     </ThemeProvider>

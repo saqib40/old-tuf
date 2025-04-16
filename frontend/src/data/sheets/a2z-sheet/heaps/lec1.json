@@ -1,0 +1,34 @@
+[
+    {
+        "id":1,
+        "title":"Introduction to Priority Queues using Binary Heaps",
+        "youtube":"",
+        "blog":"",
+        "practice":"https://www.geeksforgeeks.org/problems/implementation-of-priority-queue-using-binary-heap/0",
+        "type":"gfg"
+    },
+    {
+        "id":2,
+        "title":"Min Heap and Max Heap Implementation",
+        "youtube":"",
+        "blog":"",
+        "practice":"https://www.naukri.com/code360/problems/min-heap-implementation_5480527",
+        "type":"codingninja"
+    },
+    {
+        "id":3,
+        "title":"Check if an array represents a min-heap or not",
+        "youtube":"",
+        "blog":"",
+        "practice":"https://www.geeksforgeeks.org/problems/does-array-represent-heap4345/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":4,
+        "title":"Convert min Heap to max Heap",
+        "youtube":"",
+        "blog":"",
+        "practice":"https://www.geeksforgeeks.org/problems/convert-min-heap-to-max-heap-1666385109/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    }
+]
