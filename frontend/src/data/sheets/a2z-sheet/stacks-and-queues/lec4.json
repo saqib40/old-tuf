@@ -1,0 +1,42 @@
+[
+    {
+        "id":1,
+        "title":"Sliding Window maximum",
+        "youtube":"https://www.youtube.com/watch?v=NwBvene4Imo",
+        "blog":"https://takeuforward.org/data-structure/sliding-window-maximum/",
+        "practice":"https://leetcode.com/problems/sliding-window-maximum/",
+        "type":"leetcode"
+    },
+    {
+        "id":2,
+        "title":"Stock span problem",
+        "youtube":"https://www.youtube.com/watch?v=eay-zoSRkVc",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/online-stock-span/",
+        "type":"leetcode"
+    },
+    {
+        "id":3,
+        "title":"The Celebrity Problem",
+        "youtube":"https://www.youtube.com/watch?v=cEadsbTeze4",
+        "blog":"",
+        "practice":"https://leetcode.com/accounts/login/?next=/problems/find-the-celebrity/",
+        "type":"leetcode"
+    },
+    {
+        "id":4,
+        "title":"LRU cache (IMPORTANT)",
+        "youtube":"https://www.youtube.com/watch?v=z9bJUPxzFOw",
+        "blog":"https://takeuforward.org/data-structure/implement-lru-cache/",
+        "practice":"https://leetcode.com/problems/lru-cache/",
+        "type":"leetcode"
+    },
+    {
+        "id":5,
+        "title":"LFU cache",
+        "youtube":"https://www.youtube.com/watch?v=0PSB9y8ehbk",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/lfu-cache/",
+        "type":"leetcode"
+    }
+]

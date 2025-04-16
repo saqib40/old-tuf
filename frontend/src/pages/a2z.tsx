@@ -89,6 +89,16 @@ function A2Z() {
     ]
   };
 
+  const stackQueue = {
+    title : "Step 9 : Stack and Queues [Learning, Pre-In-Post-fix, Monotonic Stack, Implementation]",
+    sections: [
+      {subtitle: "Lec 1: Learning", link: "sheets/a2z-sheet/stacks-and-queues/lec1"},
+      {subtitle: "Lec 2: Prefix, Infix, PostFix Conversion Problems", link: "sheets/a2z-sheet/stacks-and-queues/lec2"},
+      {subtitle: "Lec 3: Monotonic Stack/Queue Problems [VVV. Imp]", link: "sheets/a2z-sheet/stacks-and-queues/lec3"},
+      {subtitle: "Lec 4: Implementation Problems", link: "sheets/a2z-sheet/stacks-and-queues/lec4"}
+    ]
+  }
+
   return (
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
@@ -106,6 +116,7 @@ function A2Z() {
         <Reusable {...inputll} />
         <Reusable {...recursion} />
         <Reusable {...bitManipulation} />
+        <Reusable {...stackQueue} />
         <Reusable {...inputBinaryTree} />
       </Container>
     </ThemeProvider>

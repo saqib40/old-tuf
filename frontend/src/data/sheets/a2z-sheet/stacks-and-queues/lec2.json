@@ -1,0 +1,50 @@
+[
+    {
+        "id":1,
+        "title":"Infix to Postfix Conversion using Stack",
+        "youtube":"https://www.youtube.com/watch?v=4pIc9UBHJtk",
+        "blog":"https://takeuforward.org/data-structure/infix-to-postfix/",
+        "practice":"https://www.geeksforgeeks.org/problems/infix-to-postfix-1587115620/0",
+        "type":"gfg"
+    },
+    {
+        "id":2,
+        "title":"Prefix to Infix Conversion",
+        "youtube":"https://www.youtube.com/watch?v=4pIc9UBHJtk",
+        "blog":"",
+        "practice":"https://www.geeksforgeeks.org/problems/prefix-to-infix-conversion/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":3,
+        "title":"Prefix to Postfix Conversion",
+        "youtube":"https://www.youtube.com/watch?v=4pIc9UBHJtk",
+        "blog":"",
+        "practice":"https://www.geeksforgeeks.org/problems/prefix-to-postfix-conversion/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":4,
+        "title":"Postfix to Prefix Conversion",
+        "youtube":"https://www.youtube.com/watch?v=4pIc9UBHJtk",
+        "blog":"",
+        "practice":"https://www.geeksforgeeks.org/problems/postfix-to-prefix-conversion/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":5,
+        "title":"Postfix to Infix",
+        "youtube":"https://www.youtube.com/watch?v=4pIc9UBHJtk",
+        "blog":"",
+        "practice":"https://www.geeksforgeeks.org/problems/postfix-to-infix-conversion/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":6,
+        "title":"Convert Infix To Prefix Notation",
+        "youtube":"https://www.youtube.com/watch?v=4pIc9UBHJtk",
+        "blog":"https://takeuforward.org/data-structure/infix-to-prefix/",
+        "practice":"",
+        "type":""
+    }
+]

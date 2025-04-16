@@ -1,0 +1,90 @@
+[
+    {
+        "id":1,
+        "title":"Next Greater Element",
+        "youtube":"https://www.youtube.com/watch?v=e7XQLtOQM3I",
+        "blog":"https://takeuforward.org/data-structure/next-greater-element-using-stack/",
+        "practice":"https://leetcode.com/problems/next-greater-element-i/",
+        "type":"leetcode"
+    },
+    {
+        "id":2,
+        "title":"Next Greater Element 2",
+        "youtube":"https://www.youtube.com/watch?v=7PrncD7v9YQ",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/next-greater-element-ii/",
+        "type":"leetcode"
+    },
+    {
+        "id":3,
+        "title":"Next Smaller Element",
+        "youtube":"",
+        "blog":"",
+        "practice":"https://www.interviewbit.com/problems/nearest-smaller-element/",
+        "type":"leetcode"
+    },
+    {
+        "id":4,
+        "title":"Number of NGEs to the right",
+        "youtube":"",
+        "blog":"",
+        "practice":"https://www.naukri.com/code360/problems/count-of-greater-elements-to-the-right_8365436",
+        "type":"codingninja"
+    },
+    {
+        "id":5,
+        "title":"Trapping Rainwater",
+        "youtube":"https://www.youtube.com/watch?v=1_5VuquLbXg",
+        "blog":"https://takeuforward.org/data-structure/trapping-rainwater/",
+        "practice":"https://leetcode.com/problems/trapping-rain-water/",
+        "type":"leetcode"
+    },
+    {
+        "id":6,
+        "title":"Sum of subarray minimum",
+        "youtube":"https://www.youtube.com/watch?v=v0e8p9JCgRc",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/sum-of-subarray-minimums/",
+        "type":"leetcode"
+    },
+    {
+        "id":7,
+        "title":"Asteroid Collision",
+        "youtube":"https://www.youtube.com/watch?v=_eYGqw_VDR4",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/asteroid-collision/",
+        "type":"leetcode"
+    },
+    {
+        "id":8,
+        "title":"Sum of subarray ranges",
+        "youtube":"https://www.youtube.com/watch?v=gIrMptNPf5M",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/sum-of-subarray-ranges/",
+        "type":"leetcode"
+    },
+    {
+        "id":9,
+        "title":"Remove k Digits",
+        "youtube":"https://www.youtube.com/watch?v=jmbuRzYPGrg",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/remove-k-digits/",
+        "type":"leetcode"
+    },
+    {
+        "id":10,
+        "title":"Largest rectangle in a histogram",
+        "youtube":"https://www.youtube.com/watch?v=Bzat9vgD0fs",
+        "blog":"https://takeuforward.org/data-structure/area-of-largest-rectangle-in-histogram/",
+        "practice":"https://leetcode.com/problems/largest-rectangle-in-histogram/",
+        "type":"leetcode"
+    },
+    {
+        "id":11,
+        "title":"Maximal Rectangles",
+        "youtube":"https://www.youtube.com/watch?v=ttVu6G7Ayik",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/maximal-rectangle/",
+        "type":"leetcode"
+    }
+]

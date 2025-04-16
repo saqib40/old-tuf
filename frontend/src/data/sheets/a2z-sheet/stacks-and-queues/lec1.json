@@ -1,0 +1,66 @@
+[
+    {
+        "id":1,
+        "title":"Implement Stack using Arrays",
+        "youtube":"https://www.youtube.com/watch?v=tqQ5fTamIN4",
+        "blog":"https://takeuforward.org/data-structure/implement-stack-using-array/",
+        "practice":"https://www.geeksforgeeks.org/problems/implement-stack-using-array/0",
+        "type":"gfg"
+    },
+    {
+        "id":2,
+        "title":"Implement Queue using Arrays",
+        "youtube":"https://www.youtube.com/watch?v=tqQ5fTamIN4",
+        "blog":"https://takeuforward.org/data-structure/implement-queue-using-array/",
+        "practice":"https://www.geeksforgeeks.org/problems/implement-queue-using-array/0",
+        "type":"gfg"
+    },
+    {
+        "id":3,
+        "title":"Implement Stack using Queue",
+        "youtube":"https://www.youtube.com/watch?v=tqQ5fTamIN4",
+        "blog":"https://takeuforward.org/data-structure/implement-stack-using-single-queue/",
+        "practice":"https://leetcode.com/problems/implement-stack-using-queues/",
+        "type":"leetcode"
+    },
+    {
+        "id":4,
+        "title":"Implement Queue using Stack",
+        "youtube":"https://www.youtube.com/watch?v=tqQ5fTamIN4",
+        "blog":"https://takeuforward.org/data-structure/implement-queue-using-stack/",
+        "practice":"https://leetcode.com/problems/implement-queue-using-stacks/",
+        "type":"leetcode"
+    },
+    {
+        "id":5,
+        "title":"Implement stack using Linkedlist",
+        "youtube":"https://www.youtube.com/watch?v=tqQ5fTamIN4",
+        "blog":"https://takeuforward.org/data-structure/implement-stack-using-linked-list/",
+        "practice":"https://www.geeksforgeeks.org/problems/implement-stack-using-linked-list/0",
+        "type":"gfg"
+    },
+    {
+        "id":6,
+        "title":"Implement queue using Linkedlist",
+        "youtube":"https://www.youtube.com/watch?v=tqQ5fTamIN4",
+        "blog":"https://takeuforward.org/data-structure/implement-queue-using-linked-list/",
+        "practice":"https://www.geeksforgeeks.org/problems/implement-queue-using-linked-list/0",
+        "type":"gfg"
+    },
+    {
+        "id":7,
+        "title":"Check for balanced paranthesis",
+        "youtube":"https://www.youtube.com/watch?v=xwjS0iZhw4I",
+        "blog":"https://takeuforward.org/data-structure/check-for-balanced-parentheses/",
+        "practice":"https://leetcode.com/problems/valid-parentheses/",
+        "type":"leetcode"
+    },
+    {
+        "id":8,
+        "title":"Implement Min Stack",
+        "youtube":"https://www.youtube.com/watch?v=NdDIaH91P0g",
+        "blog":"https://takeuforward.org/data-structure/implement-min-stack-o2n-and-on-space-complexity/",
+        "practice":"https://leetcode.com/problems/min-stack/",
+        "type":"leetcode"
+    }
+]
