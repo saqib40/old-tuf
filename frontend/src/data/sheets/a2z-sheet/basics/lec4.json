@@ -4,8 +4,8 @@
         "title": "Count Digits",
         "youtube": "https://www.youtube.com/watch?v=1xNbjMdbjug",
         "blog": "https://takeuforward.org/data-structure/count-digits-in-a-number/",
-        "practice": "",
-        "type": ""
+        "practice": "https://www.codechef.com/learn/course/java/LTJPP20/problems/PPSC87",
+        "type": "codechef"
     },
     {
         "id": 2,
@@ -13,6 +13,7 @@
         "youtube": "https://www.youtube.com/watch?v=1xNbjMdbjug",
         "blog": "https://takeuforward.org/maths/reverse-digits-of-a-number",
         "practice": "https://leetcode.com/problems/reverse-integer/",
+        "practise2":"https://www.geeksforgeeks.org/problems/reverse-digit0316/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
         "type": "leetcode"
     },
     {
@@ -28,8 +29,8 @@
         "title": "GCD Or HCF",
         "youtube": "https://www.youtube.com/watch?v=1xNbjMdbjug",
         "blog": "https://takeuforward.org/data-structure/find-gcd-of-two-numbers/",
-        "practice": "",
-        "type": ""
+        "practice": "https://www.geeksforgeeks.org/problems/gcd-of-two-numbers3459/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type": "gfg"
     },
     {
         "id": 5,
@@ -44,15 +45,15 @@
         "title": "Print all Divisors",
         "youtube": "https://www.youtube.com/watch?v=1xNbjMdbjug",
         "blog": "https://takeuforward.org/data-structure/print-all-divisors-of-a-given-number/",
-        "practice": "",
-        "type": ""
+        "practice": "https://www.geeksforgeeks.org/problems/all-divisors-of-a-number/0",
+        "type": "gfg"
     },
     {
         "id": 7,
         "title": "Check for Prime",
         "youtube": "https://www.youtube.com/watch?v=1xNbjMdbjug",
         "blog": "https://takeuforward.org/data-structure/check-if-a-number-is-prime-or-not/",
-        "practice": "",
-        "type": ""
+        "practice": "https://www.geeksforgeeks.org/problems/prime-number2314/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type": "gfg"
     }
 ]

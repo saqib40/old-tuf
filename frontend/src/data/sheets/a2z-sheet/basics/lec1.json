@@ -4,32 +4,32 @@
         "title": "User Input / Output",
         "youtube": "https://www.youtube.com/watch?v=EAR7De6Goz4",
         "blog": "https://takeuforward.org/c/c-basic-input-output/",
-        "practice": "",
-        "type": ""
+        "practice": "https://www.codechef.com/learn/course/java/LTJPP11/problems/USRJ1V2",
+        "type": "codechef"
     },
     {
         "id": 2,
         "title": "Data Types",
         "youtube": "https://www.youtube.com/watch?v=EAR7De6Goz4",
         "blog": "",
-        "practice": "",
-        "type": ""
+        "practice": "https://www.codechef.com/learn/course/java-beginner-v2-p1/BJ00BP01_V2/problems/GSJ202",
+        "type": "codechef"
     },
     {
         "id": 3,
         "title": "If Else statements",
         "youtube": "https://www.youtube.com/watch?v=EAR7De6Goz4",
         "blog": "https://takeuforward.org/if-else/if-else-statements/",
-        "practice": "",
-        "type": ""
+        "practice": "https://www.codechef.com/learn/course/java/LTJPP13/problems/CNDJ1V2",
+        "type": "codechef"
     },
     {
         "id": 4,
         "title": "Switch Statement",
         "youtube": "https://www.youtube.com/watch?v=EAR7De6Goz4",
         "blog": "https://takeuforward.org/switch-case/switch-case-statements/",
-        "practice": "",
-        "type": ""
+        "practice": "https://www.codechef.com/learn/course/cpp-old/BC00LP04/problems/CND10",
+        "type": "codechef"
     },
     {
         "id": 5,
@@ -44,24 +44,24 @@
         "title": "For loops",
         "youtube": "https://www.youtube.com/watch?v=EAR7De6Goz4",
         "blog": "https://takeuforward.org/for-loop/understanding-for-loop/",
-        "practice": "",
-        "type": ""
+        "practice": "https://www.codechef.com/learn/course/java/LTJPP21/problems/LOOPJ4V2",
+        "type": "codechef"
     },
     {
         "id": 7,
         "title": "While loops",
         "youtube": "https://www.youtube.com/watch?v=EAR7De6Goz4",
         "blog": "https://takeuforward.org/while-loop/while-loops-in-programming/",
-        "practice": "",
-        "type": ""
+        "practice": "https://www.codechef.com/learn/course/java/LTJPP20/problems/LOOPJ1V2",
+        "type": "codechef"
     },
     {
         "id": 8,
         "title": "Functions (Pass by Reference and Value)",
         "youtube": "https://www.youtube.com/watch?v=EAR7De6Goz4",
         "blog": "",
-        "practice": "",
-        "type": ""
+        "practice": "https://www.geeksforgeeks.org/problems/pass-by-reference-and-value/0",
+        "type": "gfg"
     },
     {
         "id": 9,

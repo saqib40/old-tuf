@@ -4,56 +4,56 @@
         "title": "Understand recursion by print something N times",
         "youtube": "https://www.youtube.com/watch?v=yVdKa8dnKiE",
         "blog": "https://takeuforward.org/recursion/introduction-to-recursion-understand-recursion-by-printing-something-n-times/",
-        "practice": "",
-        "type": ""
+        "practice": "https://www.geeksforgeeks.org/problems/print-gfg-n-times/0",
+        "type": "gfg"
     },
     {
         "id": 2,
         "title": "Print name N times using recursion",
         "youtube": "https://www.youtube.com/watch?v=un6PLygfXrA",
         "blog": "https://takeuforward.org/recursion/print-name-n-times-using-recursion/",
-        "practice": "",
-        "type": ""
+        "practice": "https://www.geeksforgeeks.org/problems/print-gfg-n-times/0",
+        "type": "gfg"
     },
     {
         "id": 3,
         "title": "Print 1 to N using recursion",
         "youtube": "https://www.youtube.com/watch?v=un6PLygfXrA",
         "blog": "https://takeuforward.org/recursion/print-1-to-n-using-recursion/",
-        "practice": "",
-        "type": ""
+        "practice": "https://www.geeksforgeeks.org/problems/print-1-to-n-without-using-loops3621/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type": "gfg"
     },
     {
         "id": 4,
         "title": "Print N to 1 using recursion",
         "youtube": "https://www.youtube.com/watch?v=un6PLygfXrA",
         "blog": "https://takeuforward.org/recursion/print-n-to-1-using-recursion/",
-        "practice": "",
-        "type": ""
+        "practice": "https://www.geeksforgeeks.org/problems/print-n-to-1-without-loop/0",
+        "type": "gfg"
     },
     {
         "id": 5,
         "title": "Sum of first N numbers",
         "youtube": "https://www.youtube.com/watch?v=69ZCDFy-OUo",
         "blog": "https://takeuforward.org/data-structure/sum-of-first-n-natural-numbers/",
-        "practice": "",
-        "type": ""
+        "practice": "https://www.geeksforgeeks.org/problems/sum-of-series2811/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type": "gfg"
     },
     {
         "id": 6,
         "title": "Factorial of N numbers",
         "youtube": "https://www.youtube.com/watch?v=69ZCDFy-OUo",
         "blog": "https://takeuforward.org/data-structure/factorial-of-a-number-iterative-and-recursive/",
-        "practice": "",
-        "type": ""
+        "practice": "https://www.geeksforgeeks.org/problems/factorial5739/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type": "gfg"
     },
     {
         "id": 7,
         "title": "Reverse an array",
         "youtube": "https://www.youtube.com/watch?v=twuC1F6gLI8",
         "blog": "https://takeuforward.org/data-structure/reverse-a-given-array/",
-        "practice": "",
-        "type": ""
+        "practice": "https://www.geeksforgeeks.org/problems/reverse-an-array/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card&selectedLang=java",
+        "type": "gfg"
     },
     {
         "id": 8,
