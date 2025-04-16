@@ -1,0 +1,90 @@
+[
+    {
+        "id":1,
+        "title":"N meetings in one room",
+        "youtube":"https://www.youtube.com/watch?v=mKfhTotEguk",
+        "blog":"https://takeuforward.org/data-structure/n-meetings-in-one-room/",
+        "practice":"https://www.geeksforgeeks.org/problems/n-meetings-in-one-room-1587115620/1",
+        "type":"gfg"
+    },
+    {
+        "id":2,
+        "title":"Jump Game",
+        "youtube":"https://www.youtube.com/watch?v=tZAa_jJ3SwQ",
+        "blog":"https://takeuforward.org/Greedy/jump-game-i",
+        "practice":"https://leetcode.com/problems/jump-game/",
+        "type":"leetcode"
+    },
+    {
+        "id":3,
+        "title":"Jump Game 2",
+        "youtube":"https://www.youtube.com/watch?v=7SBVnw7GSTk",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/jump-game-ii/",
+        "type":"leetcode"
+    },
+    {
+        "id":4,
+        "title":"Minimum number of platforms required for a railway",
+        "youtube":"https://www.youtube.com/watch?v=AsGzwR_FWok",
+        "blog":"https://takeuforward.org/data-structure/minimum-number-of-platforms-required-for-a-railway/",
+        "practice":"https://www.geeksforgeeks.org/problems/minimum-platforms-1587115620/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":5,
+        "title":"Job sequencing Problem",
+        "youtube":"https://www.youtube.com/watch?v=QbwltemZbRg",
+        "blog":"https://takeuforward.org/data-structure/job-sequencing-problem/",
+        "practice":"https://www.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":6,
+        "title":"Candy",
+        "youtube":"https://www.youtube.com/watch?v=IIqVFvKE6RY",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/candy/",
+        "type":"leetcode"
+    },
+    {
+        "id":7,
+        "title":"Program for Shortest Job First (or SJF) CPU Scheduling",
+        "youtube":"https://www.youtube.com/watch?v=3-QbX1iDbXs",
+        "blog":"https://takeuforward.org/Greedy/shortest-job-first-or-sjf-cpu-scheduling",
+        "practice":"https://www.naukri.com/code360/problems/shortest-job-first-non-preemptive_1387147?interviewProblemRedirection=true&search=Shortest%20Job%20First",
+        "type":"codingninja"
+    },
+    {
+        "id":8,
+        "title":"Program for Least Recently Used (LRU) Page Replacement Algorithm",
+        "youtube":"",
+        "blog":"",
+        "practice":"https://www.geeksforgeeks.org/problems/page-faults-in-lru5603/1?ref=header_ind",
+        "type":"gfg"
+    },
+    {
+        "id":9,
+        "title":"Insert Interval",
+        "youtube":"https://www.youtube.com/watch?v=xxRE-46OCC8",
+        "blog":"https://takeuforward.org/?s=Insert+Interval",
+        "practice":"https://leetcode.com/problems/insert-interval/",
+        "type":"leetcode"
+    },
+    {
+        "id":10,
+        "title":"Merge Intervals",
+        "youtube":"https://www.youtube.com/watch?v=2JzRBPFYbKE",
+        "blog":"https://takeuforward.org/data-structure/merge-overlapping-sub-intervals/",
+        "practice":"https://leetcode.com/problems/merge-intervals/",
+        "type":"leetcode"
+    },
+    {
+        "id":11,
+        "title":"Non-overlapping Intervals",
+        "youtube":"https://www.youtube.com/watch?v=HDHQ8lAWakY",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/non-overlapping-intervals/",
+        "type":"leetcode"
+    }
+]

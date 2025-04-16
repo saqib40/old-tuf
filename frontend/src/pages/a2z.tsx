@@ -114,6 +114,14 @@ function A2Z() {
       {subtitle: "Lec 2: Medium Problems", link: "sheets/a2z-sheet/heaps/lec2"},
       {subtitle: "Lec 3: Hard Problems", link: "sheets/a2z-sheet/heaps/lec3"}
     ]
+  };
+
+  const greedy = {
+    title: "Step 12 : Greedy Algorithms [Easy, Medium/Hard]",
+    sections: [
+      {subtitle: "Lec 1: Easy Problems", link: "sheets/a2z-sheet/greedy/lec1"},
+      {subtitle: "Lec 2: Medium/Hard", link: "sheets/a2z-sheet/greedy/lec2"},
+    ]
   }
 
   return (
@@ -136,6 +144,7 @@ function A2Z() {
         <Reusable {...stackQueue} />
         <Reusable {...slidingWindow} />
         <Reusable {...heaps} />
+        <Reusable {...greedy} />
         <Reusable {...inputBinaryTree} />
       </Container>
     </ThemeProvider>

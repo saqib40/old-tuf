@@ -1,0 +1,42 @@
+[
+    {
+        "id":1,
+        "title":"Assign Cookies",
+        "youtube":"https://www.youtube.com/watch?v=DIX2p7vb9co",
+        "blog":"https://takeuforward.org/Greedy/assign-cookies",
+        "practice":"https://leetcode.com/problems/assign-cookies/",
+        "type":"leetcode"
+    },
+    {
+        "id":2,
+        "title":"Fractional Knapsack Problem",
+        "youtube":"https://www.youtube.com/watch?v=1ibsQrnuEEg",
+        "blog":"https://takeuforward.org/data-structure/fractional-knapsack-problem-greedy-approach/",
+        "practice":"https://www.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":3,
+        "title":"Greedy algorithm to find minimum number of coins",
+        "youtube":"https://www.youtube.com/watch?v=mVg9CfJvayM",
+        "blog":"https://takeuforward.org/data-structure/find-minimum-number-of-coins/",
+        "practice":"https://www.geeksforgeeks.org/problems/-minimum-number-of-coins4426/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":4,
+        "title":"Lemonade Change",
+        "youtube":"https://www.youtube.com/watch?v=n_tmibEhO6Q",
+        "blog":"https://takeuforward.org/Greedy/lemonade-change",
+        "practice":"https://leetcode.com/problems/lemonade-change/",
+        "type":"leetcode"
+    },
+    {
+        "id":5,
+        "title":"Valid Paranthesis Checker",
+        "youtube":"https://www.youtube.com/watch?v=cHT6sG_hUZI",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/valid-parenthesis-string/",
+        "type":"leetcode"
+    }
+]
