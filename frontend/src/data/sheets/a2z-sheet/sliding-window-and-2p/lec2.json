@@ -1,0 +1,34 @@
+[
+    {
+        "id":1,
+        "title":"Longest Substring with At Most K Distinct Characters",
+        "youtube":"https://www.youtube.com/watch?v=teM9ZsVRQyc",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/",
+        "type":"leetcode"
+    },
+    {
+        "id":2,
+        "title":"Subarray with k different integers",
+        "youtube":"https://www.youtube.com/watch?v=7wYGbV_LsX4",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/subarrays-with-k-different-integers/",
+        "type":"leetcode"
+    },
+    {
+        "id":3,
+        "title":"Minimum Window Substring",
+        "youtube":"https://www.youtube.com/watch?v=WJaij9ffOIY",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/minimum-window-substring/",
+        "type":"leetcode"
+    },
+    {
+        "id":4,
+        "title":"Minimum Window Subsequence",
+        "youtube":"",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/minimum-window-subsequence/",
+        "type":"leetcode"
+    }
+]

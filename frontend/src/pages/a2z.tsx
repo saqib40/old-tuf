@@ -97,7 +97,15 @@ function A2Z() {
       {subtitle: "Lec 3: Monotonic Stack/Queue Problems [VVV. Imp]", link: "sheets/a2z-sheet/stacks-and-queues/lec3"},
       {subtitle: "Lec 4: Implementation Problems", link: "sheets/a2z-sheet/stacks-and-queues/lec4"}
     ]
-  }
+  };
+
+  const slidingWindow = {
+    title : "Step 10 : Sliding Window & Two Pointer Combined Problems",
+    sections: [
+      {subtitle: "Lec 1: Medium Problems", link: "sheets/a2z-sheet/sliding-window-and-2p/lec1"},
+      {subtitle: "Lec 2: Hard Problems", link: "sheets/a2z-sheet/sliding-window-and-2p/lec2"}
+    ]
+  };
 
   return (
     <ThemeProvider theme={darkTheme}>
@@ -117,6 +125,7 @@ function A2Z() {
         <Reusable {...recursion} />
         <Reusable {...bitManipulation} />
         <Reusable {...stackQueue} />
+        <Reusable {...slidingWindow} />
         <Reusable {...inputBinaryTree} />
       </Container>
     </ThemeProvider>

@@ -1,0 +1,66 @@
+[
+    {
+        "id":1,
+        "title":"Longest Substring Without Repeating Characters",
+        "youtube":"https://www.youtube.com/watch?v=-zSxTJkcdAo",
+        "blog":"https://takeuforward.org/data-structure/length-of-longest-substring-without-any-repeating-character/",
+        "practice":"https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+        "type":"leetcode"
+    },
+    {
+        "id":2,
+        "title":"Max Consecutive Ones III",
+        "youtube":"https://www.youtube.com/watch?v=3E4JBHSLpYk",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/max-consecutive-ones-iii/",
+        "type":"leetcode"
+    },
+    {
+        "id":3,
+        "title":"Fruit Into Baskets",
+        "youtube":"https://www.youtube.com/watch?v=e3bs0uA1NhQ",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/fruit-into-baskets/description/",
+        "type":"leetcode"
+    },
+    {
+        "id":4,
+        "title":"longest repeating character replacement",
+        "youtube":"https://www.youtube.com/watch?v=_eNhaDCr6P0",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/longest-repeating-character-replacement/",
+        "type":"leetcode"
+    },
+    {
+        "id":5,
+        "title":"Binary subarray with sum",
+        "youtube":"https://www.youtube.com/watch?v=XnMdNUkX6VM",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/binary-subarrays-with-sum/",
+        "type":"leetcode"
+    },
+    {
+        "id":6,
+        "title":"Count number of nice subarrays",
+        "youtube":"https://www.youtube.com/watch?v=j_QOv9OT9Og",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/count-number-of-nice-subarrays/",
+        "type":"leetcode"
+    },
+    {
+        "id":7,
+        "title":"Number of substring containing all three characters",
+        "youtube":"https://www.youtube.com/watch?v=xtqN4qlgr8s",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/",
+        "type":"leetcode"
+    },
+    {
+        "id":8,
+        "title":"Maximum point you can obtain from cards",
+        "youtube":"https://www.youtube.com/watch?v=pBWCOCS636U",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/",
+        "type":"leetcode"
+    }
+]
