@@ -1,0 +1,106 @@
+[
+    {
+        "id":1,
+        "title":"Ceil in a Binary Search Tree",
+        "youtube":"https://www.youtube.com/watch?v=KSsk8AhdOZA",
+        "blog":"https://takeuforward.org/binary-search-tree/ceil-in-a-binary-search-tree/",
+        "practice":"https://www.geeksforgeeks.org/problems/implementing-ceil-in-bst/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":2,
+        "title":"Floor in a Binary Search Tree",
+        "youtube":"https://www.youtube.com/watch?v=xm_W1ub-K-w",
+        "blog":"https://takeuforward.org/binary-search-tree/floor-in-a-binary-search-tree/",
+        "practice":"https://www.geeksforgeeks.org/problems/floor-in-bst/1",
+        "type":"gfg"
+    },
+    {
+        "id":3,
+        "title":"Insert a given Node in Binary Search Tree",
+        "youtube":"https://www.youtube.com/watch?v=FiFiNvM29ps",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/insert-into-a-binary-search-tree/",
+        "type":"leetcode"
+    },
+    {
+        "id":4,
+        "title":"Delete a Node in Binary Search Tree",
+        "youtube":"https://www.youtube.com/watch?v=kouxiP_H5WE",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/delete-node-in-a-bst/",
+        "type":"leetcode"
+    },
+    {
+        "id":5,
+        "title":"Find K-th smallest/largest element in BST",
+        "youtube":"https://www.youtube.com/watch?v=9TJYWh0adfk",
+        "blog":"https://takeuforward.org/data-structure/kth-largest-smallest-element-in-binary-search-tree/",
+        "practice":"https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
+        "type":"leetcode"
+    },
+    {
+        "id":6,
+        "title":"Check if a tree is a BST or BT",
+        "youtube":"https://www.youtube.com/watch?v=f-sj7I5oXEI",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/validate-binary-search-tree/",
+        "type":"leetcode"
+    },
+    {
+        "id":7,
+        "title":"LCA in Binary Search Tree",
+        "youtube":"https://www.youtube.com/watch?v=cX_kPV_foZc",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+        "type":"leetcode"
+    },
+    {
+        "id":8,
+        "title":"Construct a BST from a preorder traversal",
+        "youtube":"https://www.youtube.com/watch?v=UmJT3j26t1I",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/",
+        "type":"leetcode"
+    },
+    {
+        "id":9,
+        "title":"Inorder Successor/Predecessor in BST",
+        "youtube":"https://www.youtube.com/watch?v=SXKAD2svfmI",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/inorder-successor-in-bst/",
+        "type":"leetcode"
+    },
+    {
+        "id":10,
+        "title":"Merge 2 BST's",
+        "youtube":"https://www.youtube.com/watch?v=D2jMcmxU4bs",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/binary-search-tree-iterator/",
+        "type":"leetcode"
+    },
+    {
+        "id":11,
+        "title":"Two Sum In BST | Check if there exists a pair with Sum K",
+        "youtube":"https://www.youtube.com/watch?v=ssL3sHwPeb4",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/two-sum-iv-input-is-a-bst/",
+        "type":"leetcode"
+    },
+    {
+        "id":12,
+        "title":"Recover BST | Correct BST with two nodes swapped",
+        "youtube":"https://www.youtube.com/watch?v=ZWGW7FminDM",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/recover-binary-search-tree/",
+        "type":"leetcode"
+    },
+    {
+        "id":13,
+        "title":"Largest BST in Binary Tree",
+        "youtube":"https://www.youtube.com/watch?v=X0oXMdtUDwo",
+        "blog":"",
+        "practice":"https://www.geeksforgeeks.org/problems/largest-bst/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "title":"Introduction to Binary Search Tree",
+        "youtube":"https://www.youtube.com/watch?v=p7-9UvDQZ3w",
+        "blog":"https://takeuforward.org/binary-search-tree/introduction-to-binary-search-trees/",
+        "practice":"https://www.geeksforgeeks.org/problems/check-for-bst/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":2,
+        "title":"Search in a Binary Search Tree",
+        "youtube":"https://www.youtube.com/watch?v=KcNt6v_56cc",
+        "blog":"https://takeuforward.org/data-structure/search-in-a-binary-search-tree-2/",
+        "practice":"https://leetcode.com/problems/search-in-a-binary-search-tree/",
+        "type":"leetcode"
+    },
+    {
+        "id":3,
+        "title":"Find Min/Max in BST",
+        "youtube":"",
+        "blog":"",
+        "practice":"https://www.geeksforgeeks.org/problems/minimum-element-in-bst/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    }
+]

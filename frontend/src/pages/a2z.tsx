@@ -45,15 +45,6 @@ function A2Z() {
     ]
   };
 
-  const inputBinaryTree = {
-    title : 'Step 13 : Binary Trees [Traversals, Medium and Hard Problems]',
-    sections:[
-      {subtitle : 'Lec 1: Traversals', link: 'sheets/a2z-sheet/binary-trees/traversals'},
-      {subtitle : 'Lec 2: Medium Problems', link: 'sheets/a2z-sheet/binary-trees/medium'},
-      {subtitle : 'Lec 3: Hard Problems', link: 'sheets/a2z-sheet/binary-trees/hard'}
-    ]
-  };
-
   const inputString = {
     title : "Step 5 : String [Basic and Medium]",
     sections : [
@@ -122,6 +113,23 @@ function A2Z() {
       {subtitle: "Lec 1: Easy Problems", link: "sheets/a2z-sheet/greedy/lec1"},
       {subtitle: "Lec 2: Medium/Hard", link: "sheets/a2z-sheet/greedy/lec2"},
     ]
+  };
+
+  const inputBinaryTree = {
+    title : 'Step 13 : Binary Trees [Traversals, Medium and Hard Problems]',
+    sections:[
+      {subtitle : 'Lec 1: Traversals', link: 'sheets/a2z-sheet/binary-trees/traversals'},
+      {subtitle : 'Lec 2: Medium Problems', link: 'sheets/a2z-sheet/binary-trees/medium'},
+      {subtitle : 'Lec 3: Hard Problems', link: 'sheets/a2z-sheet/binary-trees/hard'}
+    ]
+  };
+
+  const bst = {
+    title : "Step 14 : Binary Search Trees [Concept and Problems]",
+    sections: [
+      {subtitle: "Lec 1: Concepts", link: "sheets/a2z-sheet/bst/lec1"},
+      {subtitle: "Lec 2: Practice Problems", link: "sheets/a2z-sheet/bst/lec2"}
+    ]
   }
 
   return (
@@ -146,6 +154,7 @@ function A2Z() {
         <Reusable {...heaps} />
         <Reusable {...greedy} />
         <Reusable {...inputBinaryTree} />
+        <Reusable {...bst} />
       </Container>
     </ThemeProvider>
   );
