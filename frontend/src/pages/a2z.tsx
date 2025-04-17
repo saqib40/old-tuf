@@ -130,6 +130,18 @@ function A2Z() {
       {subtitle: "Lec 1: Concepts", link: "sheets/a2z-sheet/bst/lec1"},
       {subtitle: "Lec 2: Practice Problems", link: "sheets/a2z-sheet/bst/lec2"}
     ]
+  };
+
+  const graphs = {
+    title: "Step 15 : Graphs [Concepts & Problems]",
+    sections: [
+      {subtitle: "Lec 1: Learning", link: "sheets/a2z-sheet/graphs/lec1"},
+      {subtitle: "Lec 2: Problems on BFS/DFS", link: "sheets/a2z-sheet/graphs/lec2"},
+      {subtitle: "Lec 3: Topo Sort and Problems", link: "sheets/a2z-sheet/graphs/lec3"},
+      {subtitle: "Lec 4: Shortest Path Algorithms and Problems", link: "sheets/a2z-sheet/graphs/lec4"},
+      {subtitle: "Lec 5: MinimumSpanningTree/Disjoint Set and Problems", link: "sheets/a2z-sheet/graphs/lec5"},
+      {subtitle: "Lec 6: Other Algorithms", link: "sheets/a2z-sheet/graphs/lec6"}
+    ]
   }
 
   return (
@@ -155,6 +167,7 @@ function A2Z() {
         <Reusable {...greedy} />
         <Reusable {...inputBinaryTree} />
         <Reusable {...bst} />
+        <Reusable {...graphs} />
       </Container>
     </ThemeProvider>
   );

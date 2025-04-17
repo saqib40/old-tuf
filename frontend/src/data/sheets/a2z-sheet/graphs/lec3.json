@@ -1,0 +1,58 @@
+[
+    {
+        "id":1,
+        "title":"Topo Sort",
+        "youtube":"https://www.youtube.com/watch?v=5lZ0iJMrUMk",
+        "blog":"https://takeuforward.org/data-structure/topological-sort-algorithm-dfs-g-21/",
+        "practice": "https://www.geeksforgeeks.org/problems/topological-sort/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":2,
+        "title":"Kahn's Algorithm",
+        "youtube":"https://www.youtube.com/watch?v=73sneFXuTEg",
+        "blog":"https://takeuforward.org/data-structure/kahns-algorithm-topological-sort-algorithm-bfs-g-22/",
+        "practice": "https://www.geeksforgeeks.org/problems/topological-sort/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":3,
+        "title":"Cycle Detection in Directed Graph (BFS)",
+        "youtube":"https://www.youtube.com/watch?v=iTBaI90lpDQ",
+        "blog":"",
+        "practice": "https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":4,
+        "title":"Course Schedule - I",
+        "youtube":"https://www.youtube.com/watch?v=WAOfKpxYHR8",
+        "blog":"https://takeuforward.org/data-structure/course-schedule-i-and-ii-pre-requisite-tasks-topological-sort-g-24/",
+        "practice": "https://leetcode.com/problems/course-schedule/",
+        "type":"leetcode"
+    },
+    {
+        "id":5,
+        "title":"Course Schedule - II",
+        "youtube":"https://www.youtube.com/watch?v=WAOfKpxYHR8",
+        "blog":"https://takeuforward.org/data-structure/course-schedule-i-and-ii-pre-requisite-tasks-topological-sort-g-24/",
+        "practice": "https://leetcode.com/problems/course-schedule-ii/",
+        "type":"leetcode"
+    },
+    {
+        "id":6,
+        "title":"Find eventual safe states",
+        "youtube":"https://www.youtube.com/watch?v=2gtg3VsDGyc",
+        "blog":"https://takeuforward.org/data-structure/find-eventual-safe-states-bfs-topological-sort-g-25/",
+        "practice": "https://leetcode.com/problems/find-eventual-safe-states/",
+        "type":"leetcode"
+    },
+    {
+        "id":7,
+        "title":"Alien dictionary",
+        "youtube":"https://www.youtube.com/watch?v=U3N_je7tWAs",
+        "blog":"https://takeuforward.org/data-structure/alien-dictionary-topological-sort-g-26/",
+        "practice": "https://leetcode.com/problems/alien-dictionary/solution/",
+        "type":"leetcode"
+    }
+]

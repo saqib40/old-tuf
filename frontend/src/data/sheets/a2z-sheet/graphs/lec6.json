@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "title":"Bridges in Graph",
+        "youtube":"https://www.youtube.com/watch?v=qrAub5z8FeA",
+        "blog":"https://takeuforward.org/graph/bridges-in-graph-using-tarjans-algorithm-of-time-in-and-low-time-g-55/",
+        "practice": "https://leetcode.com/problems/critical-connections-in-a-network/discuss/382385/find-bridges-in-a-graph",
+        "type":"leetcode"
+    },
+    {
+        "id":2,
+        "title":"Articulation Point",
+        "youtube":"https://www.youtube.com/watch?v=j1QDfU21iZk",
+        "blog":"https://takeuforward.org/data-structure/articulation-point-in-graph-g-56/",
+        "practice": "https://www.geeksforgeeks.org/problems/articulation-point2616/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":3,
+        "title":"Kosaraju's Algorithm",
+        "youtube":"https://www.youtube.com/watch?v=R6uoSjZ2imo",
+        "blog":"https://takeuforward.org/graph/strongly-connected-components-kosarajus-algorithm-g-54/",
+        "practice": "https://www.naukri.com/code360/problems/count-strongly-connected-components-kosaraju-s-algorithm_1171151",
+        "type":"codingninja"
+    }
+]
