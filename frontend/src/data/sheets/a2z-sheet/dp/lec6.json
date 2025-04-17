@@ -1,0 +1,51 @@
+[
+    {
+        "id":1,
+        "title":"Best Time to Buy and Sell Stock",
+        "youtube":"https://www.youtube.com/watch?v=excAOvwF_Wk&feature=youtu.be",
+        "blog":"https://takeuforward.org/data-structure/stock-buy-and-sell-dp-35/",
+        "practice":"https://www.geeksforgeeks.org/problems/buy-stock-2/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        
+        "id":2,
+        "title":"Buy and Sell Stock - II",
+        "youtube":"https://www.youtube.com/watch?v=nGJmxkUJQGs&feature=youtu.be",
+        "blog":"https://takeuforward.org/data-structure/buy-and-sell-stock-ii-dp-36/",
+        "practice":"https://www.geeksforgeeks.org/problems/stock-buy-and-sell2615/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":3,
+        "title":"Buy and Sell Stocks III" ,
+        "youtube":"https://www.youtube.com/watch?v=-uQGzhYj8BQ&feature=youtu.be",
+        "blog":"https://takeuforward.org/data-structure/buy-and-sell-stock-iii-dp-37/",
+        "practice":"https://www.geeksforgeeks.org/problems/buy-and-sell-a-share-at-most-twice/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":4,
+        "title":"Buy and Stock Sell IV",
+        "youtube":"https://www.youtube.com/watch?v=IV1dHbk5CDc&feature=youtu.be",
+        "blog":"https://takeuforward.org/data-structure/buy-and-sell-stock-iv-dp-38/",
+        "practice":"https://www.geeksforgeeks.org/problems/maximum-profit4657/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":5,
+        "title":"Buy and Sell Stocks With Cooldown",
+        "youtube":"https://www.youtube.com/watch?v=IGIe46xw3YY&feature=youtu.be",
+        "blog":"https://takeuforward.org/data-structure/buy-and-sell-stocks-with-cooldown-dp-39/",
+        "practice":"https://www.geeksforgeeks.org/problems/buy-stock-with-cooldown/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":6,
+        "title":"Buy and Sell Stocks With Transaction Fee",
+        "youtube":"https://www.youtube.com/watch?v=k4eK-vEmnKg&feature=youtu.be",
+        "blog":"https://takeuforward.org/data-structure/buy-and-sell-stocks-with-transaction-fees-dp-40/",
+        "practice":"https://www.geeksforgeeks.org/problems/buy-stock-with-transaction-fee/1",
+        "type":"gfg"
+    }
+]

@@ -1,0 +1,59 @@
+[
+    {
+        "id":1,
+        "title":"Ninjas Training",
+        "youtube":"https://www.youtube.com/watch?v=AE39gJYuRog",
+        "blog":"https://takeuforward.org/data-structure/dynamic-programming-ninjas-training-dp-7/",
+        "practice":"https://www.geeksforgeeks.org/problems/geeks-training/1",
+        "type":"gfg"
+    },
+    {
+        
+        "id":2,
+        "title":"Grid Uniques paths:DP in grids",
+        "youtube":"https://www.youtube.com/watch?v=sdE0A2Oxofw",
+        "blog":"https://takeuforward.org/data-structure/grid-unique-paths-dp-on-grids-dp8/",
+        "practice":"https://www.geeksforgeeks.org/problems/number-of-paths0926/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":3,
+        "title":"Grid Unique Paths 2",
+        "youtube":"https://www.youtube.com/watch?v=TmhpgXScLyY",
+        "blog":"https://takeuforward.org/data-structure/grid-unique-paths-2-dp-9/",
+        "practice":"https://leetcode.com/problems/unique-paths-ii/description/",
+        "type":"leetcode"
+    },
+    {
+        "id":4,
+        "title":"Minimum path sum in grid",
+        "youtube":"https://www.youtube.com/watch?v=_rgTlyky1uQ",
+        "blog":"https://takeuforward.org/data-structure/minimum-path-sum-in-a-grid-dp-10/",
+        "practice":"https://www.geeksforgeeks.org/problems/minimum-cost-path3833/1",
+        "type":"gfg"
+    },
+    {
+        "id":5,
+        "title":"Minimum/Maximum falling path sum",
+        "youtube":"https://www.youtube.com/watch?v=N_aJ5qQbYA0",
+        "blog":"https://takeuforward.org/data-structure/minimum-maximum-falling-path-sum-dp-12/",
+        "practice":"https://leetcode.com/problems/minimum-falling-path-sum/description/",
+        "type":"leetcode"
+    },
+    {
+        "id":6,
+        "title":"Minimum path sum in Triangluar grid",
+        "youtube":"https://www.youtube.com/watch?v=SrP-PiLSYC0",
+        "blog":"https://takeuforward.org/data-structure/minimum-path-sum-in-triangular-grid-dp-11/",
+        "practice":"https://www.geeksforgeeks.org/problems/triangle-path-sum/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":7,
+        "title":"3-DP: Ninja and his friends",
+        "youtube":"https://www.youtube.com/watch?v=QGfn7JeXK54",
+        "blog":"https://takeuforward.org/data-structure/3-d-dp-ninja-and-his-friends-dp-13/",
+        "practice":"https://www.geeksforgeeks.org/problems/geek-and-friends/0",
+        "type":"gfg"
+    }
+]

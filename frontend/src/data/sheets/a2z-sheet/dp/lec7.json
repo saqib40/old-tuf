@@ -1,0 +1,51 @@
+[
+    {
+        "id":1,
+        "title":"Longest Increasing Subsequence",
+        "youtube":"https://www.youtube.com/watch?v=ekcwMsSIzVc&feature=youtu.be",
+        "blog":"https://takeuforward.org/data-structure/longest-increasing-subsequence-dp-41/",
+        "practice":"https://www.geeksforgeeks.org/problems/longest-increasing-subsequence-1587115620/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        
+        "id":2,
+        "title":"Printing Longest Increasing Subsequence",
+        "youtube":"https://www.youtube.com/watch?v=IFfYfonAFGc",
+        "blog":"https://takeuforward.org/data-structure/printing-longest-increasing-subsequence-dp-42/",
+        "practice":"https://www.geeksforgeeks.org/problems/printing-longest-increasing-subsequence/1",
+        "type":"gfg"
+    },
+    {
+        "id":3,
+        "title":"Largest Divisible Subset" ,
+        "youtube":"https://www.youtube.com/watch?v=gDuZwBW9VvM&feature=youtu.be",
+        "blog":"https://takeuforward.org/data-structure/longest-divisible-subset-dp-44/",
+        "practice":"https://www.geeksforgeeks.org/problems/largest-divisible-subset--170643/1",
+        "type":"gfg"
+    },
+    {
+        "id":4,
+        "title":"Longest String Chain",
+        "youtube":"https://www.youtube.com/watch?v=YY8iBaYcc4g&feature=youtu.be",
+        "blog":"https://takeuforward.org/data-structure/longest-string-chain-dp-45/",
+        "practice":"https://www.geeksforgeeks.org/problems/longest-string-chain/1",
+        "type":"gfg"
+    },
+    {
+        "id":5,
+        "title":"Longest Bitonic Subsequence",
+        "youtube":"https://www.youtube.com/watch?v=y4vN0WNdrlg&feature=youtu.be",
+        "blog":"https://takeuforward.org/data-structure/longest-bitonic-subsequence-dp-46/",
+        "practice":"https://www.geeksforgeeks.org/problems/longest-bitonic-subsequence0824/1",
+        "type":"gfg"
+    },
+    {
+        "id":6,
+        "title":"Number of Longest Increasing Subsequences",
+        "youtube":"https://www.youtube.com/watch?v=cKVl1TFdNXg&feature=youtu.be",
+        "blog":"https://takeuforward.org/data-structure/number-of-longest-increasing-subsequences-dp-47/",
+        "practice":"https://www.geeksforgeeks.org/problems/number-of-longest-increasing-subsequence/0",
+        "type":"gfg"
+    }
+]
