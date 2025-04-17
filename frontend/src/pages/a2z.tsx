@@ -144,6 +144,14 @@ function A2Z() {
     ]
   };
 
+  const trie = {
+    title: "Step 17 : Tries",
+    sections: [
+      {subtitle: "Lec 1: Theory", link: "sheets/a2z-sheet/tries/lec1"},
+      {subtitle: "Lec 2: Problems", link: "sheets/a2z-sheet/tries/lec2"}
+    ]
+  }
+
   return (
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
@@ -168,6 +176,7 @@ function A2Z() {
         <Reusable {...inputBinaryTree} />
         <Reusable {...bst} />
         <Reusable {...graphs} />
+        <Reusable {...trie} />
       </Container>
     </ThemeProvider>
   );

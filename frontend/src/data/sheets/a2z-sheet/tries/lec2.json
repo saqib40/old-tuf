@@ -1,0 +1,50 @@
+[
+    {
+        "id":1,
+        "title":"Implement Trie - 2 (Prefix Tree)",
+        "youtube":"",
+        "blog":"https://takeuforward.org/data-structure/implement-trie-ii/",
+        "practice": "https://leetcode.com/problems/implement-trie-ii-prefix-tree/description/",
+        "type":"leetcode"
+    },
+    {
+        "id":2,
+        "title":"Longest String with All Prefixes",
+        "youtube":"https://www.youtube.com/watch?v=AWnBa91lThI",
+        "blog":"",
+        "practice": "https://www.naukri.com/code360/problems/complete-string_2687860",
+        "type":"codingninja"
+    },
+    {
+        "id":3,
+        "title":"Number of Distinct Substrings in a String",
+        "youtube":"https://www.youtube.com/watch?v=RV0QeTyHZxo",
+        "blog":"https://takeuforward.org/data-structure/number-of-distinct-substrings-in-a-string-using-trie/",
+        "practice": "https://www.geeksforgeeks.org/problems/count-of-distinct-substrings/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":4,
+        "title":"Bit PreRequisites for TRIE Problems",
+        "youtube":"https://www.youtube.com/watch?v=5iyuU4hQFrw",
+        "blog":"",
+        "practice": "",
+        "type":""
+    },
+    {
+        "id":5,
+        "title":"Maximum XOR of two numbers in an array",
+        "youtube":"https://www.youtube.com/watch?v=EIhAwfHubE8",
+        "blog":"https://takeuforward.org/data-structure/maximum-xor-of-two-numbers-in-an-array/",
+        "practice": "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/",
+        "type":"leetcode"
+    },
+    {
+        "id":6,
+        "title":"Maximum XOR With an Element From Array",
+        "youtube":"https://www.youtube.com/watch?v=Q8LhG9Pi5KM",
+        "blog":"https://takeuforward.org/trie/maximum-xor-queries-trie/",
+        "practice": "https://leetcode.com/problems/maximum-xor-with-an-element-from-array/",
+        "type":"leetcode"
+    }
+]
