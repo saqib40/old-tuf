@@ -4,16 +4,16 @@
         "title": "Hashing Theory",
         "youtube": "https://www.youtube.com/watch?v=KEs5UyBJ39g",
         "blog": "https://takeuforward.org/hashing/hashing-maps-time-complexity-collisions-division-rule-of-hashing-strivers-a2z-dsa-course/",
-        "practice": "",
-        "type": ""
+        "practice": "https://www.geeksforgeeks.org/practice-problems-on-hashing/",
+        "type": "gfg"
     },
     {
         "id": 2,
         "title": "Counting frequencies of array elements",
         "youtube": "",
         "blog": "https://takeuforward.org/data-structure/count-frequency-of-each-element-in-the-array/",
-        "practice": "",
-        "type": ""
+        "practice": "https://www.codechef.com/learn/course/hashing/HASH01/problems/DSAAGP35",
+        "type": "codechef"
     },
     {
         "id": 3,
