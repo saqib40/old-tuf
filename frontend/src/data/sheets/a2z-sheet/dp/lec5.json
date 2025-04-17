@@ -1,0 +1,75 @@
+[
+    {
+        "id":1,
+        "title":"Longest Common Subsequence",
+        "youtube":"https://www.youtube.com/watch?v=NPZn9jBrX8U&feature=youtu.be",
+        "blog":"https://takeuforward.org/data-structure/longest-common-subsequence-dp-25/",
+        "practice":"https://www.geeksforgeeks.org/problems/longest-common-subsequence-1587115620/1",
+        "type":"gfg"
+    },
+    {
+        
+        "id":2,
+        "title":"Print Longest Common Subsequence",
+        "youtube":"https://www.youtube.com/watch?v=-zI4mrF2Pb4&feature=youtu.be",
+        "blog":"https://takeuforward.org/data-structure/print-longest-common-subsequence-dp-26/",
+        "practice":"https://www.geeksforgeeks.org/problems/subset-sum-problem2014/1",
+        "type":"gfg"
+    },
+    {
+        "id":3,
+        "title":"Longest Palindromic Subsequence 1" ,
+        "youtube":"https://www.youtube.com/watch?v=6i_T5kkfv4A&feature=youtu.be",
+        "blog":"https://takeuforward.org/data-structure/longest-palindromic-subsequence-dp-28/",
+        "practice":"https://www.geeksforgeeks.org/problems/longest-palindromic-subsequence-1612327878/1",
+        "type":"gfg"
+    },
+    {
+        "id":4,
+        "title":"Minimum insertions to make string palindrome",
+        "youtube":"https://www.youtube.com/watch?v=xPBLEj41rFU",
+        "blog":"https://takeuforward.org/data-structure/minimum-insertions-to-make-string-palindrome-dp-29/",
+        "practice":"https://www.geeksforgeeks.org/problems/form-a-palindrome2544/1",
+        "type":"gfg"
+    },
+    {
+        "id":5,
+        "title":"Minimum Insertions/Deletions to Convert String",
+        "youtube":"https://www.youtube.com/watch?v=yMnH0jrir0Q",
+        "blog":"https://takeuforward.org/data-structure/minimum-insertions-deletions-to-convert-string-dp-30/",
+        "practice":"https://www.geeksforgeeks.org/problems/partitions-with-given-difference/1",
+        "type":"gfg"
+    },
+    {
+        "id":6,
+        "title":"Shortest Common Subsequence",
+        "youtube":"https://www.youtube.com/watch?v=xElxAuBcvsU&feature=youtu.be",
+        "blog":"https://takeuforward.org/data-structure/shortest-common-supersequence-dp-31/",
+        "practice":"https://www.geeksforgeeks.org/problems/shortest-common-supersequence0322/1",
+        "type":"gfg"
+    },
+    {
+        "id":7,
+        "title":"Distinct Subsequences",
+        "youtube":"https://www.youtube.com/watch?v=nVG7eTiD2bY&feature=youtu.be",
+        "blog":"https://takeuforward.org/data-structure/distinct-subsequences-dp-32/",
+        "practice":"https://www.geeksforgeeks.org/problems/number-of-distinct-subsequences0909/1",
+        "type":"gfg"
+    },
+    {
+        "id":8,
+        "title":"Edit Distance",
+        "youtube":"https://www.youtube.com/watch?v=fJaKO8FbDdo&feature=youtu.be",
+        "blog":"https://takeuforward.org/data-structure/edit-distance-dp-33/",
+        "practice":"https://www.geeksforgeeks.org/problems/edit-distance3702/1",
+        "type":"gfg"
+    },
+    {
+        "id":9,
+        "title":"Wildcard Matching",
+        "youtube":"https://www.youtube.com/watch?v=ZmlQ3vgAOMo&feature=youtu.be",
+        "blog":"https://takeuforward.org/data-structure/wildcard-matching-dp-34/",
+        "practice":"https://leetcode.com/problems/wildcard-matching/description/",
+        "type":"leetcode"
+    }
+]

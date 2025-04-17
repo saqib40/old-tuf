@@ -1,0 +1,59 @@
+[
+    {
+        "id":1,
+        "title":"Matrix Chain Multiplication",
+        "youtube":"https://www.youtube.com/watch?v=vRVfmbCFW7Y&feature=youtu.be",
+        "blog":"https://takeuforward.org/dynamic-programming/matrix-chain-multiplication-dp-48/",
+        "practice":"https://www.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1",
+        "type":"gfg"
+    },
+    {
+        
+        "id":2,
+        "title":"Matrix Chain Multiplication- Bottom-Up",
+        "youtube":"https://www.youtube.com/watch?v=pDCXsbAw5Cgc",
+        "blog":"https://takeuforward.org/data-structure/matrix-chain-multiplication-tabulation-method-dp-49/",
+        "practice":"",
+        "type":""
+    },
+    {
+        "id":3,
+        "title":"Minimum Cost to Cut the Stick" ,
+        "youtube":"https://www.youtube.com/watch?v=xwomavsC86c&feature=youtu.be",
+        "blog":"https://takeuforward.org/data-structure/minimum-cost-to-cut-the-stick-dp-50/",
+        "practice":"https://www.geeksforgeeks.org/problems/minimal-cost/1",
+        "type":"gfg"
+    },
+    {
+        "id":4,
+        "title":"Burst Balloons",
+        "youtube":"https://www.youtube.com/watch?v=Yz4LlDSlkns&feature=youtu.be",
+        "blog":"https://takeuforward.org/data-structure/burst-balloons-partition-dp-dp-51/",
+        "practice":"https://leetcode.com/problems/burst-balloons/description/",
+        "type":"leetcode"
+    },
+    {
+        "id":5,
+        "title":"Evaluate Boolean Expression to True",
+        "youtube":"https://www.youtube.com/watch?v=MM7fXopgyjw&feature=youtu.be",
+        "blog":"https://takeuforward.org/data-structure/evaluate-boolean-expression-to-true-partition-dp-dp-52/",
+        "practice":"https://www.geeksforgeeks.org/problems/boolean-parenthesization5610/1",
+        "type":"gfg"
+    },
+    {
+        "id":6,
+        "title":"Palindrome Partitioning - 2",
+        "youtube":"https://www.youtube.com/watch?v=_H8V5hJUGd0&feature=youtu.be",
+        "blog":"https://takeuforward.org/data-structure/palindrome-partitioning-ii-front-partition-dp-53/",
+        "practice":"https://leetcode.com/problems/palindrome-partitioning-ii/description/",
+        "type":"leetcode"
+    },
+    {
+        "id":7,
+        "title":"Partition Array for Maximum Sum",
+        "youtube":"https://www.youtube.com/watch?v=PhWWJmaKfMc&feature=youtu.be",
+        "blog":"https://takeuforward.org/data-structure/partition-array-for-maximum-sum-front-partition-dp-54/",
+        "practice":"https://www.geeksforgeeks.org/problems/partition-array-for-maximum-sum/1",
+        "type":"gfg"
+    }
+]

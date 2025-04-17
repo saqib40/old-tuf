@@ -1,0 +1,91 @@
+[
+    {
+        "id":1,
+        "title":"Subset sum equal to target",
+        "youtube":"https://www.youtube.com/watch?v=fWX9xDmIzRI",
+        "blog":"https://takeuforward.org/data-structure/subset-sum-equal-to-target-dp-14/susub",
+        "practice":"https://www.geeksforgeeks.org/problems/subset-sum-problem-1611555638/0",
+        "type":"gfg"
+    },
+    {
+        
+        "id":2,
+        "title":"Partion equal subset sum",
+        "youtube":"https://www.youtube.com/watch?v=7win3dcgo3k",
+        "blog":"https://takeuforward.org/data-structure/partition-equal-subset-sum-dp-15/",
+        "practice":"https://www.geeksforgeeks.org/problems/subset-sum-problem2014/1",
+        "type":"gfg"
+    },
+    {
+        "id":3,
+        "title":"Partition Set Into 2 Subsets With Min Absolute Sum Diff",
+        "youtube":"https://www.youtube.com/watch?v=GS_OqZb2CWc",
+        "blog":"https://takeuforward.org/data-structure/partition-set-into-2-subsets-with-min-absolute-sum-diff-dp-16/",
+        "practice":"https://www.geeksforgeeks.org/partition-a-set-into-two-subsets-such-that-the-difference-of-subset-sums-is-minimum/",
+        "type":"gfg"
+    },
+    {
+        "id":4,
+        "title":"Count Subsets with sum K",
+        "youtube":"https://www.youtube.com/watch?v=ZHyb-A2Mte4",
+        "blog":"https://takeuforward.org/data-structure/count-subsets-with-sum-k-dp-17/",
+        "practice":"https://www.geeksforgeeks.org/problems/perfect-sum-problem5633/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":5,
+        "title":"Count Partions with given difference",
+        "youtube":"https://www.youtube.com/watch?v=zoilQD1kYSg",
+        "blog":"https://takeuforward.org/data-structure/count-partitions-with-given-difference-dp-18/",
+        "practice":"https://www.geeksforgeeks.org/problems/partitions-with-given-difference/1",
+        "type":"gfg"
+    },
+    {
+        "id":6,
+        "title":"Assign Cookies",
+        "youtube":"https://www.youtube.com/watch?si=6G7JzMZ2TSP_LWSG&v=DIX2p7vb9co&feature=youtu.be",
+        "blog":"",
+        "practice":"https://leetcode.com/problems/assign-cookies/description/",
+        "type":"leetcode"
+    },
+    {
+        "id":7,
+        "title":"Minimum Coins",
+        "youtube":"https://www.youtube.com/watch?v=myPeWb3Y68A",
+        "blog":"https://takeuforward.org/data-structure/minimum-coins-dp-20/",
+        "practice":"https://www.geeksforgeeks.org/problems/number-of-coins1824/1",
+        "type":"gfg"
+    },
+    {
+        "id":8,
+        "title":"Target Sum",
+        "youtube":"https://www.youtube.com/watch?v=b3GD8263-PQ",
+        "blog":"https://takeuforward.org/data-structure/target-sum-dp-21/",
+        "practice":"https://www.geeksforgeeks.org/problems/target-sum-1626326450/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":9,
+        "title":"Coin Change 2",
+        "youtube":"https://www.youtube.com/watch?v=HgyouUi11zk",
+        "blog":"https://takeuforward.org/data-structure/coin-change-2-dp-22/",
+        "practice":"https://leetcode.com/problems/coin-change-ii/description/",
+        "type":"leetcode"
+    },
+    {
+        "id":10,
+        "title":"Unbound Knapsack",
+        "youtube":"https://www.youtube.com/watch?v=OgvOZ6OrJoY",
+        "blog":"https://takeuforward.org/data-structure/unbounded-knapsack-dp-23/",
+        "practice":"https://www.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":11,
+        "title":"Rod Cutting problem",
+        "youtube":"https://www.youtube.com/watch?v=mO8XpGoJwuo&feature=youtu.be",
+        "blog":"https://takeuforward.org/data-structure/rod-cutting-problem-dp-24/",
+        "practice":"https://www.geeksforgeeks.org/problems/rod-cutting0840/1",
+        "type":"gfg"
+    }
+]

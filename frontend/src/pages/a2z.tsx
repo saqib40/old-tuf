@@ -131,6 +131,20 @@ function A2Z() {
       {subtitle: "Lec 2: Practice Problems", link: "sheets/a2z-sheet/bst/lec2"}
     ]
   }
+  const dp={
+    title: "Step 16: Dynamic Programming [Patterns and Problems]",
+    sections:[
+      {subtitle: "Lec 1: Introduction to DP",link:"sheets/a2z-sheet/dp/lec1"},
+      {subtitle: "Lec 2: 1D DP",link:"sheets/a2z-sheet/dp/lec2"},
+      {subtitle: "Lec 3: 2D/3D DP and DP on Grids",link:"sheets/a2z-sheet/dp/lec3"},
+      {subtitle:"Lec 4: DP on Subsequences",link:"sheets/a2z-sheet/dp/lec4"},
+      {subtitle:"Lec 5: DP on Strings",link:"sheets/a2z-sheet/dp/lec5"},
+      {subtitle:"Lec 6: DP on Stocks",link:"sheets/a2z-sheet/dp/lec6"},
+      {subtitle:"Lec 7: DP on LIS",link:"sheets/a2z-sheet/dp/lec7"},
+      {subtitle:"Lec 8: MCM DP | Partition DP",link:"sheets/a2z-sheet/dp/lec8"},
+      {subtitle:"Lec 9: DP on Squares",link:"sheets/a2z-sheet/dp/lec9"}
+    ]
+  }
 
   return (
     <ThemeProvider theme={darkTheme}>
@@ -155,6 +169,7 @@ function A2Z() {
         <Reusable {...greedy} />
         <Reusable {...inputBinaryTree} />
         <Reusable {...bst} />
+        <Reusable {...dp} />
       </Container>
     </ThemeProvider>
   );

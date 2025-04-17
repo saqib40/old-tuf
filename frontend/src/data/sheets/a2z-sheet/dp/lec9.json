@@ -1,0 +1,18 @@
+[
+    {
+        "id":1,
+        "title":"Maximum Rectangle Area with all 1's",
+        "youtube":"https://www.youtube.com/watch?v=tOylVCugy9k&feature=youtu.be",
+        "blog":"https://takeuforward.org/data-structure/maximum-rectangle-area-with-all-1s-dp-on-rectangles-dp-55/",
+        "practice":"https://www.geeksforgeeks.org/problems/max-rectangle/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":2,
+        "title":"Count Square Submatrices with All Ones",
+        "youtube":"https://www.youtube.com/watch?v=auS1fynpnjo&feature=youtu.be",
+        "blog":"https://takeuforward.org/data-structure/count-square-submatrices-with-all-1s-dp-on-rectangles-dp-56/",
+        "practice":"https://www.geeksforgeeks.org/problems/count-square-submatrices-with-all-ones/0",
+        "type":"gfg"
+    }
+]
