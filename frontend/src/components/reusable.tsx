@@ -39,7 +39,7 @@ interface Question {
   youtube: string;
   blog: string;
   practice: string;
-  type: 'gfg' | 'leetcode' | 'codingninja' | '';
+  type: 'gfg' | 'leetcode' | 'codingninja' | 'codechef' | '';
 }
 
 interface Section {
@@ -108,6 +108,8 @@ function Reusable({ title, sections }: Input) {
         return 'LeetCode_logo_white.png';
       case 'codingninja':
         return 'codingninja_logo.png';
+      case 'codechef':
+        return 'codechef_logo.png';
       default:
         return undefined;
     }
