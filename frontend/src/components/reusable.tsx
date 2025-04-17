@@ -39,7 +39,7 @@ interface Question {
   youtube: string;
   blog: string;
   practice: string;
-  type: 'gfg' | 'leetcode' | 'codingninja' | 'codechef';
+  type: 'gfg' | 'leetcode' | 'codingninja' | 'codechef' | '';
 }
 
 interface Section {
