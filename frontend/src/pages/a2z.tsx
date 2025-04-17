@@ -130,7 +130,7 @@ function A2Z() {
       {subtitle: "Lec 1: Concepts", link: "sheets/a2z-sheet/bst/lec1"},
       {subtitle: "Lec 2: Practice Problems", link: "sheets/a2z-sheet/bst/lec2"}
     ]
-  }
+  };
   const dp={
     title: "Step 16: Dynamic Programming [Patterns and Problems]",
     sections:[
@@ -144,7 +144,34 @@ function A2Z() {
       {subtitle:"Lec 8: MCM DP | Partition DP",link:"sheets/a2z-sheet/dp/lec8"},
       {subtitle:"Lec 9: DP on Squares",link:"sheets/a2z-sheet/dp/lec9"}
     ]
-  }
+  };
+
+  const graphs = {
+    title: "Step 15 : Graphs [Concepts & Problems]",
+    sections: [
+      {subtitle: "Lec 1: Learning", link: "sheets/a2z-sheet/graphs/lec1"},
+      {subtitle: "Lec 2: Problems on BFS/DFS", link: "sheets/a2z-sheet/graphs/lec2"},
+      {subtitle: "Lec 3: Topo Sort and Problems", link: "sheets/a2z-sheet/graphs/lec3"},
+      {subtitle: "Lec 4: Shortest Path Algorithms and Problems", link: "sheets/a2z-sheet/graphs/lec4"},
+      {subtitle: "Lec 5: MinimumSpanningTree/Disjoint Set and Problems", link: "sheets/a2z-sheet/graphs/lec5"},
+      {subtitle: "Lec 6: Other Algorithms", link: "sheets/a2z-sheet/graphs/lec6"}
+    ]
+  };
+
+  const trie = {
+    title: "Step 17 : Tries",
+    sections: [
+      {subtitle: "Lec 1: Theory", link: "sheets/a2z-sheet/tries/lec1"},
+      {subtitle: "Lec 2: Problems", link: "sheets/a2z-sheet/tries/lec2"}
+    ]
+  };
+
+  const advStrings = {
+    title: "Step 18 : Strings",
+    sections: [
+      {subtitle: "Lec 1: Hard Problems", link: "sheets/a2z-sheet/adv-strings/hard"}
+    ]
+  };
 
   return (
     <ThemeProvider theme={darkTheme}>
@@ -169,7 +196,10 @@ function A2Z() {
         <Reusable {...greedy} />
         <Reusable {...inputBinaryTree} />
         <Reusable {...bst} />
+        <Reusable {...graphs} />
         <Reusable {...dp} />
+        <Reusable {...trie} />
+        <Reusable {...advStrings} />
       </Container>
     </ThemeProvider>
   );

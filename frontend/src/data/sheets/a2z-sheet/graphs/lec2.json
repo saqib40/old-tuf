@@ -1,0 +1,114 @@
+[
+    {
+        "id":1,
+        "title":"Number of provinces (leetcode)",
+        "youtube":"https://www.youtube.com/watch?v=ACzkVtewUYA",
+        "blog":"https://takeuforward.org/data-structure/number-of-provinces/",
+        "practice": "https://leetcode.com/problems/number-of-provinces/description/",
+        "type":"leetcode"
+    },
+    {
+        "id":2,
+        "title":"Connected Components Problem in Matrix",
+        "youtube":"",
+        "blog":"",
+        "practice": "https://www.geeksforgeeks.org/problems/find-the-number-of-islands/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":3,
+        "title":"Rotten Oranges",
+        "youtube":"https://www.youtube.com/watch?v=yf3oUhkvqA0",
+        "blog":"https://takeuforward.org/data-structure/rotten-oranges-min-time-to-rot-all-oranges-bfs/",
+        "practice": "https://leetcode.com/problems/rotting-oranges/",
+        "type":"leetcode"
+    },
+    {
+        "id":4,
+        "title":"Flood fill",
+        "youtube":"https://www.youtube.com/watch?v=C-2_uSRli8o",
+        "blog":"https://takeuforward.org/graph/flood-fill-algorithm-graphs/",
+        "practice": "https://leetcode.com/problems/flood-fill/",
+        "type":"leetcode"
+    },
+    {
+        "id":5,
+        "title":"Cycle Detection in undirected Graph (bfs)",
+        "youtube":"https://www.youtube.com/watch?v=BPlrALf1LDU",
+        "blog":"https://takeuforward.org/data-structure/detect-cycle-in-an-undirected-graph-using-bfs/",
+        "practice": "https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":6,
+        "title":"Cycle Detection in undirected Graph (dfs)",
+        "youtube":"https://www.youtube.com/watch?v=zQ3zgFypzX4",
+        "blog":"https://takeuforward.org/data-structure/detect-cycle-in-an-undirected-graph-using-dfs/",
+        "practice": "https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":7,
+        "title":"0/1 Matrix (Bfs Problem)",
+        "youtube":"https://www.youtube.com/watch?v=edXdVwkYHF8",
+        "blog":"https://takeuforward.org/graph/distance-of-nearest-cell-having-1/",
+        "practice": "https://leetcode.com/problems/01-matrix/",
+        "type":"leetcode"
+    },
+    {
+        "id":8,
+        "title":"Surrounded Regions (dfs)",
+        "youtube":"https://www.youtube.com/watch?v=BtdgAys4yMk",
+        "blog":"https://takeuforward.org/graph/surrounded-regions-replace-os-with-xs/",
+        "practice": "https://leetcode.com/problems/surrounded-regions/",
+        "type":"leetcode"
+    },
+    {
+        "id":9,
+        "title":"Number of Enclaves [flood fill implementation - multisource]",
+        "youtube":"https://www.youtube.com/watch?v=rxKcepXQgU4",
+        "blog":"https://takeuforward.org/graph/number-of-enclaves/",
+        "practice": "https://leetcode.com/problems/number-of-enclaves/",
+        "type":"leetcode"
+    },
+    {
+        "id":10,
+        "title":"Word ladder - 1",
+        "youtube":"https://www.youtube.com/watch?v=tRPda0rcf8E",
+        "blog":"https://takeuforward.org/graph/word-ladder-i-g-29/",
+        "practice": "https://leetcode.com/problems/word-ladder/",
+        "type":"leetcode"
+    },
+    {
+        "id":11,
+        "title":"Word ladder - 2",
+        "youtube":"https://youtu.be/DREutrv2XD0?si=_Fx_ECggt0WGFqJm",
+        "blog":"https://takeuforward.org/graph/g-30-word-ladder-ii/",
+        "practice": "https://leetcode.com/problems/word-ladder-ii/",
+        "type":"leetcode"
+    },
+    {
+        "id":12,
+        "title":"Number of Distinct Islands [dfs multisource]",
+        "youtube":"https://www.youtube.com/watch?v=muncqlKJrH0",
+        "blog":"https://takeuforward.org/data-structure/number-of-islands/",
+        "practice": "https://leetcode.com/problems/number-of-distinct-islands-ii/",
+        "type":"leetcode"
+    },
+    {
+        "id":13,
+        "title":"Bipartite Graph (DFS)",
+        "youtube":"https://www.youtube.com/watch?v=KG5YFfR0j8A",
+        "blog":"https://takeuforward.org/graph/bipartite-graph-dfs-implementation/",
+        "practice": "https://leetcode.com/problems/is-graph-bipartite/",
+        "type":"leetcode"
+    },
+    {
+        "id":14,
+        "title":"Cycle Detection in Directed Graph (DFS)",
+        "youtube":"https://www.youtube.com/watch?v=9twcmtQj4DU",
+        "blog":"https://takeuforward.org/data-structure/detect-cycle-in-a-directed-graph-using-dfs-g-19/",
+        "practice": "https://leetcode.com/problems/course-schedule-ii/discuss/293048/detecting-cycle-in-directed-graph-problem",
+        "type":"leetcode"
+    }
+]

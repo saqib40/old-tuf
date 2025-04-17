@@ -1,0 +1,10 @@
+[
+    {
+        "id":1,
+        "title":"Implement TRIE | INSERT | SEARCH | STARTSWITH",
+        "youtube":"https://www.youtube.com/watch?v=dBGUmUQhjaM",
+        "blog":"https://takeuforward.org/data-structure/implement-trie-1/",
+        "practice": "https://leetcode.com/problems/implement-trie-prefix-tree/",
+        "type":"leetcode"
+    }
+]

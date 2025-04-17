@@ -1,0 +1,50 @@
+[
+    {
+        "id":1,
+        "title":"Graph and Types",
+        "youtube":"https://www.youtube.com/watch?v=M3_pLsDdeuU",
+        "blog":"https://takeuforward.org/graph/introduction-to-graph/",
+        "practice": "",
+        "type":""
+    },
+    {
+        "id":2,
+        "title":"Graph Representation | C++",
+        "youtube":"https://www.youtube.com/watch?v=3oI-34aPMWM",
+        "blog":"https://takeuforward.org/graph/graph-representation-in-c/",
+        "practice": "",
+        "type":""
+    },
+    {
+        "id":3,
+        "title":"Graph Representation | Java",
+        "youtube":"https://www.youtube.com/watch?v=3oI-34aPMWM",
+        "blog":"",
+        "practice": "",
+        "type":""
+    },
+    {
+        "id":4,
+        "title":"Connected Components | Logic Explanation",
+        "youtube":"https://www.youtube.com/watch?v=lea-Wl_uWXY",
+        "blog":"https://takeuforward.org/graph/connected-components-in-graphs/",
+        "practice": "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/",
+        "type":"leetcode"
+    },
+    {
+        "id":5,
+        "title":"BFS",
+        "youtube":"https://www.youtube.com/watch?v=-tgVpUgsQ5k",
+        "blog":"https://takeuforward.org/graph/breadth-first-search-bfs-level-order-traversal/",
+        "practice": "",
+        "type":""
+    },
+    {
+        "id":6,
+        "title":"DFS",
+        "youtube":"https://www.youtube.com/watch?v=Qzf1a--rhp8",
+        "blog":"https://takeuforward.org/data-structure/depth-first-search-dfs/",
+        "practice": "",
+        "type":""
+    }
+]

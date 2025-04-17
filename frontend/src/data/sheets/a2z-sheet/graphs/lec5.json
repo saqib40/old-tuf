@@ -1,0 +1,90 @@
+[
+    {
+        "id":1,
+        "title":"Minimum Spanning Tree",
+        "youtube":"https://www.youtube.com/watch?v=ZSPjZuZWCME",
+        "blog":"https://takeuforward.org/data-structure/minimum-spanning-tree-theory-g-44/",
+        "practice": "https://www.geeksforgeeks.org/problems/minimum-spanning-tree/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":2,
+        "title":"Prim's Algorithm",
+        "youtube":"https://www.youtube.com/watch?v=mJcZjjKzeqk",
+        "blog":"https://takeuforward.org/data-structure/prims-algorithm-minimum-spanning-tree-c-and-java-g-45/",
+        "practice": "",
+        "type":""
+    },
+    {
+        "id":3,
+        "title":"Disjoint Set [Union by Rank]",
+        "youtube":"https://www.youtube.com/watch?v=aBxjDBC4M1U",
+        "blog":"https://takeuforward.org/data-structure/disjoint-set-union-by-rank-union-by-size-path-compression-g-46/",
+        "practice": "https://www.geeksforgeeks.org/problems/disjoint-set-union-find/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":4,
+        "title":"Disjoint Set [Union by Size]",
+        "youtube":"https://www.youtube.com/watch?v=aBxjDBC4M1U",
+        "blog":"https://takeuforward.org/data-structure/disjoint-set-union-by-rank-union-by-size-path-compression-g-46/",
+        "practice": "",
+        "type":""
+    },
+    {
+        "id":5,
+        "title":"Kruskal's Algorithm",
+        "youtube":"https://www.youtube.com/watch?v=DMnDM_sxVig",
+        "blog":"https://takeuforward.org/data-structure/kruskals-algorithm-minimum-spanning-tree-g-47/",
+        "practice": "https://www.geeksforgeeks.org/problems/minimum-spanning-tree-kruskals-algorithm/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":6,
+        "title":"Number of operations to make network connected",
+        "youtube":"https://www.youtube.com/watch?v=FYrl7iz9_ZU",
+        "blog":"https://takeuforward.org/data-structure/number-of-operations-to-make-network-connected-dsu-g-49/",
+        "practice": "https://leetcode.com/problems/number-of-operations-to-make-network-connected/",
+        "type":"leetcode"
+    },
+    {
+        "id":7,
+        "title":"Most stones removed with same rows or columns",
+        "youtube":"https://www.youtube.com/watch?v=OwMNX8SPavM",
+        "blog":"https://takeuforward.org/data-structure/most-stones-removed-with-same-row-or-column-dsu-g-53/",
+        "practice": "https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/",
+        "type":"leetcode"
+    },
+    {
+        "id":8,
+        "title":"Accounts merge",
+        "youtube":"https://www.youtube.com/watch?v=FMwpt_aQOGw",
+        "blog":"https://takeuforward.org/data-structure/accounts-merge-dsu-g-50/",
+        "practice": "https://leetcode.com/problems/accounts-merge/",
+        "type":"leetcode"
+    },
+    {
+        "id":9,
+        "title":"Number of island II",
+        "youtube":"https://www.youtube.com/watch?v=Rn6B-Q4SNyA",
+        "blog":"https://takeuforward.org/graph/number-of-islands-ii-online-queries-dsu-g-51/",
+        "practice": "https://leetcode.com/problems/number-of-islands-ii/",
+        "type":"leetcode"
+    },
+    {
+        "id":10,
+        "title":"Making a Large Island",
+        "youtube":"https://www.youtube.com/watch?v=lgiz0Oup6gM",
+        "blog":"https://takeuforward.org/data-structure/making-a-large-island-dsu-g-52/",
+        "practice": "https://leetcode.com/problems/making-a-large-island/",
+        "type":"leetcode"
+    },
+    {
+        "id":11,
+        "title":"Swim in rising water",
+        "youtube":"",
+        "blog":"",
+        "practice": "https://leetcode.com/problems/swim-in-rising-water/",
+        "type":"leetcode"
+    }
+]

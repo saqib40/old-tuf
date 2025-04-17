@@ -1,0 +1,106 @@
+[
+    {
+        "id":1,
+        "title":"Shortest Path in UG with unit weights",
+        "youtube":"https://www.youtube.com/watch?v=C4gxoTaI71U",
+        "blog":"https://takeuforward.org/data-structure/shortest-path-in-undirected-graph-with-unit-distance-g-28/",
+        "practice": "https://www.geeksforgeeks.org/problems/shortest-path-in-undirected-graph-having-unit-distance/0",
+        "type":"gfg"
+    },
+    {
+        "id":2,
+        "title":"Shortest Path in DAG",
+        "youtube":"https://www.youtube.com/watch?v=ZUFQfFaU-8U",
+        "blog":"https://takeuforward.org/data-structure/shortest-path-in-directed-acyclic-graph-topological-sort-g-27/",
+        "practice": "https://www.geeksforgeeks.org/problems/shortest-path-in-undirected-graph/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":3,
+        "title":"Djisktra's Algorithm",
+        "youtube":"https://www.youtube.com/watch?v=rp1SMw7HSO8",
+        "blog":"https://takeuforward.org/data-structure/dijkstras-algorithm-using-set-g-33/",
+        "practice": "https://www.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":4,
+        "title":"Why priority Queue is used in Djisktra's Algorithm",
+        "youtube":"https://www.youtube.com/watch?v=rp1SMw7HSO8",
+        "blog":"https://takeuforward.org/data-structure/dijkstras-algorithm-using-priority-queue-g-32/",
+        "practice": "",
+        "type":""
+    },
+    {
+        "id":5,
+        "title":"Shortest path in a binary maze",
+        "youtube":"https://www.youtube.com/watch?v=U5Mw4eyUmw4",
+        "blog":"https://takeuforward.org/data-structure/g-36-shortest-distance-in-a-binary-maze/",
+        "practice": "https://leetcode.com/problems/shortest-path-in-binary-matrix/",
+        "type":"leetcode"
+    },
+    {
+        "id":6,
+        "title":"Path with minimum effort",
+        "youtube":"https://www.youtube.com/watch?v=0ytpZyiZFhA",
+        "blog":"https://takeuforward.org/data-structure/g-37-path-with-minimum-effort/",
+        "practice": "https://leetcode.com/problems/path-with-minimum-effort/",
+        "type":"leetcode"
+    },
+    {
+        "id":7,
+        "title":"Cheapest flights within k stops",
+        "youtube":"https://www.youtube.com/watch?v=9XybHVqTHcQ",
+        "blog":"https://takeuforward.org/data-structure/g-38-cheapest-flights-within-k-stops/",
+        "practice": "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
+        "type":"leetcode"
+    },
+    {
+        "id":8,
+        "title":"Network Delay time",
+        "youtube":"",
+        "blog":"",
+        "practice": "https://leetcode.com/problems/network-delay-time/",
+        "type":"leetcode"
+    },
+    {
+        "id":9,
+        "title":"Number of ways to arrive at destination",
+        "youtube":"https://www.youtube.com/watch?v=_-0mx0SmYxA",
+        "blog":"https://takeuforward.org/data-structure/g-40-number-of-ways-to-arrive-at-destination/",
+        "practice": "https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/",
+        "type":"leetcode"
+    },
+    {
+        "id":10,
+        "title":"Minimum steps to reach end from start by performing multiplication and mod operations with array elements",
+        "youtube":"https://www.youtube.com/watch?v=_BvEJ3VIDWw",
+        "blog":"https://takeuforward.org/graph/g-39-minimum-multiplications-to-reach-end/",
+        "practice": "https://www.geeksforgeeks.org/problems/minimum-multiplications-to-reach-end/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":11,
+        "title":"Bellman Ford Algorithm",
+        "youtube":"https://www.youtube.com/watch?v=0vVofAhAYjc",
+        "blog":"https://takeuforward.org/data-structure/bellman-ford-algorithm-g-41/",
+        "practice": "https://www.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":12,
+        "title":"Floyd Warshal Algorithm",
+        "youtube":"https://www.youtube.com/watch?v=YbY8cVwWAvw",
+        "blog":"https://takeuforward.org/data-structure/floyd-warshall-algorithm-g-42/",
+        "practice": "https://www.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "type":"gfg"
+    },
+    {
+        "id":13,
+        "title":"Find the city with the smallest number of neighbors in a threshold distance",
+        "youtube":"https://www.youtube.com/watch?v=9XybHVqTHcQ",
+        "blog":"https://takeuforward.org/data-structure/find-the-city-with-the-smallest-number-of-neighbours-at-a-threshold-distance-g-43/",
+        "practice": "https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/",
+        "type":"leetcode"
+    }
+]
