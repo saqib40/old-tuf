@@ -150,7 +150,14 @@ function A2Z() {
       {subtitle: "Lec 1: Theory", link: "sheets/a2z-sheet/tries/lec1"},
       {subtitle: "Lec 2: Problems", link: "sheets/a2z-sheet/tries/lec2"}
     ]
-  }
+  };
+
+  const advStrings = {
+    title: "Step 18 : Strings",
+    sections: [
+      {subtitle: "Lec 1: Hard Problems", link: "sheets/a2z-sheet/adv-strings/hard"}
+    ]
+  };
 
   return (
     <ThemeProvider theme={darkTheme}>
@@ -177,6 +184,7 @@ function A2Z() {
         <Reusable {...bst} />
         <Reusable {...graphs} />
         <Reusable {...trie} />
+        <Reusable {...advStrings} />
       </Container>
     </ThemeProvider>
   );

@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "title": "Minimum number of bracket reversals needed to make an expression balanced",
+        "youtube": "",
+        "blog": "",
+        "practice": "https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/",
+        "type": "leetcode"
+    },
+    {
+        "id": 2,
+        "title": "Count and say",
+        "youtube": "",
+        "blog": "",
+        "practice": "https://leetcode.com/problems/count-and-say/",
+        "type": "leetcode"
+    },
+    {
+        "id": 3,
+        "title": "Hashing In Strings | Theory",
+        "youtube": "",
+        "blog": "",
+        "practice": "",
+        "type": ""
+    },
+    {
+        "id": 4,
+        "title": "Rabin Karp",
+        "youtube": "",
+        "blog": "",
+        "practice": "https://leetcode.com/problems/repeated-string-match/discuss/416144/Rabin-Karp-algorithm-C%2B%2B-implementation",
+        "type": "leetcode"
+    },
+    {
+        "id": 5,
+        "title": "Z-Function",
+        "youtube": "",
+        "blog": "",
+        "practice": "https://leetcode.com/problems/implement-strstr/",
+        "type": "leetcode"
+    },
+    {
+        "id": 6,
+        "title": "KMP algo / LPS(pi) array",
+        "youtube": "",
+        "blog": "",
+        "practice": "https://leetcode.com/problems/implement-strstr/",
+        "type": "leetcode"
+    },
+    {
+        "id": 7,
+        "title": "Shortest Palindrome",
+        "youtube": "",
+        "blog": "",
+        "practice": "https://leetcode.com/problems/shortest-palindrome/",
+        "type": "leetcode"
+    },
+    {
+        "id": 8,
+        "title": "Longest happy prefix",
+        "youtube": "",
+        "blog": "",
+        "practice": "https://leetcode.com/problems/longest-happy-prefix/",
+        "type": "leetcode"
+    },
+    {
+        "id": 9,
+        "title": "Count palindromic subsequence in given string",
+        "youtube": "",
+        "blog": "",
+        "practice": "",
+        "type": ""
+    }
+]
