@@ -142,7 +142,7 @@ function A2Z() {
       {subtitle: "Lec 5: MinimumSpanningTree/Disjoint Set and Problems", link: "sheets/a2z-sheet/graphs/lec5"},
       {subtitle: "Lec 6: Other Algorithms", link: "sheets/a2z-sheet/graphs/lec6"}
     ]
-  }
+  };
 
   return (
     <ThemeProvider theme={darkTheme}>
