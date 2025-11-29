@@ -1,9 +1,4 @@
-// this is a reusable component
-// made to be used across the whole application
-// takes i/p as title and subtitles 
-// and each subtitle will have corresponding link to a json file from the "data" section
-
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import {
   Box,
   Typography,
@@ -16,16 +11,23 @@ import {
   Collapse,
   IconButton,
   Avatar,
+  Checkbox,
+  useTheme,
+  alpha,
+  Tooltip,
+  LinearProgress,
 } from '@mui/material';
-import { ThemeProvider } from '@mui/material/styles';
-import CssBaseline from '@mui/material/CssBaseline';
-import { darkTheme } from '../theme';
-import YouTubeIcon from '@mui/icons-material/YouTube';
-import DescriptionIcon from '@mui/icons-material/Description';
-import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
-import KeyboardArrowDown from '@mui/icons-material/KeyboardArrowDown';
+import {
+  Youtube,
+  FileText,
+  ChevronRight,
+  ChevronDown,
+  CheckCircle2,
+  Circle
+} from 'lucide-react';
+import EmptyState from './EmptyState';
 
-// Load all JSON files using Vite's import.meta.glob
+// Load all JSON files
 const jsonFiles = import.meta.glob('../data/sheets/**/*.json', { eager: true });
 const mappedFiles = Object.keys(jsonFiles).reduce((acc, path) => {
   const key = path.replace(/^\.\.\/data\//, '').replace(/\.json$/, '');
@@ -44,7 +46,7 @@ interface Question {
 
 interface Section {
   subtitle: string;
-  link: string; // e.g., 'sheets/a2z-sheet/arrays/easy'
+  link: string;
 }
 
 interface Input {
@@ -53,27 +55,40 @@ interface Input {
 }
 
 function Reusable({ title, sections }: Input) {
-  const [isSectionsOpen, setIsSectionsOpen] = useState(false);
+  const theme = useTheme();
+  const [isSectionsOpen, setIsSectionsOpen] = useState(false); // Default closed as per user request new design
   const [expandedSections, setExpandedSections] = useState<Record<string, boolean>>({});
   const [sectionQuestions, setSectionQuestions] = useState<Record<string, Question[]>>({});
+  const [completedQuestions, setCompletedQuestions] = useState<Record<string, boolean>>({});
+
+  // Load completed questions from localStorage on mount
+  useEffect(() => {
+    const saved = localStorage.getItem('completedQuestions');
+    if (saved) {
+      setCompletedQuestions(JSON.parse(saved));
+    }
+  }, []);
+
+  // Toggle question completion
+  const toggleCompletion = (sectionLink: string, id: number) => {
+    const key = `${sectionLink}-${id}`;
+    const newCompleted = { ...completedQuestions, [key]: !completedQuestions[key] };
+    setCompletedQuestions(newCompleted);
+    localStorage.setItem('completedQuestions', JSON.stringify(newCompleted));
+  };
 
   // Toggle sections visibility
   const handleTitleClick = () => {
     setIsSectionsOpen(!isSectionsOpen);
-    if (!isSectionsOpen) {
-      setExpandedSections({}); // Reset expanded sections when closing
-      setSectionQuestions({}); // Clear questions
-    }
   };
 
   // Toggle a section and load its questions
   const handleSectionClick = (sectionLink: string) => {
     setExpandedSections((prev) => ({
       ...prev,
-      [sectionLink]: !prev[sectionLink], // Toggle the section
+      [sectionLink]: !prev[sectionLink],
     }));
 
-    // If the section is being expanded and questions aren't loaded yet, fetch them
     if (!expandedSections[sectionLink] && !sectionQuestions[sectionLink]) {
       try {
         const data = mappedFiles[sectionLink];
@@ -83,7 +98,6 @@ function Reusable({ title, sections }: Input) {
             [sectionLink]: data.default || data,
           }));
         } else {
-          console.warn(`No data found for ${sectionLink}`);
           setSectionQuestions((prev) => ({
             ...prev,
             [sectionLink]: [],
@@ -99,207 +113,299 @@ function Reusable({ title, sections }: Input) {
     }
   };
 
-  // Map question type to logo image
   const getPracticeLogo = (type: Question['type']) => {
     switch (type) {
-      case 'gfg':
-        return 'GeeksForGeeks_logo.png';
-      case 'leetcode':
-        return 'LeetCode_logo_white.png';
-      case 'codingninja':
-        return 'codingninja_logo.png';
-      case 'codechef':
-        return 'codechef_logo.png';
-      default:
-        return undefined;
+      case 'gfg': return 'GeeksForGeeks_logo.png';
+      case 'leetcode': return 'LeetCode_logo_white.png';
+      case 'codingninja': return 'codingninja_logo.png';
+      case 'codechef': return 'codechef_logo.png';
+      default: return undefined;
     }
   };
 
+  // Calculate progress for a section
+  const getSectionProgress = (sectionLink: string, questions: Question[]) => {
+    if (!questions || questions.length === 0) return { completed: 0, total: 0, percentage: 0 };
+    const total = questions.length;
+    const completed = questions.filter(q => completedQuestions[`${sectionLink}-${q.id}`]).length;
+    return { completed, total, percentage: (completed / total) * 100 };
+  };
+
+  // Calculate total progress for the entire step
+  const getTotalProgress = () => {
+    let totalQuestions = 0;
+    let totalCompleted = 0;
+
+    sections.forEach(section => {
+      const questions = mappedFiles[section.link]?.default || mappedFiles[section.link] || [];
+      totalQuestions += questions.length;
+      totalCompleted += questions.filter(q => completedQuestions[`${section.link}-${q.id}`]).length;
+    });
+
+    return {
+      completed: totalCompleted,
+      total: totalQuestions,
+      percentage: totalQuestions > 0 ? (totalCompleted / totalQuestions) * 100 : 0
+    };
+  };
+
+  const { completed: stepCompleted, total: stepTotal, percentage: stepPercentage } = getTotalProgress();
+
   return (
-    <ThemeProvider theme={darkTheme}>
-      <CssBaseline />
-      <Box sx={{ mb: 4 }}>
-        {/* Title */}
+    <>
+      <Box sx={{ mb: 2, maxWidth: '1000px', mx: 'auto', px: 2 }}>
+        {/* Step Header - Collapsible */}
         <Box
+          onClick={handleTitleClick}
           sx={{
             display: 'flex',
             alignItems: 'center',
-            borderBottom: '1px solid',
-            borderColor: 'grey.800',
-            pb: 1,
-            mb: 2,
+            justifyContent: 'space-between',
+            cursor: 'pointer',
+            py: 2,
+            px: 2,
+            mb: isSectionsOpen ? 2 : 0,
+            borderRadius: 2,
+            backgroundColor: isSectionsOpen ? alpha(theme.palette.background.paper, 0.4) : 'transparent',
+            transition: 'all 0.2s ease',
+            '&:hover': {
+              backgroundColor: alpha(theme.palette.background.paper, 0.6),
+            }
           }}
         >
-          <Typography
-            variant="h5"
-            component="div"
-            sx={{
-              cursor: 'pointer',
-              fontWeight: 600,
-              color: 'white',
-              flexGrow: 1,
-              '&:hover': { textDecoration: 'underline' },
-            }}
-            onClick={handleTitleClick}
-          >
-            {title}
-          </Typography>
-          {isSectionsOpen ? (
-            <KeyboardArrowDown sx={{ color: 'white' }} />
-          ) : (
-            <KeyboardArrowRight sx={{ color: 'white' }} />
-          )}
+          <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, flexGrow: 1 }}>
+            <Box
+              sx={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                width: 24,
+                height: 24,
+                color: 'text.secondary',
+              }}
+            >
+              {isSectionsOpen ? <ChevronDown size={20} /> : <ChevronRight size={20} />}
+            </Box>
+            <Typography variant="h6" sx={{ fontWeight: 600, color: 'text.primary' }}>
+              {title}
+            </Typography>
+          </Box>
+
+          {/* Step Progress Bar */}
+          <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, minWidth: '200px', justifyContent: 'flex-end' }}>
+            <Box sx={{ width: '100px', mr: 1 }}>
+              <LinearProgress
+                variant="determinate"
+                value={stepPercentage}
+                sx={{
+                  height: 6,
+                  borderRadius: 3,
+                  backgroundColor: alpha(theme.palette.text.secondary, 0.1),
+                  '& .MuiLinearProgress-bar': {
+                    borderRadius: 3,
+                    backgroundColor: theme.palette.primary.main,
+                  }
+                }}
+              />
+            </Box>
+            <Typography variant="body2" color="text.secondary" sx={{ minWidth: '45px', textAlign: 'right' }}>
+              {stepCompleted} / {stepTotal}
+            </Typography>
+          </Box>
         </Box>
 
-        {/* Sections */}
+        {/* Sections List */}
         <Collapse in={isSectionsOpen}>
-          <Box sx={{ pl: 2, mb: 2 }}>
-            {sections.map((section) => (
-              <Box key={section.subtitle}>
+          <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2, pl: 2 }}>
+            {sections.map((section, index) => {
+              // We need to load questions to calculate progress even if not expanded
+              // This is a trade-off. For now, we'll only show progress if questions are loaded.
+              // Ideally, we should pre-load all questions or have metadata.
+              // For this implementation, we will try to load them if they exist in mappedFiles
+              const questions = mappedFiles[section.link]?.default || mappedFiles[section.link] || [];
+              const { completed, total, percentage } = getSectionProgress(section.link, questions);
+
+              return (
                 <Box
+                  key={section.subtitle}
                   sx={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    border: '1px solid',
-                    borderColor: expandedSections[section.link] ? 'grey.600' : 'grey.800',
-                    borderRadius: 1,
-                    px: 2,
-                    py: 1,
-                    mb: 1,
-                    backgroundColor: expandedSections[section.link]
-                      ? 'rgba(255, 255, 255, 0.05)'
-                      : 'transparent',
+                    borderBottom: `1px solid ${alpha(theme.palette.divider, 0.5)}`,
+                    pb: 2,
+                    '&:last-child': { borderBottom: 'none' }
                   }}
                 >
-                  <Typography
-                    variant="h6"
-                    component="div"
-                    sx={{
-                      cursor: 'pointer',
-                      color: expandedSections[section.link] ? 'white' : 'grey.400',
-                      flexGrow: 1,
-                      '&:hover': { color: 'grey.300' },
-                    }}
+                  {/* Section Header - Minimal Row */}
+                  <Box
                     onClick={() => handleSectionClick(section.link)}
+                    sx={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'space-between',
+                      cursor: 'pointer',
+                      py: 1.5,
+                      px: 1,
+                      borderRadius: 1,
+                      transition: 'background-color 0.2s ease',
+                      '&:hover': {
+                        backgroundColor: alpha(theme.palette.text.primary, 0.03),
+                        '& .section-title': {
+                          color: theme.palette.primary.main,
+                        }
+                      }
+                    }}
                   >
-                    {section.subtitle}
-                  </Typography>
-                  {expandedSections[section.link] ? (
-                    <KeyboardArrowDown sx={{ color: expandedSections[section.link] ? 'white' : 'grey.400' }} />
-                  ) : (
-                    <KeyboardArrowRight sx={{ color: expandedSections[section.link] ? 'white' : 'grey.400' }} />
-                  )}
-                </Box>
+                    <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, flexGrow: 1 }}>
+                      <Box
+                        sx={{
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          width: 24,
+                          height: 24,
+                          color: expandedSections[section.link] ? 'primary.main' : 'text.secondary',
+                        }}
+                      >
+                        {expandedSections[section.link] ? <ChevronDown size={20} /> : <ChevronRight size={20} />}
+                      </Box>
+                      <Typography
+                        className="section-title"
+                        sx={{
+                          fontWeight: 500,
+                          fontSize: '1rem',
+                          transition: 'color 0.2s ease',
+                          color: expandedSections[section.link] ? 'text.primary' : 'text.secondary',
+                        }}
+                      >
+                        {section.subtitle}
+                      </Typography>
+                    </Box>
 
-                {/* Questions Table for this Section */}
-                <Collapse in={expandedSections[section.link]}>
-                  <TableContainer sx={{ mb: 2 }}>
-                    <Table sx={{ minWidth: 650, backgroundColor: 'background.paper' }}>
-                      <TableHead>
-                        <TableRow>
-                          <TableCell sx={{ color: 'grey.400', fontWeight: 'bold' }}>
-                            Problem
-                          </TableCell>
-                          <TableCell
-                            sx={{ color: 'grey.400', fontWeight: 'bold' }}
-                            align="center"
-                          >
-                            Youtube
-                          </TableCell>
-                          <TableCell
-                            sx={{ color: 'grey.400', fontWeight: 'bold' }}
-                            align="center"
-                          >
-                            Blog
-                          </TableCell>
-                          <TableCell
-                            sx={{ color: 'grey.400', fontWeight: 'bold' }}
-                            align="center"
-                          >
-                            Practice
-                          </TableCell>
-                        </TableRow>
-                      </TableHead>
-                      <TableBody>
-                        {sectionQuestions[section.link]?.length > 0 ? (
-                          sectionQuestions[section.link].map((question: Question) => (
-                            <TableRow key={question.id}>
-                              <TableCell sx={{ color: 'white' }}>
-                                {question.title}
-                              </TableCell>
-                              <TableCell align="center">
-                                {question.youtube && question.youtube.trim() ? (
-                                  <IconButton
-                                    href={question.youtube}
-                                    target="_blank"
-                                    rel="noopener"
-                                    sx={{ color: 'orange' }}
-                                  >
-                                    <YouTubeIcon />
-                                  </IconButton>
-                                ) : (
-                                  <Typography variant="body2" sx={{ color: 'grey.400' }}>
-                                    -
-                                  </Typography>
-                                )}
-                              </TableCell>
-                              <TableCell align="center">
-                                {question.blog && question.blog.trim() ? (
-                                  <IconButton
-                                    href={question.blog}
-                                    target="_blank"
-                                    rel="noopener"
-                                    sx={{ color: 'grey.400' }}
-                                  >
-                                    <DescriptionIcon />
-                                  </IconButton>
-                                ) : (
-                                  <Typography variant="body2" sx={{ color: 'grey.400' }}>
-                                    -
-                                  </Typography>
-                                )}
-                              </TableCell>
-                              <TableCell align="center">
-                                {question.practice && question.practice.trim() && question.type && question.type.trim() ? (
-                                  <IconButton
-                                    href={question.practice}
-                                    target="_blank"
-                                    rel="noopener"
-                                  >
-                                    <Avatar
-                                      src={getPracticeLogo(question.type)}
-                                      alt={`${question.type} logo`}
-                                      sx={{ width: 24, height: 24 }}
+                    {/* Progress Bar */}
+                    <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, minWidth: '200px', justifyContent: 'flex-end' }}>
+                      <Box sx={{ width: '100px', mr: 1 }}>
+                        <LinearProgress
+                          variant="determinate"
+                          value={percentage}
+                          sx={{
+                            height: 6,
+                            borderRadius: 3,
+                            backgroundColor: alpha(theme.palette.text.secondary, 0.1),
+                            '& .MuiLinearProgress-bar': {
+                              borderRadius: 3,
+                              backgroundColor: theme.palette.primary.main,
+                            }
+                          }}
+                        />
+                      </Box>
+                      <Typography variant="body2" color="text.secondary" sx={{ minWidth: '45px', textAlign: 'right' }}>
+                        {completed} / {total}
+                      </Typography>
+                    </Box>
+                  </Box>
+
+                  {/* Questions Table */}
+                  <Collapse in={expandedSections[section.link]}>
+                    <Box sx={{ mt: 2, pl: 6 }}>
+                      <TableContainer>
+                        <Table size="small">
+                          <TableBody>
+                            {sectionQuestions[section.link]?.length > 0 ? (
+                              sectionQuestions[section.link].map((question, qIndex) => (
+                                <TableRow
+                                  key={question.id}
+                                  sx={{
+                                    '&:last-child td, &:last-child th': { border: 0 },
+                                    '&:hover': { backgroundColor: alpha(theme.palette.action.hover, 0.05) }
+                                  }}
+                                >
+                                  <TableCell padding="checkbox" sx={{ borderBottom: 'none' }}>
+                                    <Checkbox
+                                      checked={!!completedQuestions[`${section.link}-${question.id}`]}
+                                      onChange={() => toggleCompletion(section.link, question.id)}
+                                      icon={<Circle size={18} color={theme.palette.text.secondary} />}
+                                      checkedIcon={<CheckCircle2 size={18} color={theme.palette.success.main} />}
+                                      sx={{ p: 0.5 }}
                                     />
-                                  </IconButton>
-                                ) : (
-                                  <Typography variant="body2" sx={{ color: 'grey.400' }}>
-                                    -
-                                  </Typography>
-                                )}
-                              </TableCell>
-                            </TableRow>
-                          ))
-                        ) : (
-                          <TableRow>
-                            <TableCell
-                              colSpan={4}
-                              sx={{ color: 'grey.400', textAlign: 'center' }}
-                            >
-                              No questions found or failed to load.
-                            </TableCell>
-                          </TableRow>
-                        )}
-                      </TableBody>
-                    </Table>
-                  </TableContainer>
-                </Collapse>
-              </Box>
-            ))}
+                                  </TableCell>
+                                  <TableCell sx={{ borderBottom: 'none' }}>
+                                    <Typography
+                                      variant="body2"
+                                      sx={{
+                                        color: completedQuestions[`${section.link}-${question.id}`] ? 'text.secondary' : 'text.primary',
+                                        textDecoration: completedQuestions[`${section.link}-${question.id}`] ? 'line-through' : 'none',
+                                        fontWeight: 400
+                                      }}
+                                    >
+                                      {question.title}
+                                    </Typography>
+                                  </TableCell>
+                                  <TableCell align="right" sx={{ borderBottom: 'none' }}>
+                                    <Box sx={{ display: 'flex', gap: 1, justifyContent: 'flex-end' }}>
+                                      {question.youtube && (
+                                        <Tooltip title="Watch Video">
+                                          <IconButton
+                                            href={question.youtube}
+                                            target="_blank"
+                                            rel="noopener"
+                                            size="small"
+                                            sx={{ color: 'text.secondary', '&:hover': { color: '#ef4444' } }}
+                                          >
+                                            <Youtube size={16} />
+                                          </IconButton>
+                                        </Tooltip>
+                                      )}
+                                      {question.blog && (
+                                        <Tooltip title="Read Article">
+                                          <IconButton
+                                            href={question.blog}
+                                            target="_blank"
+                                            rel="noopener"
+                                            size="small"
+                                            sx={{ color: 'text.secondary', '&:hover': { color: '#3b82f6' } }}
+                                          >
+                                            <FileText size={16} />
+                                          </IconButton>
+                                        </Tooltip>
+                                      )}
+                                      {question.practice && question.type && (
+                                        <Tooltip title={`Solve on ${question.type}`}>
+                                          <IconButton
+                                            href={question.practice}
+                                            target="_blank"
+                                            rel="noopener"
+                                            size="small"
+                                            sx={{ p: 0.5 }}
+                                          >
+                                            <Avatar
+                                              src={getPracticeLogo(question.type)}
+                                              sx={{ width: 16, height: 16, filter: 'grayscale(100%)', '&:hover': { filter: 'none' } }}
+                                            />
+                                          </IconButton>
+                                        </Tooltip>
+                                      )}
+                                    </Box>
+                                  </TableCell>
+                                </TableRow>
+                              ))
+                            ) : (
+                              <TableRow>
+                                <TableCell colSpan={3} sx={{ borderBottom: 'none', py: 4 }}>
+                                  <EmptyState message="No questions loaded" description="Click to load questions" />
+                                </TableCell>
+                              </TableRow>
+                            )}
+                          </TableBody>
+                        </Table>
+                      </TableContainer>
+                    </Box>
+                  </Collapse>
+                </Box>
+              );
+            })}
           </Box>
         </Collapse>
       </Box>
-    </ThemeProvider>
+    </>
   );
 }
 
