@@ -6,7 +6,6 @@ import {
   TableBody,
   TableCell,
   TableContainer,
-  TableHead,
   TableRow,
   Collapse,
   IconButton,
@@ -139,7 +138,7 @@ function Reusable({ title, sections }: Input) {
     sections.forEach(section => {
       const questions = mappedFiles[section.link]?.default || mappedFiles[section.link] || [];
       totalQuestions += questions.length;
-      totalCompleted += questions.filter(q => completedQuestions[`${section.link}-${q.id}`]).length;
+      totalCompleted += questions.filter((q: Question) => completedQuestions[`${section.link}-${q.id}`]).length;
     });
 
     return {
@@ -217,7 +216,7 @@ function Reusable({ title, sections }: Input) {
         {/* Sections List */}
         <Collapse in={isSectionsOpen}>
           <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2, pl: 2 }}>
-            {sections.map((section, index) => {
+            {sections.map((section) => {
               // We need to load questions to calculate progress even if not expanded
               // This is a trade-off. For now, we'll only show progress if questions are loaded.
               // Ideally, we should pre-load all questions or have metadata.
@@ -310,7 +309,7 @@ function Reusable({ title, sections }: Input) {
                         <Table size="small">
                           <TableBody>
                             {sectionQuestions[section.link]?.length > 0 ? (
-                              sectionQuestions[section.link].map((question, qIndex) => (
+                              sectionQuestions[section.link].map((question) => (
                                 <TableRow
                                   key={question.id}
                                   sx={{
