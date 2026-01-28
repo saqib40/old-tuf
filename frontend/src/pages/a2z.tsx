@@ -1,19 +1,23 @@
-import { Container, Box, Typography } from '@mui/material';
+
+import { Box, Typography, Button, alpha } from '@mui/material';
 import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import { darkTheme } from '../theme';
 import Reusable from '../components/reusable';
+import Dashboard from '../components/Dashboard';
+
+import { RotateCcw } from 'lucide-react';
 
 function A2Z() {
   const basics = {
-    title : 'Step 1 : Learn the basics',
-    sections : [
-      {subtitle: 'Lec 1: Things to Know in C++/Java/Python or any language', link: 'sheets/a2z-sheet/basics/lec1'},
-      {subtitle: 'Lec 2: Build-up Logical Thinking', link: 'sheets/a2z-sheet/basics/lec2'},
-      {subtitle: 'Lec 3: Learn STL/Java-Collections or similar thing in your language', link: 'sheets/a2z-sheet/basics/lec3'},
-      {subtitle: 'Lec 4: Know Basic Maths', link: 'sheets/a2z-sheet/basics/lec4'},
-      {subtitle: 'Lec 5: Learn Basic Recursion', link: 'sheets/a2z-sheet/basics/lec5'},
-      {subtitle: 'Lec 6: Learn Basic Hashing', link: 'sheets/a2z-sheet/basics/lec6'}
+    title: 'Step 1 : Learn the basics',
+    sections: [
+      { subtitle: 'Lec 1: Things to Know in C++/Java/Python or any language', link: 'sheets/a2z-sheet/basics/lec1' },
+      { subtitle: 'Lec 2: Build-up Logical Thinking', link: 'sheets/a2z-sheet/basics/lec2' },
+      { subtitle: 'Lec 3: Learn STL/Java-Collections or similar thing in your language', link: 'sheets/a2z-sheet/basics/lec3' },
+      { subtitle: 'Lec 4: Know Basic Maths', link: 'sheets/a2z-sheet/basics/lec4' },
+      { subtitle: 'Lec 5: Learn Basic Recursion', link: 'sheets/a2z-sheet/basics/lec5' },
+      { subtitle: 'Lec 6: Learn Basic Hashing', link: 'sheets/a2z-sheet/basics/lec6' }
     ]
   };
 
@@ -26,181 +30,234 @@ function A2Z() {
     ]
   };
 
-  const inputSort={
+  const inputSort = {
     title: 'Step 2 : Learn Important Sorting Techiques',
-    sections:[
-      {subtitle : 'Lec 1: Sorting-1', link: 'sheets/a2z-sheet/sorting/sorting1'},
-      {subtitle : 'Lec 2: Sorting-2', link: 'sheets/a2z-sheet/sorting/sorting2'},
+    sections: [
+      { subtitle: 'Lec 1: Sorting-1', link: 'sheets/a2z-sheet/sorting/sorting1' },
+      { subtitle: 'Lec 2: Sorting-2', link: 'sheets/a2z-sheet/sorting/sorting2' },
     ]
   };
 
   const inputll = {
-    title : 'Step 6 : Learn LinkedList [Single, Double , Medium, Hard]',
-    sections:[
-      {subtitle: 'Lec 1: Learn 1D LinkedList', link : 'sheets/a2z-sheet/linked_list/lec1'},
-      {subtitle: 'Lec 1: Learn Doubly LinkedList', link : 'sheets/a2z-sheet/linked_list/lec2'},
-      {subtitle : 'Lec 3: Medium Problems of LL', link:'sheets/a2z-sheet/linked_list/lec3'},
-      {subtitle: 'Lec 4: Medium Problems of DLL', link : 'sheets/a2z-sheet/linked_list/lec4'},
-      {subtitle: 'Lec 5: Hard Problems of LL', link : 'sheets/a2z-sheet/linked_list/lec5'}
+    title: 'Step 6 : Learn LinkedList [Single, Double , Medium, Hard]',
+    sections: [
+      { subtitle: 'Lec 1: Learn 1D LinkedList', link: 'sheets/a2z-sheet/linked_list/lec1' },
+      { subtitle: 'Lec 1: Learn Doubly LinkedList', link: 'sheets/a2z-sheet/linked_list/lec2' },
+      { subtitle: 'Lec 3: Medium Problems of LL', link: 'sheets/a2z-sheet/linked_list/lec3' },
+      { subtitle: 'Lec 4: Medium Problems of DLL', link: 'sheets/a2z-sheet/linked_list/lec4' },
+      { subtitle: 'Lec 5: Hard Problems of LL', link: 'sheets/a2z-sheet/linked_list/lec5' }
     ]
   };
 
   const inputString = {
-    title : "Step 5 : String [Basic and Medium]",
-    sections : [
-      {subtitle : 'Lec 1: Basic and Easy String Problems', link: "sheets/a2z-sheet/strings/lec1"},
-      {subtitle : 'Lec 2: Medium String Problems', link: "sheets/a2z-sheet/strings/lec2"}
+    title: "Step 5 : String [Basic and Medium]",
+    sections: [
+      { subtitle: 'Lec 1: Basic and Easy String Problems', link: "sheets/a2z-sheet/strings/lec1" },
+      { subtitle: 'Lec 2: Medium String Problems', link: "sheets/a2z-sheet/strings/lec2" }
     ]
   };
-  
+
   const binarySearch = {
-    title : "Step 4 : Binary Search [1D, 2D Arrays, Search Space]",
-    sections : [
-      {subtitle : 'Lec 1: BS on 1D Arrays', link: "sheets/a2z-sheet/binary-search/lec1"},
-      {subtitle : 'Lec 2: BS on Answers', link: "sheets/a2z-sheet/binary-search/lec2"},
-      {subtitle : 'Lec 2: BS on 2D Arrays', link: "sheets/a2z-sheet/binary-search/lec3"}
+    title: "Step 4 : Binary Search [1D, 2D Arrays, Search Space]",
+    sections: [
+      { subtitle: 'Lec 1: BS on 1D Arrays', link: "sheets/a2z-sheet/binary-search/lec1" },
+      { subtitle: 'Lec 2: BS on Answers', link: "sheets/a2z-sheet/binary-search/lec2" },
+      { subtitle: 'Lec 2: BS on 2D Arrays', link: "sheets/a2z-sheet/binary-search/lec3" }
     ]
   };
 
   const recursion = {
-    title : "Step 7 : Recursion [PatternWise]",
+    title: "Step 7 : Recursion [PatternWise]",
     sections: [
-      {subtitle: "Lec 1: Get a Strong Hold", link: "sheets/a2z-sheet/recursion/lec1"},
-      {subtitle: "Lec 2: Subsequences Pattern", link: "sheets/a2z-sheet/recursion/lec2"},
-      {subtitle: "Lec 3: Trying out all Combos / Hard", link: "sheets/a2z-sheet/recursion/lec3"}
+      { subtitle: "Lec 1: Get a Strong Hold", link: "sheets/a2z-sheet/recursion/lec1" },
+      { subtitle: "Lec 2: Subsequences Pattern", link: "sheets/a2z-sheet/recursion/lec2" },
+      { subtitle: "Lec 3: Trying out all Combos / Hard", link: "sheets/a2z-sheet/recursion/lec3" }
     ]
   };
 
   const bitManipulation = {
-    title : "Step 8 : Bit Manipulation [Concepts & Problems]",
+    title: "Step 8 : Bit Manipulation [Concepts & Problems]",
     sections: [
-      {subtitle: "Lec 1: Learn Bit Manipulation", link : "sheets/a2z-sheet/bit-manipulation/lec1"},
-      {subtitle: "Lec 2: Interview Problems", link : "sheets/a2z-sheet/bit-manipulation/lec2"},
-      {subtitle: "Lec 3: Advanced Maths", link : "sheets/a2z-sheet/bit-manipulation/lec3"}
+      { subtitle: "Lec 1: Learn Bit Manipulation", link: "sheets/a2z-sheet/bit-manipulation/lec1" },
+      { subtitle: "Lec 2: Interview Problems", link: "sheets/a2z-sheet/bit-manipulation/lec2" },
+      { subtitle: "Lec 3: Advanced Maths", link: "sheets/a2z-sheet/bit-manipulation/lec3" }
     ]
   };
 
   const stackQueue = {
-    title : "Step 9 : Stack and Queues [Learning, Pre-In-Post-fix, Monotonic Stack, Implementation]",
+    title: "Step 9 : Stack and Queues [Learning, Pre-In-Post-fix, Monotonic Stack, Implementation]",
     sections: [
-      {subtitle: "Lec 1: Learning", link: "sheets/a2z-sheet/stacks-and-queues/lec1"},
-      {subtitle: "Lec 2: Prefix, Infix, PostFix Conversion Problems", link: "sheets/a2z-sheet/stacks-and-queues/lec2"},
-      {subtitle: "Lec 3: Monotonic Stack/Queue Problems [VVV. Imp]", link: "sheets/a2z-sheet/stacks-and-queues/lec3"},
-      {subtitle: "Lec 4: Implementation Problems", link: "sheets/a2z-sheet/stacks-and-queues/lec4"}
+      { subtitle: "Lec 1: Learning", link: "sheets/a2z-sheet/stacks-and-queues/lec1" },
+      { subtitle: "Lec 2: Prefix, Infix, PostFix Conversion Problems", link: "sheets/a2z-sheet/stacks-and-queues/lec2" },
+      { subtitle: "Lec 3: Monotonic Stack/Queue Problems [VVV. Imp]", link: "sheets/a2z-sheet/stacks-and-queues/lec3" },
+      { subtitle: "Lec 4: Implementation Problems", link: "sheets/a2z-sheet/stacks-and-queues/lec4" }
     ]
   };
 
   const slidingWindow = {
-    title : "Step 10 : Sliding Window & Two Pointer Combined Problems",
+    title: "Step 10 : Sliding Window & Two Pointer Combined Problems",
     sections: [
-      {subtitle: "Lec 1: Medium Problems", link: "sheets/a2z-sheet/sliding-window-and-2p/lec1"},
-      {subtitle: "Lec 2: Hard Problems", link: "sheets/a2z-sheet/sliding-window-and-2p/lec2"}
+      { subtitle: "Lec 1: Medium Problems", link: "sheets/a2z-sheet/sliding-window-and-2p/lec1" },
+      { subtitle: "Lec 2: Hard Problems", link: "sheets/a2z-sheet/sliding-window-and-2p/lec2" }
     ]
   };
 
   const heaps = {
     title: "Step 11 : Heaps [Learning, Medium, Hard Problems]",
     sections: [
-      {subtitle: "Lec 1: Learning", link: "sheets/a2z-sheet/heaps/lec1"},
-      {subtitle: "Lec 2: Medium Problems", link: "sheets/a2z-sheet/heaps/lec2"},
-      {subtitle: "Lec 3: Hard Problems", link: "sheets/a2z-sheet/heaps/lec3"}
+      { subtitle: "Lec 1: Learning", link: "sheets/a2z-sheet/heaps/lec1" },
+      { subtitle: "Lec 2: Medium Problems", link: "sheets/a2z-sheet/heaps/lec2" },
+      { subtitle: "Lec 3: Hard Problems", link: "sheets/a2z-sheet/heaps/lec3" }
     ]
   };
 
   const greedy = {
     title: "Step 12 : Greedy Algorithms [Easy, Medium/Hard]",
     sections: [
-      {subtitle: "Lec 1: Easy Problems", link: "sheets/a2z-sheet/greedy/lec1"},
-      {subtitle: "Lec 2: Medium/Hard", link: "sheets/a2z-sheet/greedy/lec2"},
+      { subtitle: "Lec 1: Easy Problems", link: "sheets/a2z-sheet/greedy/lec1" },
+      { subtitle: "Lec 2: Medium/Hard", link: "sheets/a2z-sheet/greedy/lec2" },
     ]
   };
 
   const inputBinaryTree = {
-    title : 'Step 13 : Binary Trees [Traversals, Medium and Hard Problems]',
-    sections:[
-      {subtitle : 'Lec 1: Traversals', link: 'sheets/a2z-sheet/binary-trees/traversals'},
-      {subtitle : 'Lec 2: Medium Problems', link: 'sheets/a2z-sheet/binary-trees/medium'},
-      {subtitle : 'Lec 3: Hard Problems', link: 'sheets/a2z-sheet/binary-trees/hard'}
+    title: 'Step 13 : Binary Trees [Traversals, Medium and Hard Problems]',
+    sections: [
+      { subtitle: 'Lec 1: Traversals', link: 'sheets/a2z-sheet/binary-trees/traversals' },
+      { subtitle: 'Lec 2: Medium Problems', link: 'sheets/a2z-sheet/binary-trees/medium' },
+      { subtitle: 'Lec 3: Hard Problems', link: 'sheets/a2z-sheet/binary-trees/hard' }
     ]
   };
 
   const bst = {
-    title : "Step 14 : Binary Search Trees [Concept and Problems]",
+    title: "Step 14 : Binary Search Trees [Concept and Problems]",
     sections: [
-      {subtitle: "Lec 1: Concepts", link: "sheets/a2z-sheet/bst/lec1"},
-      {subtitle: "Lec 2: Practice Problems", link: "sheets/a2z-sheet/bst/lec2"}
+      { subtitle: "Lec 1: Concepts", link: "sheets/a2z-sheet/bst/lec1" },
+      { subtitle: "Lec 2: Practice Problems", link: "sheets/a2z-sheet/bst/lec2" }
     ]
   };
-  const dp={
+  const dp = {
     title: "Step 16: Dynamic Programming [Patterns and Problems]",
-    sections:[
-      {subtitle: "Lec 1: Introduction to DP",link:"sheets/a2z-sheet/dp/lec1"},
-      {subtitle: "Lec 2: 1D DP",link:"sheets/a2z-sheet/dp/lec2"},
-      {subtitle: "Lec 3: 2D/3D DP and DP on Grids",link:"sheets/a2z-sheet/dp/lec3"},
-      {subtitle:"Lec 4: DP on Subsequences",link:"sheets/a2z-sheet/dp/lec4"},
-      {subtitle:"Lec 5: DP on Strings",link:"sheets/a2z-sheet/dp/lec5"},
-      {subtitle:"Lec 6: DP on Stocks",link:"sheets/a2z-sheet/dp/lec6"},
-      {subtitle:"Lec 7: DP on LIS",link:"sheets/a2z-sheet/dp/lec7"},
-      {subtitle:"Lec 8: MCM DP | Partition DP",link:"sheets/a2z-sheet/dp/lec8"},
-      {subtitle:"Lec 9: DP on Squares",link:"sheets/a2z-sheet/dp/lec9"}
+    sections: [
+      { subtitle: "Lec 1: Introduction to DP", link: "sheets/a2z-sheet/dp/lec1" },
+      { subtitle: "Lec 2: 1D DP", link: "sheets/a2z-sheet/dp/lec2" },
+      { subtitle: "Lec 3: 2D/3D DP and DP on Grids", link: "sheets/a2z-sheet/dp/lec3" },
+      { subtitle: "Lec 4: DP on Subsequences", link: "sheets/a2z-sheet/dp/lec4" },
+      { subtitle: "Lec 5: DP on Strings", link: "sheets/a2z-sheet/dp/lec5" },
+      { subtitle: "Lec 6: DP on Stocks", link: "sheets/a2z-sheet/dp/lec6" },
+      { subtitle: "Lec 7: DP on LIS", link: "sheets/a2z-sheet/dp/lec7" },
+      { subtitle: "Lec 8: MCM DP | Partition DP", link: "sheets/a2z-sheet/dp/lec8" },
+      { subtitle: "Lec 9: DP on Squares", link: "sheets/a2z-sheet/dp/lec9" }
     ]
   };
 
   const graphs = {
     title: "Step 15 : Graphs [Concepts & Problems]",
     sections: [
-      {subtitle: "Lec 1: Learning", link: "sheets/a2z-sheet/graphs/lec1"},
-      {subtitle: "Lec 2: Problems on BFS/DFS", link: "sheets/a2z-sheet/graphs/lec2"},
-      {subtitle: "Lec 3: Topo Sort and Problems", link: "sheets/a2z-sheet/graphs/lec3"},
-      {subtitle: "Lec 4: Shortest Path Algorithms and Problems", link: "sheets/a2z-sheet/graphs/lec4"},
-      {subtitle: "Lec 5: MinimumSpanningTree/Disjoint Set and Problems", link: "sheets/a2z-sheet/graphs/lec5"},
-      {subtitle: "Lec 6: Other Algorithms", link: "sheets/a2z-sheet/graphs/lec6"}
+      { subtitle: "Lec 1: Learning", link: "sheets/a2z-sheet/graphs/lec1" },
+      { subtitle: "Lec 2: Problems on BFS/DFS", link: "sheets/a2z-sheet/graphs/lec2" },
+      { subtitle: "Lec 3: Topo Sort and Problems", link: "sheets/a2z-sheet/graphs/lec3" },
+      { subtitle: "Lec 4: Shortest Path Algorithms and Problems", link: "sheets/a2z-sheet/graphs/lec4" },
+      { subtitle: "Lec 5: MinimumSpanningTree/Disjoint Set and Problems", link: "sheets/a2z-sheet/graphs/lec5" },
+      { subtitle: "Lec 6: Other Algorithms", link: "sheets/a2z-sheet/graphs/lec6" }
     ]
   };
 
   const trie = {
     title: "Step 17 : Tries",
     sections: [
-      {subtitle: "Lec 1: Theory", link: "sheets/a2z-sheet/tries/lec1"},
-      {subtitle: "Lec 2: Problems", link: "sheets/a2z-sheet/tries/lec2"}
+      { subtitle: "Lec 1: Theory", link: "sheets/a2z-sheet/tries/lec1" },
+      { subtitle: "Lec 2: Problems", link: "sheets/a2z-sheet/tries/lec2" }
     ]
   };
 
   const advStrings = {
     title: "Step 18 : Strings",
     sections: [
-      {subtitle: "Lec 1: Hard Problems", link: "sheets/a2z-sheet/adv-strings/hard"}
+      { subtitle: "Lec 1: Hard Problems", link: "sheets/a2z-sheet/adv-strings/hard" }
     ]
+  };
+
+  const handleReset = () => {
+    if (confirm('Are you sure you want to reset all your progress? This cannot be undone.')) {
+      localStorage.removeItem('completedQuestions');
+      window.location.reload();
+    }
   };
 
   return (
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
-      <Container maxWidth="lg" sx={{ py: 4 }}>
-        <Box sx={{ textAlign: 'center', mb: 4 }}>
-          <Typography variant="h1" gutterBottom>
+
+      {/* Sticky Navbar */}
+      <Box
+        component="nav"
+        sx={{
+          position: 'sticky',
+          top: 0,
+          zIndex: 1100,
+          backgroundColor: 'rgba(18, 18, 18, 0.8)',
+          backdropFilter: 'blur(12px)',
+          borderBottom: '1px solid rgba(255,255,255,0.08)',
+          py: 2,
+          mb: 4
+        }}
+      >
+        <Box sx={{
+          maxWidth: '95%',
+          mx: 'auto',
+          px: { xs: 2, md: 4 },
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between'
+        }}>
+          {/* Left: Branding */}
+          <Typography variant="h5" component="h1" sx={{ fontWeight: 800, color: '#fff', letterSpacing: '-0.02em', fontSize: '1.25rem' }}>
             Striver's A2Z Sheet
           </Typography>
+
+          {/* Right: Actions */}
+          <Button
+            variant="text"
+            size="small"
+            onClick={handleReset}
+            startIcon={<RotateCcw size={14} />}
+            sx={{
+              color: '#ef4444',
+              fontSize: '0.75rem',
+              fontWeight: 600,
+              '&:hover': { bgcolor: alpha('#ef4444', 0.1) }
+            }}
+          >
+            Reset Progress
+          </Button>
         </Box>
-        <Reusable {...basics} />
-        <Reusable {...inputSort} />
-        <Reusable {...inputArray} />
-        <Reusable {...binarySearch} />
-        <Reusable {...inputString} />
-        <Reusable {...inputll} />
-        <Reusable {...recursion} />
-        <Reusable {...bitManipulation} />
-        <Reusable {...stackQueue} />
-        <Reusable {...slidingWindow} />
-        <Reusable {...heaps} />
-        <Reusable {...greedy} />
-        <Reusable {...inputBinaryTree} />
-        <Reusable {...bst} />
-        <Reusable {...graphs} />
-        <Reusable {...dp} />
-        <Reusable {...trie} />
-        <Reusable {...advStrings} />
-      </Container>
+      </Box>
+
+      {/* Main Content Area - Full Width */}
+      <Box sx={{ maxWidth: '95%', mx: 'auto', px: { xs: 2, md: 4 }, pb: 8 }}>
+        <Dashboard />
+
+        <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
+          <Reusable {...basics} />
+          <Reusable {...inputSort} />
+          <Reusable {...inputArray} />
+          <Reusable {...binarySearch} />
+          <Reusable {...inputString} />
+          <Reusable {...inputll} />
+          <Reusable {...recursion} />
+          <Reusable {...bitManipulation} />
+          <Reusable {...stackQueue} />
+          <Reusable {...slidingWindow} />
+          <Reusable {...heaps} />
+          <Reusable {...greedy} />
+          <Reusable {...inputBinaryTree} />
+          <Reusable {...bst} />
+          <Reusable {...graphs} />
+          <Reusable {...dp} />
+          <Reusable {...trie} />
+          <Reusable {...advStrings} />
+        </Box>
+      </Box>
     </ThemeProvider>
   );
 }

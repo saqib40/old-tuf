@@ -13,7 +13,7 @@ const palette = {
     main: '#64748b', // Slate 500
   },
   background: {
-    default: '#020617', // Darker Slate (Slate 950)
+    default: '#0f0f0f', // Deep Rich Dark Grey
     paper: '#0f172a',   // Slate 900
   },
   text: {
